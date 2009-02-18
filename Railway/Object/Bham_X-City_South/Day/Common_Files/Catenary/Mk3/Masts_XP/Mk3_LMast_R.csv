@@ -1,0 +1,54 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-2.97, 5.9, 0,
+AddVertex,1.02, 5.9, 0,
+AddVertex,1.02, 4.10, 0,
+AddVertex,-2.97, 4.10, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk3_LMast_Ra.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,198,198,198,
+
+CreateMeshBuilder,
+AddVertex,-3.09, 6.0, -0.02,
+AddVertex,-2.94, 6.0, -0.02,
+AddVertex,-2.94, -0.3, -0.02,
+AddVertex,-3.09, -0.3, -0.02,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.25, -0.15, 0.23,
+AddVertex,-2.78, -0.15, 0.23,
+AddVertex,-2.78, -0.15, -0.23,
+AddVertex,-3.25, -0.15, -0.23,
+AddVertex,-3.25, -0.93, 0.23,
+AddVertex,-3.25, -0.93, -0.23,
+AddVertex,-2.78, -0.93, -0.23,
+AddVertex,-2.78, -0.93, 0.23,
+AddFace,0,1,2,3,
+AddFace,0,3,5,4,
+AddFace,3,2,6,5,
+AddFace,2,1,7,6,
+SetColor,165,165,150,
+GenerateNormals,

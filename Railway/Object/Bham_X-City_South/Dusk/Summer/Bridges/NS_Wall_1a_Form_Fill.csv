@@ -1,0 +1,24 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,4.0, 8, -20.9,
+AddVertex,4.0, 8, 30.9,
+AddVertex,3, -0.3, 30.9,
+AddVertex,3, -0.3, -20.9,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,BrickWall.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0;0;0,

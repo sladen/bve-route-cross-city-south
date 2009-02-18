@@ -1,0 +1,117 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+;-------------
+;3Aspect_r.csv
+;-------------
+
+CreateMeshBuilder,
+AddVertex,-2.49, 5.62, -0.39,
+AddVertex,-1.91, 5.62, -0.39,
+AddVertex,-1.91, 4.49, -0.39,
+AddVertex,-2.49, 4.49, -0.39,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\3aspect_r.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+
+;----------------
+;Middle_sig_y.csv
+;----------------
+
+CreateMeshBuilder,
+AddVertex,3.4, -1.4, 0,
+AddVertex,4.6, -1.4, 0,
+AddVertex,4.6, -1.8, 0,
+AddVertex,3.4, -1.8, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Middle_sig_y.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+
+CreateMeshBuilder,
+AddVertex,3.4, -1.4, 2.5,
+AddVertex,4.6, -1.4, 2.5,
+AddVertex,4.6, -1.8, 2.5,
+AddVertex,3.4, -1.8, 2.5,
+AddFace,0,1,2,3,
+SetColor,170,170,170,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\SigBack1.bmp,
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+
+CreateMeshBuilder,
+AddVertex,4.6, -1.4, 2.5,
+AddVertex,3.4, -1.4, 2.5,
+AddVertex,3.4, -1.8, 2.5,
+AddVertex,4.6, -1.8, 2.5,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Middle_sig_r.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+
+CreateMeshBuilder,
+AddVertex,3.2, -1.1, -0.5,
+AddVertex,3.2, -1.1, 3,
+AddVertex,3.2, -1.8, 3,
+AddVertex,3.2, -1.8, -0.5,
+AddVertex,3.7, -2.1, 3,
+AddVertex,3.7, -2.1, -0.5,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+SetColor,190,190,190,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\mesh.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 16, 0,
+SetTextureCoordinates,2, 16, 16,
+SetTextureCoordinates,3, 0, 16,
+SetTextureCoordinates,4, 16, 24,
+SetTextureCoordinates,5, 0, 24,
+SetDecalTransparentColor,150,150,150,
+
+CreateMeshBuilder,
+AddVertex,4.9, -1.1, -0.5,
+AddVertex,4.9, -1.1, 3,
+AddVertex,4.9, -1.8, 3,
+AddVertex,4.9, -1.8, -0.5,
+AddVertex,4.4, -2.1, 3,
+AddVertex,4.4, -2.1, -0.5,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+SetColor,190,190,190,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\mesh.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 16, 0,
+SetTextureCoordinates,2, 16, 16,
+SetTextureCoordinates,3, 0, 16,
+SetTextureCoordinates,4, 16, 24,
+SetTextureCoordinates,5, 0, 24,
+SetDecalTransparentColor,150,150,150,

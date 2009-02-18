@@ -1,0 +1,94 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-1.98, 8.16, 0.0,
+AddVertex,1.34, 8.16, 0.0,
+AddVertex,1.34, 4.84, 0.0,
+AddVertex,-1.98, 4.84, 0.0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Mk3_SA_Ovr_3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshbuilder
+AddVertex,-0.548, 5.08, 0
+AddVertex,-0.548, 5.16, 0
+AddVertex,-0.572, 5.133, 0
+AddVertex,-0.572, 5.08, 0
+AddVertex,-1.33, 5.22, -0.03
+AddVertex,-1.33, 5.19, -0.03
+AddVertex,-1.33, 5.213, -0.03
+AddVertex,-1.38, 5.216, -0.03
+AddVertex,-1.38, 5.201, -0.03
+AddVertex,-1.33, 5.198, -0.03
+AddFace2,3,2,1,0
+AddFace2,2,5,4,1
+AddFace2,9,8,7,6
+Translate,0.55,0,0,
+SetColor,240,240,240
+GenerateNormals
+
+LoadTexture,Mk3_Headspan_RC_Support.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+SetTextureCoordinates,4, 0, 3
+SetTextureCoordinates,5, 1, 3
+SetTextureCoordinates,6, 0, 1
+SetTextureCoordinates,7, 0, 0
+SetTextureCoordinates,8, 1, 0
+SetTextureCoordinates,9, 1, 1
+
+CreateMeshbuilder
+AddVertex,-1.46, 5.335, -0.03
+AddVertex,-1.48, 5.305, -0.03
+AddVertex,-1.45, 5.29, -0.03
+AddVertex,-1.43, 5.32, -0.03
+AddVertex,-1.51, 5.35, -0.02
+AddVertex,-1.515, 5.34, -0.02
+AddVertex,-1.45, 5.303, -0.02
+AddVertex,-1.44, 5.312, -0.02
+AddVertex,-1.419, 5.29, -0.02
+AddVertex,-1.405, 5.295, -0.02
+AddVertex,-1.419, 5.270, -0.02
+AddVertex,-1.405, 5.265, -0.02
+AddVertex,-1.441, 5.25, -0.02
+AddVertex,-1.424, 5.25, -0.02
+AddFace2,3,2,1,0
+AddFace2,7,6,5,4
+AddFace2,9,8,6,7
+AddFace2,11,10,8,9
+AddFace2,13,12,10,11
+SetColor,240,240,240
+Translate,0.6,-0.07,0,
+GenerateNormals
+
+LoadTexture,Mk3_Headspan_RC_Support.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+SetTextureCoordinates,4, 0, 0
+SetTextureCoordinates,5, 1, 0
+SetTextureCoordinates,6, 1, 1
+SetTextureCoordinates,7, 0, 1
+SetTextureCoordinates,8, 1, 2
+SetTextureCoordinates,9, 0.25, 2
+SetTextureCoordinates,10, 1, 3
+SetTextureCoordinates,11, 0.5, 3
+SetTextureCoordinates,12, 1, 4
+SetTextureCoordinates,13, 0.5, 4

@@ -1,0 +1,59 @@
+;Birmingham Cross-City BVE Route Object
+;Cross-City South
+;--------------------------------------
+;By Anthony Bowden and Robert Glass 2002
+;www.railsimroutes.co.uk
+;www.scotrailsim.co.uk
+;
+;This file may be freely re-used
+;Please acknowledge the original author
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,40,0,0,
+AddVertex,-40,0,0,
+AddVertex,-40,30,0,
+AddVertex,40,30,0,
+AddFace,0,1,2,3
+SetColor,255,255,255,120,
+
+GenerateNormals,
+LoadTexture,rain1.bmp,
+SetTextureCoordinates,0,150,8,
+SetTextureCoordinates,1,0,8,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,150,0,
+SetDecalTransparentColor,180,190,210,
+
+CreateMeshBuilder,
+AddVertex,40,0,8.3,
+AddVertex,-40,0,8.3,
+AddVertex,-40,31,8.3,
+AddVertex,40,31,8.3,
+AddFace,0,1,2,3
+SetColor,255,255,255,120,
+
+GenerateNormals,
+LoadTexture,rain1.bmp,
+SetTextureCoordinates,0,150,8,
+SetTextureCoordinates,1,0,8,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,150,0,
+SetDecalTransparentColor,180,190,210,
+
+CreateMeshBuilder,
+AddVertex,41,0,16.6,
+AddVertex,-41,0,16.6,
+AddVertex,-41,30,16.6,
+AddVertex,41,30,16.6,
+AddFace,0,1,2,3
+SetColor,255,255,255,120,
+
+GenerateNormals,
+LoadTexture,rain1.bmp,
+SetTextureCoordinates,0,150,8,
+SetTextureCoordinates,1,0,8,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,150,0,
+SetDecalTransparentColor,180,190,210,

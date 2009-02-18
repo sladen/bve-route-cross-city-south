@@ -1,0 +1,65 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-3.1, 1.325, -4.6,
+AddVertex,-3.1, -0.3, -4.6,
+AddVertex,-3.1, -0.3, -2.8,
+AddVertex,-3.1, 1.325, -2.8,
+AddFace,0,1,2,3,
+SetColor,194, 194, 194,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.6, 1.325, -4.6,
+AddVertex,-2.6, -0.3, -4.6,
+AddVertex,-2.6, -0.3, -2.8,
+AddVertex,-2.6, 1.325, -2.8,
+AddFace,3,2,1,0,
+SetColor,194, 194, 194,
+GenerateNormals,
+
+LoadTexture,RelayCab1Frnt.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,-2.6, 1.325, -4.6,
+AddVertex,-2.85, 1.38, -4.6,
+AddVertex,-3.1, 1.325, -4.6,
+AddVertex,-3.1, -0.3, -4.6,
+AddVertex,-2.6, -0.3, -4.6,
+AddFace,1,0,4,3,2,
+SetColor,194, 194, 194,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.6, 1.325, -2.8,
+AddVertex,-2.85, 1.39, -2.8,
+AddVertex,-3.1, 1.325, -2.8,
+AddVertex,-3.1, -0.3, -2.8,
+AddVertex,-2.6, -0.3, -2.8,
+AddFace,0,1,2,3,4,
+SetColor,194, 194, 194,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.57, 1.318, -4.63,
+AddVertex,-2.57, 1.318, -2.77,
+AddVertex,-2.83, 1.39, -2.77,
+AddVertex,-2.83, 1.39, -4.63,
+AddVertex,-3.14, 1.318, -2.77,
+AddVertex,-3.14, 1.318, -4.63,
+AddFace,3,2,1,0,
+AddFace,2,3,5,4,
+SetColor,120, 120, 120,
+GenerateNormals,

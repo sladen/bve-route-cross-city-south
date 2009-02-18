@@ -1,0 +1,101 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-5, -9, -21,
+AddVertex,-10, -6, -20,
+AddVertex,-5.8, 6.3, 0.2,
+AddVertex,-3.0, -0.3, 0.2,
+AddVertex,-120, -5, -20,
+AddVertex,-110, 6.3, 0.2,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+GenerateNormals,
+
+LoadTexture,..\Common_Textures\Grass2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 2, 0,
+SetTextureCoordinates,5, 2, 1,
+
+CreateMeshBuilder,
+AddVertex,5, -9, -21,
+AddVertex,10, -6, -20,
+AddVertex,9.1, 6.3, 0.2,
+AddVertex,6.5, -0.3, 0.2,
+AddVertex,120, -5, -20,
+AddVertex,110, 6.3, 0.2,
+AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+GenerateNormals,
+
+LoadTexture,..\Common_Textures\Grass2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 2, 0,
+SetTextureCoordinates,5, 2, 1,
+
+CreateMeshBuilder,
+AddVertex,-5.9, 8.3, 0,
+AddVertex,9.1, 8.3, 0,
+AddVertex,9.1, -0.3, 0,
+AddVertex,-5.8, -0.3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,PershoreRoadTunnel.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0;0;0,
+
+CreateMeshBuilder,
+AddVertex,-18.9, 9.7, 0,
+AddVertex,20.1, 8.7, 25,
+AddVertex,20.1, 5.3, 25,
+AddVertex,-18.8, 6.3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,BridgeWall1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 8, 0,
+SetTextureCoordinates,2, 8, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0;0;0,
+
+CreateMeshBuilder,
+AddVertex,-2.9, 8.6, 2,
+AddVertex,6.1, 8.6, 2,
+AddVertex,6.1, 7.6, 2,
+AddVertex,-2.8, 7.6, 2,
+AddFace,0, 1, 2, 3,
+SetColor,210,210,210,
+GenerateNormals,
+
+LoadTexture,ConcreteWall1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,3.9, 10.0, 10,
+AddVertex,7.1, 10.0, 4,
+AddVertex,7.1, 7.3, 4,
+AddVertex,3.8, 7.3, 10,
+AddFace,0, 1, 2, 3,
+SetColor,90,140,90,
+GenerateNormals,

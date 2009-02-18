@@ -1,0 +1,51 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-2.9, 1, 0,
+AddVertex,-2.9, 1, 25.3,
+AddVertex,-2.4, 1, 25.3,
+AddVertex,-2.4, 1, 0,
+AddVertex,-2.4, -0.3, 25.3,
+AddVertex,-2.4, -0.3, 0,
+AddVertex,-2.9, -0.3, 0,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,6,0,3,5,
+GenerateNormals,
+
+LoadTexture,..\..\Bridges\Brick_Gen.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 15, 0,
+SetTextureCoordinates,2, 15, 0.4,
+SetTextureCoordinates,3, 0, 0.4,
+SetTextureCoordinates,4, 15, 2,
+SetTextureCoordinates,5, 0, 2,
+SetTextureCoordinates,6, 1, 0,
+SetDecalTransparentColor,0;0;0,
+
+CreateMeshBuilder,
+AddVertex,-12.26, 5.02, 26,
+AddVertex,-2.9, 1, 26,
+AddVertex,-2.9, 1, -0,
+AddVertex,-12.26, 5, 0,
+AddVertex,-2.9, -0.3, 0,
+AddVertex,-12.26, -0.3, -3,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1, 2,
+SetTextureCoordinates,5, 0, 2,

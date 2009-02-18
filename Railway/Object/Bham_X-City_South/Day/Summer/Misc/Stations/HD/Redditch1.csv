@@ -1,0 +1,101 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-6, 1.5, 25.3,
+AddVertex,-6, 1.5, 0,
+AddVertex,-6, -0.3, 0,
+AddVertex,-6, -0.3, 25.3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Fence2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 9, 0,
+SetTextureCoordinates,2, 9, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,150,150,150,
+
+CreateMeshBuilder,
+AddVertex,-15, 2.5, 0,
+AddVertex,-7, 2.5, 0,
+AddVertex,-7, -0.3, 0,
+AddVertex,-15, -0.3, 0,
+AddVertex,-7, 2.5, 25.3,
+AddVertex,-7, -0.3, 25.3,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+GenerateNormals,
+
+LoadTexture,..\Fence.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 15, 0,
+SetTextureCoordinates,2, 15, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 55, 0,
+SetTextureCoordinates,5, 55, 1,
+
+CreateMeshBuilder,
+AddVertex,-6, -0.3, 25.3,
+AddVertex,-6, -0.3, 0,
+AddVertex,-1.8, -0.3, 0,
+AddVertex,-1.8, -0.3, 25.3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-50, -0.3, 0,
+AddVertex,-50, -4.3, -10,
+AddVertex,-1.8, -4.3, -10,
+AddVertex,-1.8, -0.3, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-50, -0.3, 26.9,
+AddVertex,-50, -0.3, -0.5,
+AddVertex,-6, -0.3, -0.5,
+AddVertex,-6, -0.3, 26.3,
+AddFace,3,2,1,0,
+SetColor,130,130,130,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Ground.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-40, 10, 25.3,
+AddVertex,-50, 14, 0,
+AddVertex,-50, -0.8, 0,
+AddVertex,-40, -0.8, 25.3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\TreeWall.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,

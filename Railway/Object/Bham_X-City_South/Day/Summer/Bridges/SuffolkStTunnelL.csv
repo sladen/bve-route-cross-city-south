@@ -1,0 +1,70 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,20, 6.3, 0,
+AddVertex,20, 6.3, 25.9
+AddVertex,-3.4, 6.3, 25.9,
+AddVertex,-3.4, 6.3, 0,
+AddVertex,-3.4, -0.3, 25.9,
+AddVertex,-3.4, -0.3, 0,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+SetColor,60,70,70,
+GenerateNormals,
+
+LoadTexture,TunnelBrick.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 10, 0,
+SetTextureCoordinates,2, 10, 6,
+SetTextureCoordinates,3, 0, 6,
+SetTextureCoordinates,4, 10, 10,
+SetTextureCoordinates,5, 0, 10,
+
+CreateMeshBuilder,
+AddVertex,-3.4, -0.29, 0,
+AddVertex,-3.4, -0.29, 25.9,
+AddVertex,-1.9, -0.29, 25.9,
+AddVertex,-1.9, -0.29, 0,
+AddFace,0,1,2,3,
+SetColor,100,100,100,
+GenerateNormals,
+
+LoadTexture,..\RailObjects\Ballast.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.4, 1.9, 12,
+AddVertex,-3.3, 1.9, 12,
+AddVertex,-3.3, 1.6, 12,
+AddVertex,-3.4, 1.6, 12,
+AddVertex,-3.3, 1.9, 12.4,
+AddVertex,-3.3, 1.6, 12.4,
+AddVertex,-3.4, 1.9, 12.4
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,0,6,4,1,
+SetColor,255,255,200,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-3.4, 1.9, 12,
+AddVertex,-3.3, 1.9, 12,
+AddVertex,-1.4, -0.3, 5,
+AddVertex,-3.4, -0.3, 5,
+AddVertex,-3.3, 1.9, 12.4,
+AddVertex,-1.4, -0.3, 19,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+SetColor,255,200,120,50,
+GenerateNormals,

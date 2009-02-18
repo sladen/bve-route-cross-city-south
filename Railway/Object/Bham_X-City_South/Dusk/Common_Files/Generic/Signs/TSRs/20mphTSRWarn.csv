@@ -1,0 +1,100 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-2.75, 1.05, 0,
+AddVertex,-2.25, 1.05, 0,
+AddVertex,-2.25, 0.55, 0,
+AddVertex,-2.75, 0.55, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,20mphTSR.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.07, 0.50, 0,
+AddVertex,-1.93, 0.50, 0,
+AddVertex,-1.93, 0.25, 0,
+AddVertex,-3.07, 0.25, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,w_TSR.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-2.25, 0.8, 0,
+AddVertex,-2.75, 0.8, 0,
+AddVertex,-2.75, 0.1, 0,
+AddVertex,-2.25, 0.1, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Stop.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2.539,  1.1, 0.04,
+AddVertex,-2.469,  1.1, 0.04,
+AddVertex,-2.469, -0.3, 0.04,
+AddVertex,-2.539, -0.3, 0.04,
+AddFace,0,1,2,3,
+SetColor,200, 200, 200,
+GenerateNormals,
+
+LoadTexture,Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-2.539,  0.8, -0.04,
+AddVertex,-2.469,  0.8, -0.04,
+AddVertex,-2.469, -0.3, -0.04,
+AddVertex,-2.539, -0.3, -0.04,
+AddFace,3,2,1,0,
+SetColor,255, 255, 255,
+GenerateNormals,
+
+LoadTexture,Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-2.7, -0.1, 0.2,
+AddVertex,-2.3, -0.1, 0.2,
+AddVertex,-2.3, -0.1, -0.2,
+AddVertex,-2.7, -0.1, -0.2,
+AddVertex,-2.7, -0.3, 0.2,
+AddVertex,-2.7, -0.3, -0.2,
+AddVertex,-2.3, -0.3, -0.2,
+AddVertex,-2.3, -0.3, 0.2,
+AddFace,0,1,2,3,
+AddFace,0,3,5,4,
+AddFace,3,2,6,5,
+AddFace,2,1,7,6,
+AddFace,1,0,4,7,
+SetColor,90,90,90,
+GenerateNormals,
+

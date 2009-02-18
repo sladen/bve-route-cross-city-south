@@ -1,0 +1,59 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,8.6, 4.9, 0.25,
+AddVertex,8.6, 4.9, -0.25,
+AddVertex,8.6, 1.2, -0.25,
+AddVertex,8.6, 1.2, 0.25,
+AddVertex,9.0, 4.9, -0.25,
+AddVertex,9.0, 1.2, -0.25,
+AddVertex,9.0, 4.9, 0.25,
+AddVertex,9.0, 1.2, 0.25,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,5,7,6,4,
+AddFace,7,3,0,6,
+SetColor,200,190,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,8.6, 1.2, 0.35,
+AddVertex,8.6, 1.2, -0.35,
+AddVertex,8.6, 0.1, -0.35,
+AddVertex,8.6, 0.1, 0.35,
+AddVertex,9.3, 1.2, -0.35,
+AddVertex,9.3, 0.1, -0.35,
+AddVertex,9.3, 1.2, 0.35,
+AddVertex,9.3, 0.1, 0.35,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,5,7,6,4,
+AddFace,7,3,0,6,
+SetColor,200,190,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,9.0, 4.7, 0,
+AddVertex,9.4, 4.7, 0,
+AddVertex,9.4, 3.5, 0,
+AddVertex,9.0, 3.5, 0,
+AddFace,0,1,2,3,
+SetColor,200,190,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,9.4, 4.0, 0,
+AddVertex,9.9, 4.0, 0,
+AddVertex,9.9, 3.8, 0,
+AddVertex,9.4, 3.8, 0,
+AddFace,0,1,2,3,
+SetColor,200,190,180,
+GenerateNormals,

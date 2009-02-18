@@ -1,0 +1,35 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,9.0, 2.2, 1.5,
+AddVertex,9.0, 2.2, -1.5,
+AddVertex,9.0, -0.3, -1.5,
+AddVertex,9.0, -0.3, 1.5,
+AddVertex,11.5, 2.2, -1.5,
+AddVertex,11.5, -0.3, -1.5,
+AddVertex,11.5, 2.2, 1.5,
+AddVertex,11.5, -0.3, 1.5,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,5,7,6,4,
+AddFace,7,3,0,6,
+GenerateNormals,
+
+LoadTexture,..\..\BridgeKN.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.2, 0,
+SetTextureCoordinates,2, 0.2, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0.3, 0,
+SetTextureCoordinates,5, 0.3, 1,
+SetTextureCoordinates,6, 0.4, 0,
+SetTextureCoordinates,7, 0.4, 1,
+SetDecalTransparentColor,0,0,0,

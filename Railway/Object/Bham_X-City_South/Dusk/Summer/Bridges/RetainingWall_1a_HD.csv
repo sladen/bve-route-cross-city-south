@@ -1,0 +1,200 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder
+AddVertex,3.5, 12, 0
+AddVertex,3.4, 12, 25.3
+AddVertex,1.9, -0.3, 25.3
+AddVertex,2, -0.3, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+
+LoadTexture,RetainingWall_T.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 5, 0
+SetTextureCoordinates,2, 5, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex,4.7, 12, 0
+AddVertex,4.6, 12, 25.3
+AddVertex,3.1, -0.3, 25.3
+AddVertex,3.2, -0.3, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+
+LoadTexture,Brick_Gen.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 18, 0
+SetTextureCoordinates,2, 18, 8
+SetTextureCoordinates,3, 0, 8
+
+CreateMeshBuilder
+AddVertex,5.4, 8.5, 4.18
+AddVertex,3, 8.5, 4.18
+AddVertex,1.9, -0.3, 4.18
+AddVertex,4.25, -0.3, 4.18
+AddVertex,5.5, 9.25, 3.93
+AddVertex,3.12, 9.25, 3.93
+AddVertex,5.5, 9.8, 3.42
+AddVertex,3.21, 9.8, 3.42
+AddVertex,5.5, 10.1, 2.7
+AddVertex,3.25, 10.1, 2.7
+AddVertex,5.5, 10.1, 2.1
+AddVertex,3.25, 10.1, 2.1
+
+AddVertex,5.4, 8.5, 9.26
+AddVertex,3.06, 8.5, 9.26
+AddVertex,1.9, -0.3, 9.26
+AddVertex,4.23, -0.3, 9.26
+AddVertex,5.5, 9.25, 9.01
+AddVertex,3.1, 9.25, 9.01
+AddVertex,5.5, 9.8, 8.50
+AddVertex,3.19, 9.8, 8.50
+AddVertex,5.5, 10.1, 7.78
+AddVertex,3.23, 10.1, 7.78
+AddVertex,5.5, 10.1, 7.18
+AddVertex,3.23, 10.1, 7.18
+
+AddVertex,5.4, 8.5, 14.28
+AddVertex,3.03, 8.5, 14.28
+AddVertex,1.9, -0.3, 14.28
+AddVertex,4.2, -0.3, 14.28
+AddVertex,5.5, 9.25, 14.03
+AddVertex,3.07, 9.25, 14.03
+AddVertex,5.5, 9.8, 13.52
+AddVertex,3.16, 9.8, 13.52
+AddVertex,5.5, 10.1, 12.8
+AddVertex,3.2, 10.1, 12.8
+AddVertex,5.5, 10.1, 12.2
+AddVertex,3.2, 10.1, 12.2
+
+AddVertex,5.4, 8.5, 19.38
+AddVertex,3, 8.5, 19.38
+AddVertex,1.9, -0.3, 19.38
+AddVertex,4.21, -0.3, 19.38
+AddVertex,5.5, 9.25, 19.13
+AddVertex,3.04, 9.25, 19.13
+AddVertex,5.5, 9.8, 18.62
+AddVertex,3.13, 9.8, 18.62
+AddVertex,5.5, 10.1, 17.9
+AddVertex,3.17, 10.1, 17.9
+AddVertex,5.5, 10.1, 17.3
+AddVertex,3.17, 10.1, 17.3
+
+AddVertex,5.4, 8.5, 24.48
+AddVertex,2.98, 8.5, 24.48
+AddVertex,1.9, -0.3, 24.48
+AddVertex,4.25, -0.3, 24.48
+AddVertex,5.5, 9.25, 24.23
+AddVertex,3.02, 9.25, 24.23
+AddVertex,5.5, 9.8, 23.72
+AddVertex,3.11, 9.8, 23.72
+AddVertex,5.5, 10.1, 23.0
+AddVertex,3.15, 10.1, 23.0
+AddVertex,5.5, 10.1, 22.4
+AddVertex,3.15, 10.1, 22.4
+AddFace,3,2,1,0
+AddFace,0,1,5,4
+AddFace,4,5,7,6
+AddFace,6,7,9,8
+AddFace,8,9,11,10
+
+AddFace,15,14,13,12
+AddFace,12,13,17,16
+AddFace,16,17,19,18
+AddFace,18,19,21,20
+AddFace,20,21,23,22
+
+AddFace,27,26,25,24
+AddFace,24,25,29,28
+AddFace,28,29,31,30
+AddFace,30,31,33,32
+AddFace,32,33,35,34
+
+AddFace,39,38,37,36
+AddFace,36,37,41,40
+AddFace,40,41,43,42
+AddFace,42,43,45,44
+AddFace,44,45,47,46
+
+AddFace,51,50,49,48
+AddFace,48,49,53,52
+AddFace,52,53,55,54
+AddFace,54,55,57,56
+AddFace,56,57,59,58
+GenerateNormals
+
+LoadTexture,Brick_Gen.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 2, 0
+SetTextureCoordinates,2, 2, 7
+SetTextureCoordinates,3, 0, 7
+SetTextureCoordinates,4, 0, -0.7
+SetTextureCoordinates,5, 2, -0.7
+SetTextureCoordinates,6, 0, -1.4
+SetTextureCoordinates,7, 2, -1.4
+SetTextureCoordinates,8, 0, -2.2
+SetTextureCoordinates,9, 2, -2.2
+SetTextureCoordinates,10, 0, -2.8
+SetTextureCoordinates,11, 2, -2.8
+
+SetTextureCoordinates,12, 0, 0
+SetTextureCoordinates,13, 2, 0
+SetTextureCoordinates,14, 2, 7
+SetTextureCoordinates,15, 0, 7
+SetTextureCoordinates,16, 0, -0.7
+SetTextureCoordinates,17, 2, -0.7
+SetTextureCoordinates,18, 0, -1.4
+SetTextureCoordinates,19, 2, -1.4
+SetTextureCoordinates,20, 0, -2.2
+SetTextureCoordinates,21, 2, -2.2
+SetTextureCoordinates,22, 0, -2.8
+SetTextureCoordinates,23, 2, -2.8
+
+SetTextureCoordinates,24, 0, 0
+SetTextureCoordinates,25, 2, 0
+SetTextureCoordinates,26, 2, 7
+SetTextureCoordinates,27, 0, 7
+SetTextureCoordinates,28, 0, -0.7
+SetTextureCoordinates,29, 2, -0.7
+SetTextureCoordinates,30, 0, -1.4
+SetTextureCoordinates,31, 2, -1.4
+SetTextureCoordinates,32, 0, -2.2
+SetTextureCoordinates,33, 2, -2.2
+SetTextureCoordinates,34, 0, -2.8
+SetTextureCoordinates,35, 2, -2.8
+
+SetTextureCoordinates,36, 0, 0
+SetTextureCoordinates,37, 2, 0
+SetTextureCoordinates,38, 2, 7
+SetTextureCoordinates,39, 0, 7
+SetTextureCoordinates,40, 0, -0.7
+SetTextureCoordinates,41, 2, -0.7
+SetTextureCoordinates,42, 0, -1.4
+SetTextureCoordinates,43, 2, -1.4
+SetTextureCoordinates,44, 0, -2.2
+SetTextureCoordinates,45, 2, -2.2
+SetTextureCoordinates,46, 0, -2.8
+SetTextureCoordinates,47, 2, -2.8
+
+SetTextureCoordinates,48, 0, 0
+SetTextureCoordinates,49, 2, 0
+SetTextureCoordinates,50, 2, 7
+SetTextureCoordinates,51, 0, 7
+SetTextureCoordinates,52, 0, -0.7
+SetTextureCoordinates,53, 2, -0.7
+SetTextureCoordinates,54, 0, -1.4
+SetTextureCoordinates,55, 2, -1.4
+SetTextureCoordinates,56, 0, -2.2
+SetTextureCoordinates,57, 2, -2.2
+SetTextureCoordinates,58, 0, -2.8
+SetTextureCoordinates,59, 2, -2.8

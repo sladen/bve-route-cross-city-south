@@ -1,0 +1,239 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>BVE4 : UK Signalling</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="file:///D|/Website/TSC/tsc1.css" rel="STYLESHEET">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head>
+
+<body>
+<div id="Layer5" style="position:absolute; width:765px; height:89px; z-index:0; left: 10px; top: 16px; visibility: visible; background-color: #6666FF; layer-background-color: #6666FF;"> 
+  <p align="right"><font color="#FFFFFF"><font size="5" face="Trebuchet MS"><strong>BVE 
+    4 : Installing UK Signals special to route file</strong></font></font></p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="Layer2" style="position:absolute; width:764px; height:844px; z-index:2; left: 13px; top: 122px;">
+  <div align="right"> 
+    <p align="left"><font color="#0000FF" size="5" face="Arial, Helvetica, sans-serif"><strong>Introduction</strong></font></p>
+    <p align="justify"><font color="#000000" size="2" face="Verdana, Arial, Helvetica, sans-serif">Thankyou 
+      for downloading the BVE Signal and AWS pack. The files have self installed 
+      to the path </font><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><br>
+      <font color="#0000FF">Program Files\BVE\Railway\Object\BrSigs</font>, should 
+      you need to access them or to read this document again.</font></font><font color="#333333" size="2" face="Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><br>
+      <br>
+      <font size="3"><strong><font color="#000000">If you have downloaded a BVE4 
+      route which is already set up to use these signals, you need to do<em> nothing.</em> 
+      </font></strong></font><font color="#000000"><br>
+      <font size="3"><strong>The text in this document is aimed at developers 
+      only! </strong></font></font></font></font><font color="#000000" size="5" face="Arial, Helvetica, sans-serif"><strong><br>
+      </strong></font><font color="#0000FF" size="5" face="Arial, Helvetica, sans-serif"><strong><br>
+      <br>
+      Signals</strong></font></p>
+    <p align="left"><strong><font color="#0000FF" size="3" face="Arial, Helvetica, sans-serif">1. Preparation</font></strong></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Unzip 
+      the enclosed folder so that the &#8216;BrSigs&#8217; folder lies within 
+      your objects folder, <br>
+      <strong>eg. Program Files/BVE/Railway/Object/BrSigs</strong></font></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Open your CSV route 
+      file for editing.</font></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copy 
+      the following code to the end of the <strong>With Structure</strong> list 
+      in your route file :-</font></p>
+    <p align="left"><font size="3" face="Courier New, Courier, mono"><strong>Signal(1).Load 
+      brsigs\signal2g; brsigs\glow2g <br>
+      Signal(2).Load brsigs\signal2y; brsigs\glow2y <br>
+      Signal(3).Load brsigs\signal3; brsigs\glow3 <br>
+      Signal(4).Load brsigs\signal4yg; brsigs\glow4yg <br>
+      Signal(5).Load brsigs\repeat; brsigs\glowrepeat <br>
+      Signal(6).Load brsigs\signal3featherl; brsigs\glow3featherl<br>
+      Signal(7).Load brsigs\signal3featherr; brsigs\glow3featherr<br>
+      Signal(8).Load brsigs\signal4ygfeatherl; brsigs\glow4ygfeatherl <br>
+      Signal(9).Load brsigs\signal4ygfeatherr; brsigs\glow4ygfeatherr<br>
+      Signal(10).Load brsigs\signal2callon; brsigs\glow2g <br>
+      Signal(11).Load brsigs\signal3callon; brsigs\glow3 <br>
+      Signal(12).Load brsigs\signal4callon; brsigs\glow4yg <br>
+      Signal(13).Load brsigs\signal2gy; brsigs\glow2gy </strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">These will load the signal.bmp, 
+      signal .x file and glow files from the Sigs folder to the route.</font></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">In this 
+      example the following applies :</font></p>
+    <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><strong>Signal(1) 
+      refers to all 2 aspect red/green signals</strong></font></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(2) 
+      refers to all 2 aspect red/ yellow signals</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(3) 
+      refers to all 3 aspect red/yellow/red signals</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(4) 
+      refers to all 4 aspect red/yellow/double yellow/green signals</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(5) 
+      refers to all banner repeater (relay) signals</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(6) 
+      refers to all 3 aspect red/yellow/red signals with a LEFT HAND route indicator 
+      (feather/flash) <br>
+      where your train will take that route</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(7) 
+      refers to all 3 aspect red/yellow/red signals with a RIGHT HAND route indicator 
+      (feather/flash) <br>
+      where your train will take that route</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(8) 
+      refers to all 4 aspect red/yellow/double yellow/red signals with a LEFT 
+      HAND route indicator (feather/flash) where your train will take that route</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(9) 
+      refers to all 4 aspect red/yellow/double yellow/red signals with a RIGHT 
+      HAND route indicator (feather/flash) where your train will take that route</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(10) 
+      refers to 2 aspect signals where you wish a calling-on signal to be used</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(11) 
+      refers to 3 aspect signals where you wish a calling-on signal to be used</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(12) 
+      refers to 4 aspect signals where you wish a calling-on signal to be used</font></strong></p>
+    <p align="left"><strong><font size="2" face="Arial, Helvetica, sans-serif">Signal(13) 
+      refers to all 2 aspect green/ yellow signals (colour light distant)<br>
+      </font></strong></p>
+    <p align="left"><font color="#0000FF" size="3" face="Arial, Helvetica, sans-serif"><strong>2. 
+      Inserting the actual signals to route</strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">2 aspect green/red signals 
+      </font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 1; 1; 
+      x; y, .Section 0; 4,</strong></font></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Where x 
+      is position left/right of track centre, y is up/down of track centre.</font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">2 aspect red/yellow 
+      signals </font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 2; 1; 
+      x; y, .Section 0; 2,</strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">3 aspect signals </font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 3; 1; 
+      x; y, .Section 0; 2; 4, </strong></font></p>
+    <p align="left"></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">4 
+      aspect signals</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 4; 1; 
+      x; y, .Section 0; 2; 3; 4,</strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">Banner Repeaters (Relays)</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 5; 1; 
+      x; y,</strong></font><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">(NB. No Section command 
+      is required)</font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">3 aspect signals with 
+      left hand lit feather/flash</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 6; 1; 
+      x; y, .Section 0; 2; 4, </strong></font></p>
+    <p align="left"></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">3 
+      aspect signals with left right lit feather/flash</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 7; 1; 
+      x; y, .Section 0; 2; 4,</strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">4 aspect signals with 
+      left hand lit feather/flash</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 8; 1; 
+      x; y, .Section 0; 2; 3; 4, </strong></font></p>
+    <p align="left"></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">4 
+      aspect signals with right hand lit feather/flash</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 9; 1; 
+      x; y, .Section 0; 2; 3; 4,</strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">2 aspect signals with 
+      a calling-on sub signal</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 10; 
+      1; x; y, .Section 0; 2,</strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">3 aspect signals with 
+      a calling-on sub signal</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 11; 
+      1; x; y, .Section 0; 2,</strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">4 aspect signals with 
+      a calling-on sub signal</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 12; 
+      1; x; y, .Section 0; 2,</strong></font></p>
+    <p align="left"><br>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">2 aspect colour distant 
+      (green/yellow)</font></p>
+    <p align="left"><font face="Courier New, Courier, mono"><strong>.SigF 13; 
+      1; x; y,</strong></font> <font face="Courier New, Courier, mono"><strong>.Section 
+      2; 2; 4, </strong></font><br>
+    </p>
+    <p align="left"></p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">The 
+      <strong>.Section</strong> code refers to the order in which the signal aspects 
+      are shown, meaning signals can be customizable, and you can apply your own 
+      rules. Eg. 4 aspect signals. If you take a look in the &#8216;BrSigs&#8217; 
+      folder, you will see 4 signal bitmaps for the signal. SignalGY0 is red, 
+      SignalGY2 is yellow, SignalGY3 is double yellow, &amp; SignalGY4 is green. 
+      See the pattern? The section command tells BVE that Signal 0 is danger, 
+      Signal 2 is the signal before danger, and so forth. The program will look 
+      for the end digit in the filename and apply that bitmap to the pattern you 
+      specify with the section command. Clever stuff!</font></p>
+    <p align="left"><br>
+    </p>
+    <p align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Hope this 
+      helps!</font></p>
+    <p align="left"><font color="#0000FF" size="2" face="Verdana, Arial, Helvetica, sans-serif">Steve 
+      G<br>
+      <a href="http://www.trainsimcentral.co.uk">www.trainsimcentral.co.uk</a> 
+      </font><font color="#0000FF" size="2" face="Verdana, Arial, Helvetica, sans-serif"><br>
+      <br>
+      Archive/readme updated 30th January 2005. Glow added to files for feather 
+      (route indicator) signals, thanks to Anthony Bowden.<br>
+      <br>
+      Archive/readme updated 23rd August 2004. 2 aspect signals changed to comply 
+      with AWS.dll. Simulated AWS instructions for BVE4 removed as fully operational 
+      AWS+TPWS is introduced.</font></p>
+    <p align="left"><br>
+    </p>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br>
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<i><font color="#0000CC" size="2" face="Trebuchet MS"></font></i> 
+<p>&nbsp;</p>
+<p align="CENTER" class="tiny">&nbsp;</p>
+<p><br>
+</p>
+<p><font size="2" face="Trebuchet MS"><br>
+  </font></p>
+<p></p>
+<p>&nbsp; </p>
+</body>
+</html>

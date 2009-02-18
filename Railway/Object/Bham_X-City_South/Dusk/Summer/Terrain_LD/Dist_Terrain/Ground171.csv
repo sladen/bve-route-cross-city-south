@@ -1,0 +1,65 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,60.0, -8, 26,
+AddVertex,9.62, 0.1, 26,
+AddVertex,9.62, 0.6, 0,
+AddVertex,60.0, -8, 0,
+AddVertex,4.92, -1.8, 26,
+AddVertex,4.92, -1.8, -3.5,
+;AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+AddFace,5,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+SetTextureCoordinates,4, 2, 0,
+SetTextureCoordinates,5, 2, 1,
+
+CreateMeshBuilder,
+AddVertex,-13, 6.02, 26,
+AddVertex,2.3, -5.3, 26,
+AddVertex,2.5, -5.3, -16.5,
+AddVertex,-120.0, -5, 0,
+AddVertex,-13.0, 7, 0,
+AddFace,0,1,2,4,
+AddFace,4,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 2,
+SetTextureCoordinates,4, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,70, 8, 30,
+AddVertex,40, -5.3, 30,
+AddVertex,40, -7.31, 0,
+AddVertex,40, -12.31, -5,
+AddVertex,120, -12.31, -15,
+AddVertex,70, 10, 0,
+AddFace,5,2,1,0,
+AddFace,4,3,2,5,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 2,
+SetTextureCoordinates,4, 0, 2,
+SetTextureCoordinates,5, 0, 1,

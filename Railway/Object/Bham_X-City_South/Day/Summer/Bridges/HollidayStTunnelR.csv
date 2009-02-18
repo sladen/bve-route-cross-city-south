@@ -1,0 +1,69 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-1.7, 4.95, 0,
+AddVertex,-1.7, 4.95, 25.1,
+AddVertex,-0.50, 4.85, 25.1,
+AddVertex,-0.50, 4.85, 0,
+AddVertex,0.7, 4.4, 0,
+AddVertex,0.7, 4.4, 25.1,
+AddVertex,1.7, 3.6, 0,
+AddVertex,1.7, 3.6, 25.1,
+AddVertex,2.2, 3.0, 0,
+AddVertex,2.2, 3.0, 25.1,
+AddVertex,2.2, -0.3, 0,
+AddVertex,2.2, -0.3, 25.1,
+AddFace,3,2,1,0,
+AddFace,4,5,2,3,
+AddFace,6,7,5,4,
+AddFace,8,9,7,6,
+AddFace,10,11,9,8,
+SetColor,60,70,70,
+GenerateNormals,
+
+LoadTexture,TunnelBrick.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,12,0,
+SetTextureCoordinates,2,12,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,2,
+SetTextureCoordinates,5,12,2,
+SetTextureCoordinates,6,0,3,
+SetTextureCoordinates,7,12,3,
+SetTextureCoordinates,8,0,4,
+SetTextureCoordinates,9,12,4,
+SetTextureCoordinates,10,0,7,
+SetTextureCoordinates,11,12,7,
+
+CreateMeshBuilder,
+AddVertex,-0.010, 4.664, 0,
+AddVertex,0.010,  4.664, 0,
+AddVertex,0.010,  4.664, 25,
+AddVertex,-0.010, 4.664, 25,
+AddFace,0,1,2,3,
+SetColor,70,70,70,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.8, 5.30, 25,
+AddVertex, 0.13, 5.30, 25,
+AddVertex, 0.13, 4.38, 25,
+AddVertex,-1.8, 4.38, 25,
+AddFace,0,1,2,3,
+SetColor,100,100,100,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Files\Catenary\Mk3\Mk3_Bridge.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,198,198,198,

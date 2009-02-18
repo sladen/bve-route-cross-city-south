@@ -1,0 +1,138 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+;--------------
+;Narrowboat.csv
+;--------------
+
+CreateMeshBuilder,
+AddVertex,0, 1.0, 25,
+AddVertex,-1, 1.0, 21,
+AddVertex,-0.7, -0.3, 21,
+AddVertex,0, -0.3, 24,
+AddVertex,-1, 1.0, 0,
+AddVertex,-0.7, -0.3, 0,
+AddVertex,0, 1.2, -4,
+AddVertex,0, -0.3, -3,
+AddVertex,1, 1.0, 21,
+AddVertex,1, 1.0, 0,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+AddFace,0,8,9,6,4,1,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Misc\narrowboat2.bmp,
+SetTextureCoordinates,0,0,0.1,
+SetTextureCoordinates,1,0.13,0.1,
+SetTextureCoordinates,2,0.13,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0.2,0.1,
+SetTextureCoordinates,5,0.2,1,
+SetTextureCoordinates,6,1,0.1,
+SetTextureCoordinates,7,1,1,
+
+CreateMeshBuilder,
+AddVertex,0.7, 2.2, 20.9,
+AddVertex,-0.7, 2.2, 20.9,
+AddVertex,-0.9, 1.0, 21,
+AddVertex,0.9, 1.0, 21,
+AddVertex,-0.7, 2.2, 0.1,
+AddVertex,-0.9, 1.0, 0,
+AddVertex,0.7, 2.2, 0.1,
+AddVertex,0.9, 1.0, 0,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+AddFace,0,6,4,1,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Misc\narrowboat1.bmp,
+SetTextureCoordinates,0,0,0.1,
+SetTextureCoordinates,1,0.12,0.1,
+SetTextureCoordinates,2,0.12,1,
+SetTextureCoordinates,3,-0.02,1,
+SetTextureCoordinates,4,0.88,0.1,
+SetTextureCoordinates,5,0.88,1,
+SetTextureCoordinates,6,1,0.1,
+SetTextureCoordinates,7,1.02,1,
+
+;----------
+;Trans1.csv
+;----------
+
+CreateMeshBuilder,
+AddVertex,8.6, 604.9, 0.25,
+AddVertex,8.6, 604.9, -0.25,
+AddVertex,8.6, 601.2, -0.25,
+AddVertex,8.6, 601.2, 0.25,
+AddVertex,9.0, 604.9, -0.25,
+AddVertex,9.0, 601.2, -0.25,
+AddVertex,9.0, 604.9, 0.25,
+AddVertex,9.0, 601.2, 0.25,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,5,7,6,4,
+AddFace,7,3,0,6,
+SetColor,200,190,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,8.6, 601.2, 0.35,
+AddVertex,8.6, 601.2, -0.35,
+AddVertex,8.6, 600.1, -0.35,
+AddVertex,8.6, 600.1, 0.35,
+AddVertex,9.3, 601.2, -0.35,
+AddVertex,9.3, 600.1, -0.35,
+AddVertex,9.3, 601.2, 0.35,
+AddVertex,9.3, 600.1, 0.35,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,5,7,6,4,
+AddFace,7,3,0,6,
+SetColor,200,190,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,9.0, 604.7, 0,
+AddVertex,9.4, 604.7, 0,
+AddVertex,9.4, 603.5, 0,
+AddVertex,9.0, 603.5, 0,
+AddFace,0,1,2,3,
+SetColor,200,190,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,9.4, 604.0, 0,
+AddVertex,9.9, 604.0, 0,
+AddVertex,9.9, 603.8, 0,
+AddVertex,9.4, 603.8, 0,
+AddFace,0,1,2,3,
+SetColor,200,190,180,
+GenerateNormals,
+
+;-----------
+;Lookout.csv
+;-----------
+
+CreateMeshBuilder,
+AddVertex,-4.0, -598, 0,
+AddVertex,-2.0, -598, 0,
+AddVertex,-2.0, -600.224, 0,
+AddVertex,-4.0, -600.224, 0,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Misc\e6.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,

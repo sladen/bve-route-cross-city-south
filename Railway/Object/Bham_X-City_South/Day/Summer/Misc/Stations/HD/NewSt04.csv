@@ -1,0 +1,57 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-1.4, 4.2, 10,
+AddVertex,-1.4, 4.2, 0,
+AddVertex,-1.4, 0.915, 0,
+AddVertex,-1.4, 0.915, 10,
+AddVertex,1.4, 4.2, 0,
+AddVertex,1.4, 0.915, 0,
+AddVertex,1.4, 4.2, 10,
+AddVertex,1.4, 0.915, 10,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+GenerateNormals,
+
+LoadTexture,..\NewSt_4.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.65, 0,
+SetTextureCoordinates,2, 0.65, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1.01, 0,
+SetTextureCoordinates,5, 1.01, 1,
+SetTextureCoordinates,6, 1.6, 0,
+SetTextureCoordinates,7, 1.6, 1,
+
+CreateMeshBuilder,
+AddVertex,-1.4, 2.5, 25,
+AddVertex,-1.4, 2.5, 12,
+AddVertex,-1.4, 0.915, 12,
+AddVertex,-1.4, 0.915, 25,
+AddVertex,1.4, 2.5, 12,
+AddVertex,1.4, 0.915, 12,
+AddVertex,1.4, 2.5, 25,
+AddVertex,1.4, 0.915, 25,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+GenerateNormals,
+
+LoadTexture,..\NewSt_2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0.5, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+SetTextureCoordinates,4, 1, 0,
+SetTextureCoordinates,5, 1, 0.5,
+SetTextureCoordinates,6, 1.5, 0,
+SetTextureCoordinates,7, 1.5, 0.5,

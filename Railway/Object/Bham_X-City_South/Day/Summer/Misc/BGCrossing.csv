@@ -1,0 +1,69 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-3.8, -0.3, 3,
+AddVertex,-0.82, 0.0, 3,
+AddVertex,-0.82, 0.0, 0,
+AddVertex,-3.8, -0.3, 0,
+AddVertex,-0.82, -0.144, 3,
+AddVertex,-0.82, -0.144, 0,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,3,2,5,
+GenerateNormals,
+
+LoadTexture,Stations\Fence.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 12, 0,
+SetTextureCoordinates,2, 12, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+SetTextureCoordinates,4, 7, 0,
+SetTextureCoordinates,5, 7, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.57, 0.0, 3,
+AddVertex,0.57, 0.0, 3,
+AddVertex,0.57, 0.0, 0,
+AddVertex,-0.57, 0.0, 0,
+AddVertex,0.57, -0.144, 0,
+AddVertex,-0.57, -0.144, 0,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,Stations\Fence.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 5, 2,
+SetTextureCoordinates,5, 0, 2,
+
+CreateMeshBuilder,
+AddVertex,3.8, -0.3, 3,
+AddVertex,0.82, 0.0, 3,
+AddVertex,0.82, 0.0, 0,
+AddVertex,3.8, -0.3, 0,
+AddVertex,0.82, -0.144, 3,
+AddVertex,0.82, -0.144, 0,
+AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+AddFace,5,2,3,
+GenerateNormals,
+
+LoadTexture,Stations\Fence.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 12, 0,
+SetTextureCoordinates,2, 12, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+SetTextureCoordinates,4, 7, 0,
+SetTextureCoordinates,5, 7, 1,
+

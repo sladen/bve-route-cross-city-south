@@ -1,0 +1,87 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,3.4, 1.5, 0,
+AddVertex,2.4, 1.5, 0,
+AddVertex,2.4, -0.3, 0,
+AddVertex,3.4, -0.3, 0,
+AddVertex,2.4, 1.5, 1.5,
+AddVertex,2.4, -0.3, 1.5,
+AddVertex,3.4, 1.5, 1.5,
+AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+AddFace,1,4,6,0,
+GenerateNormals,
+
+LoadTexture,TunnelBrick.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 0, 2,
+SetTextureCoordinates,4, 2, 0,
+SetTextureCoordinates,5, 2, 2,
+SetTextureCoordinates,6, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,3.4, 1.5, 23.5,
+AddVertex,2.4, 1.5, 23.5,
+AddVertex,2.4, -0.3, 23.5,
+AddVertex,3.4, -0.3, 23.5,
+AddVertex,2.4, 1.5, 25,
+AddVertex,2.4, -0.3, 25,
+AddVertex,3.4, 1.5, 25,
+AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+AddFace,1,4,6,0,
+GenerateNormals,
+
+LoadTexture,TunnelBrick.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 0, 2,
+SetTextureCoordinates,4, 2, 0,
+SetTextureCoordinates,5, 2, 2,
+SetTextureCoordinates,6, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,2.4, -0.3, 23.5,
+AddVertex,2.4, -0.3, 1.5,
+AddVertex,2.4, 0.1, 1.5,
+AddVertex,2.4, 0.1, 23.5,
+AddVertex,3.4, 0.1, 1.5,
+AddVertex,3.4, 0.1, 23.5,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+GenerateNormals,
+
+LoadTexture,TunnelBrick.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+SetTextureCoordinates,4, 5, 1.5,
+SetTextureCoordinates,5, 0, 1.5,
+
+CreateMeshBuilder,
+AddVertex,2.7, 1.5, 1.5,
+AddVertex,2.7, 1.5, 23.5,
+AddVertex,2.7, 0.1, 23.5,
+AddVertex,2.7, 0.1, 1.5,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Railing1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 10, 0,
+SetTextureCoordinates,2, 10, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,156,156,156,

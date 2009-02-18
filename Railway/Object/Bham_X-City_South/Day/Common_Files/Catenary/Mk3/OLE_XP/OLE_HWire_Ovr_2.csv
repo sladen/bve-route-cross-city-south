@@ -1,0 +1,68 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,0.552, 5.05, 0,
+AddVertex,0.568, 5.05, 0,
+AddVertex,0.458, 5.964, -40,
+AddVertex,0.442, 5.964, -40,
+AddVertex,0.552, 6.30, 0,
+AddVertex,0.568, 6.30, 0,
+AddVertex,0.458, 6.08, -40,
+AddVertex,0.442, 6.08, -40,
+AddFace,3,2,1,0,
+AddFace,7,6,5,4,
+AddFace,7,6,2,3,
+SetColor,150,150,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.442, 6.02, -40,
+AddVertex,0.458, 6.02, -40,
+AddVertex,0.458, 6.02, -50,
+AddVertex,0.442, 6.02, -50,
+AddFace,3,2,1,0,
+SetColor,150,150,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,9,0.12,0.04,0.042
+Rotate,1,0,0,90,
+Translate,0.45,6.02,-47.58,
+SetColor,130,110,110,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,9,0.12,0.04,0.042
+Rotate,1,0,0,90,
+Translate,0.45,6.02,-47.7,
+SetColor,130,110,110,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,9,0.12,0.04,0.042
+Rotate,1,0,0,90,
+Translate,0.45,6.02,-47.82,
+SetColor,130,110,110,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,4,0.045,0.045,0.32
+Rotate,1,0,0,90,
+Translate,0.45,6.02,-47.695,
+SetColor,160,160,160,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,4,0.045,0.02,0.05
+Rotate,1,0,0,90,
+Translate,0.45,6.02,-47.88,
+SetColor,160,160,160,
+GenerateNormals,

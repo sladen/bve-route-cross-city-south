@@ -1,0 +1,7 @@
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0,
+GenerateNormals,
+

@@ -1,0 +1,29 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-12, 9, 3,
+AddVertex,-1, 9, 3,
+AddVertex,-1, -0.3, 3,
+AddVertex,-12, -0.3, 3,
+AddVertex,-0.9, 9, 27,
+AddVertex,-0.9, -0.3, 27,
+AddFace,0,1,2,3,
+SetColor,140,140,140,
+AddFace,1,4,5,2,
+GenerateNormals,
+
+LoadTexture,Rover_Bldg3.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,4,0,
+SetTextureCoordinates,2,4,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,10,0,
+SetTextureCoordinates,5,10,1,

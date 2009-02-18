@@ -1,0 +1,76 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-0.12, 0, 0.65,
+AddVertex,0.12, 0, 0.65,
+AddVertex,0.12, -0.144, 0,
+AddVertex,-0.12, -0.144, 0,
+AddVertex,0.12, 0, 0.65,
+AddVertex,0.12, -0.144, 0.65,
+AddVertex,-0.12, -0.144, 0.65,
+AddFace,0,1,2,3,
+AddFace2,0,4,5,6,
+SetColor,110,110,110,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.12, -0.05, 0.66,
+AddVertex,0.12, -0.05, 0.66,
+AddVertex,0.23, -0.144, 0.66,
+AddVertex,-0.23, -0.144, 0.66,
+AddFace2,0,1,2,3,
+SetColor,58,40,40,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.12, 0, 1.20,
+AddVertex,0.12, 0, 1.20,
+AddVertex,0.12, 0, 0.70,
+AddVertex,-0.12, 0, 0.70,
+AddVertex,-0.12, -0.144, 0.70,
+AddVertex,-0.12, -0.144, 1.20,
+AddVertex,0.12, -0.144, 1.20,
+AddVertex,0.12, -0.144, 0.70,
+AddFace,0,1,2,3,;Top
+AddFace,0,3,4,5,;L side
+AddFace,2,1,6,7,;R side
+AddFace,3,2,7,4,;front
+AddFace,5,6,1,0,;back
+SetColor,190,140,0,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.12, -0.05, 1.21,
+AddVertex,0.12, -0.05, 1.21,
+AddVertex,0.23, -0.144, 1.21,
+AddVertex,-0.23, -0.144, 1.21,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+SetColor,58,40,40,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.12, 0, 1.75,
+AddVertex,0.12, 0, 1.75,
+AddVertex,0.12, 0, 1.25,
+AddVertex,-0.12, 0, 1.25,
+AddVertex,-0.12, -0.144, 1.25,
+AddVertex,-0.12, -0.144, 1.9,
+AddVertex,0.12, -0.144, 1.9,
+AddVertex,0.12, -0.144, 1.25,
+
+AddFace,0,1,2,3,;top
+AddFace,0,3,4,5,;L side
+AddFace,2,1,6,7,;r side
+AddFace,3,2,7,4,;front
+AddFace,1,0,5,6,;small ramp
+SetColor,190,140,0,
+GenerateNormals,

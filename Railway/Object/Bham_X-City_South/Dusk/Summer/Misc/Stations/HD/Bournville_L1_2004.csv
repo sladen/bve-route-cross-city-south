@@ -1,0 +1,143 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-13, 2.3, 3,
+AddVertex,-6, 2.3, 3,
+AddVertex,-6, 0.915, 3,
+AddVertex,-13, 0.915, 3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\BournvilleBrick1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-5.89, 3.86, 3.1,
+AddVertex,-5.8, 3.86, 3.1,
+AddVertex,-5.8, 0.915, 3.1,
+AddVertex,-5.89, 0.915, 3.1,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\..\..\Common_Files\Generic\Signalling\Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-5.8, 3.82, 3.1,
+AddVertex,-4.6, 3.82, 3.1,
+AddVertex,-4.6, 3.63, 3.1,
+AddVertex,-5.8, 3.63, 3.1,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\WayOut.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-10, 0.915, 25.3,
+AddVertex,-10, 0.9, -4,
+AddVertex,-6, 0.9, -4,
+AddVertex,-6, 0.915, 25.3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-13, 0.1, 25.3,
+AddVertex,-13, 0.1, 0,
+AddVertex,-20, 4.1, 0,
+AddVertex,-20, 4.1, 25.3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-13, 0.915, 3,
+AddVertex,-13, 0.915, 0,
+AddVertex,-6, 0.915, 0,
+AddVertex,-6, 0.915, 3,
+AddFace,3,2,1,0,
+SetColor,200,200,200,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Ground.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-18, 19, 25.3,
+AddVertex,-25, 17.33, 0,
+AddVertex,-25, 3.24, 0,
+AddVertex,-18, 3.9, 25.3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\TreeWall.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-6.7, 3.2, 22,
+AddVertex,-6, 3.2, 22,
+AddVertex,-6, 0.915, 22,
+AddVertex,-6.7, 0.915, 22,
+AddVertex,-6, 3.2, 23.1,
+AddVertex,-6, 0.915, 23.1,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+GenerateNormals,
+
+LoadTexture,..\..\..\..\Common_Files\Generic\Misc\XCS_QuickFare_2004.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.04, 0,
+SetTextureCoordinates,2, 0.04, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0.96, 0,
+SetTextureCoordinates,5, 0.96, 1,
+
+CreateMeshBuilder,
+AddVertex,-9.5, 5.7, 0,
+AddVertex,-6.5, 5.7, 0,
+AddVertex,-6.5, 0.915, 0,
+AddVertex,-9.5, 0.915, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Bournville_Arch.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,

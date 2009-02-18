@@ -1,0 +1,89 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-3.5, 4.8, 0.05,
+AddVertex,-2.95, 4.8, 0.05,
+AddVertex,-2.95, 3.3, 0.05,
+AddVertex,-3.5, 3.3, 0.05,
+AddVertex,-2.95, 4.8, 0.85,
+AddVertex,-2.95, 3.3, 0.85,
+AddVertex,-3.5, 4.8, 0.85,
+AddVertex,-3.5, 3.3, 0.85,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+SetColor,200,200,200,
+GenerateNormals,
+
+LoadTexture,Mk3_Transformer1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.49, 0,
+SetTextureCoordinates,2, 0.49, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0.51, 0,
+SetTextureCoordinates,5, 0.51, 1,
+SetTextureCoordinates,6, 1, 0,
+SetTextureCoordinates,7, 1, 1,
+
+CreateMeshBuilder,
+Cylinder,6,0.18,0.18,0.85
+Rotate,1,0,0,90,
+Translate,-3.78,5.1,0.45,
+SetColor,170,170,170,
+GenerateNormals,
+
+CreateMeshbuilder,
+AddVertex,-3.27, 5.12, 0.23,
+AddVertex,-3.13, 5.12, 0.23,
+AddVertex,-3.13, 4.8, 0.23,
+AddVertex,-3.27, 4.8, 0.23,
+AddFace2,0,1,2,3,
+SetColor,140,90,90,
+GenerateNormals,
+
+CreateMeshbuilder,
+AddVertex,-3.27, 5.12, 0.65,
+AddVertex,-3.13, 5.12, 0.65,
+AddVertex,-3.13, 4.8, 0.65,
+AddVertex,-3.27, 4.8, 0.65,
+AddFace2,0,1,2,3,
+SetColor,140,90,90,
+GenerateNormals,
+
+CreateMeshbuilder,
+AddVertex,-2.8, 3.3, 0.5,
+AddVertex,-3.5, 3.3, 0.5,
+AddVertex,-3.35, 3.22, 0.5,
+AddVertex,-2.8, 3.22, 0.5,
+AddVertex,-2.8, 2.18, 0.5,
+AddVertex,-2.8, 2.3, 0.5,
+AddFace2,0,1,2,3,
+AddFace2,1,4,5,2,
+SetColor,160,160,160,
+GenerateNormals,
+
+CreateMeshbuilder,
+AddVertex,-3.9, 4.95, 0.18,
+AddVertex,-3.3, 4.9, 0.18,
+AddVertex,-3.3, 4.8, 0.18,
+AddVertex,-3.9, 4.85, 0.18,
+AddFace2,0,1,2,3,
+SetColor,180,180,180,
+GenerateNormals,
+
+CreateMeshbuilder,
+AddVertex,-3.9, 4.95, 0.71,
+AddVertex,-3.3, 4.9, 0.71,
+AddVertex,-3.3, 4.8, 0.71,
+AddVertex,-3.9, 4.85, 0.71,
+AddFace2,0,1,2,3,
+SetColor,180,180,180,
+GenerateNormals,

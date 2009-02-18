@@ -1,0 +1,68 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+
+CreateMeshBuilder,
+AddVertex,-43, 20, 29,
+AddVertex,-77, 20, 19,
+AddVertex,-80, 16, 22,
+AddVertex,-40, 16, 32,
+AddVertex,-80, 5, 22,
+AddVertex,-40, 5, 32,
+AddVertex,-63, 20, -20,
+AddVertex,-66, 16, -22,
+AddVertex,-66, 5, -22,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,1,6,7,2,
+AddFace,2,7,8,4,
+SetColor,230,230,230,
+GenerateNormals,
+
+LoadTexture,Bham_Bldg3.bmp,
+SetTextureCoordinates,0,0.09,0,
+SetTextureCoordinates,1,0.97,0,
+SetTextureCoordinates,2,1,0.18,
+SetTextureCoordinates,3,0,0.18,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+SetTextureCoordinates,6,1.93,0,
+SetTextureCoordinates,7,2,0.18,
+SetTextureCoordinates,8,2,1,
+
+CreateMeshBuilder,
+AddVertex,-50, 35, -28,
+AddVertex,-75, 35, -78,
+AddVertex,-75, 6, -78,
+AddVertex,-50, 6, -28,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Bham_Bldg4.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-88.3, 5, 5,
+AddVertex,-80.7, 5, -35,
+AddVertex,-80.7, -2, -35,
+AddVertex,-88.3, -2, 5,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Stations\BNS_1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2.7,0,
+SetTextureCoordinates,2,2.7,1,
+SetTextureCoordinates,3,0,1,

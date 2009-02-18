@@ -1,0 +1,42 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,6.2, -0.1, -8,
+AddVertex,6.2, 0.915, 0,
+AddVertex,2.7, 0.915, 0,
+AddVertex,2.7, -0.1, -8,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,FormC_Northfield.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,2.7, -0.1, -8,
+AddVertex,2.7, 0.915, 0,
+AddVertex,1.92, 0.515, 0,
+AddVertex,1.92, -0.3, -8,
+AddVertex,1.92, -0.3, 0,
+AddVertex,1.92, -0.3, -8,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+GenerateNormals,
+
+LoadTexture,FormSide_Northfield.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 8, 0,
+SetTextureCoordinates,2, 8, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+SetTextureCoordinates,4, 8, 1,
+SetTextureCoordinates,5, 0, 1,

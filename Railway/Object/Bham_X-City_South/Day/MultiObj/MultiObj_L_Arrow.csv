@@ -1,0 +1,135 @@
+;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+;-----------
+;L_Arrow.csv
+;-----------
+
+CreateMeshBuilder,
+AddVertex,-2.9, 1.30, -0.03,
+AddVertex,-2.1, 1.30, -0.03,
+AddVertex,-2.1, 1.10, -0.03,
+AddVertex,-2.9, 1.10, -0.03,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\PSRs\L_Arrow.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+;-----------------
+;Whistle_Board.csv
+;-----------------
+
+CreateMeshBuilder,
+AddVertex,2.9, 1.86, 0,
+AddVertex,2.1, 1.86, 0,
+AddVertex,2.1, 1.05, 0,
+AddVertex,2.9, 1.05, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\W.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,2.525,  1.37, -0.04,
+AddVertex,2.455,  1.37, -0.04,
+AddVertex,2.455, -3.3, -0.04,
+AddVertex,2.525, -3.3, -0.04,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\PSRs\Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;------------
+;30mph_aw.csv
+;------------
+
+CreateMeshBuilder,
+AddVertex,-102.9, 1.86, 0,
+AddVertex,-102.1, 1.86, 0,
+AddVertex,-102.1, 1.05, 0,
+AddVertex,-102.9, 1.05, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\PSRs\30mph_aw.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-102.525,  1.37, 0.04,
+AddVertex,-102.455,  1.37, 0.04,
+AddVertex,-102.455, -0.3, 0.04,
+AddVertex,-102.525, -0.3, 0.04,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\PSRs\Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;----------
+;AWSTSR.csv
+;----------
+
+CreateMeshBuilder,
+AddVertex,-0.05, -600.06, 1.05,
+AddVertex,0.05, -600.06, 1.05,
+AddVertex,0.05, -600.06, 0.85,
+AddVertex,-0.05, -600.06, 0.85,
+AddVertex,-0.05, -600.13, 0.80,
+AddVertex,-0.05, -600.13, 1.10,
+AddVertex,0.05, -600.13, 1.10,
+AddVertex,0.05, -600.13, 0.80,
+AddFace,0,1,2,3,;Top
+AddFace,0,3,4,5,;L side
+AddFace,2,1,6,7,;R side
+AddFace,3,2,7,4,;front
+AddFace,5,6,1,0,;back
+SetColor,108,90,90,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.686, -600.13, 0.93,
+AddVertex,0.686, -600.13, 0.93,
+AddVertex,0.686, -600.13, 1.01,
+AddVertex,-0.686, -600.13, 1.01,
+AddVertex,-0.686, -600.18, 0.93,
+AddVertex,0.686, -600.18, 0.93,
+AddFace,3,2,1,0,
+AddFace,0,1,5,4,
+SetColor,255,170,0,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.09, -600.13, 0.76,
+AddVertex,-0.09, -600.13, 1.14,
+AddVertex,0.09, -600.13, 1.14,
+AddVertex,0.09, -600.13, 0.76,
+AddFace,0,1,2,3,
+SetColor,255,170,0,
+GenerateNormals,

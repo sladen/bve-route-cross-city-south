@@ -1,0 +1,126 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-1.22, -0.138, 0,
+AddVertex,-1.22, -0.138, 26.5,
+AddVertex,1.22, -0.138, 26.5,
+AddVertex,1.22, -0.138, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Tie.bmp,
+SetTextureCoordinates,0, 0, 10,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 10,
+
+CreateMeshBuilder,
+AddVertex,-2.4, -0.3, 0,
+AddVertex,-2.4, -0.3, 26.5,
+AddVertex,-1.22, -0.138, 26.5,
+AddVertex,-1.22, -0.138, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Ballast.bmp,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 2,
+
+CreateMeshBuilder,
+AddVertex,1.22, -0.138, 0,
+AddVertex,1.22, -0.138, 26.5,
+AddVertex,2.4, -0.3, 26.5,
+AddVertex,2.4, -0.3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Ballast.bmp,
+SetTextureCoordinates,0, 1, 2,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 2,
+
+CreateMeshBuilder,
+AddVertex,-0.756,0,0,
+AddVertex,-0.756,0,26.5,
+AddVertex,-0.686,0,26.5,
+AddVertex,-0.686,0,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Rail.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.716,0,0,
+AddVertex,-0.716,0,26.5,
+AddVertex,-0.716,-0.138,26.5,
+AddVertex,-0.716,-0.138,0,
+AddFace2,0,1,2,3,
+Setcolor,90,60,40,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.686,0,0,
+AddVertex,0.686,0,26.5,
+AddVertex,0.756,0,26.5,
+AddVertex,0.756,0,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Rail.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,0.716,-0.138,0,
+AddVertex,0.716,-0.138,26.5,
+AddVertex,0.716,0,26.5,
+AddVertex,0.716,0,0,
+AddFace2,0,1,2,3,
+Setcolor,90,60,40,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.015, 5.68, 4.166,
+AddVertex,-0.015, 4.864, 4.166,
+AddVertex,0.015, 4.864, 4.166,
+AddVertex,0.015, 5.68, 4.166,
+AddVertex,-0.015, 5.68, 12.499,
+AddVertex,-0.015, 4.864, 12.499,
+AddVertex,0.015, 4.864, 12.499,
+AddVertex,0.015, 5.68, 12.499,
+AddVertex,-0.015, 5.68, 20.832,
+AddVertex,-0.015, 4.864, 20.832,
+AddVertex,0.015, 4.864, 20.832,
+AddVertex,0.015, 5.68, 20.832,
+AddVertex,-0.015, 4.864, 0,
+AddVertex,0.015,  4.864, 0,
+AddVertex,0.015,  4.864, 25,
+AddVertex,-0.015, 4.864, 25,
+AddVertex,-0.015, 5.68, 0,
+AddVertex,0.015,  5.68, 0,
+AddVertex,0.015,  5.68, 25,
+AddVertex,-0.015, 5.68, 25,
+AddFace,3,2,1,0,
+AddFace,7,6,5,4
+AddFace,11,10,9,8
+AddFace,12,13,14,15,
+AddFace,16,17,18,19,
+SetColor,150,150,150,
+GenerateNormals,

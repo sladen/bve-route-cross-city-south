@@ -1,0 +1,86 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,6.86, 6.8, -0.02,
+AddVertex,6.66, 6.8, -0.02,
+AddVertex,6.66, -0.3, -0.02,
+AddVertex,6.86, -0.3, -0.02,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0.5,
+SetTextureCoordinates,1, 1, 0.5,
+SetTextureCoordinates,2, 1, 0.9745,
+SetTextureCoordinates,3, 0, 0.9745,
+
+CreateMeshBuilder,
+AddVertex,6.88, 6.98, -0.02,
+AddVertex,6.88, 6.8, -0.02,
+AddVertex,1.5, 6.8, -0.02,
+AddVertex,1.5, 6.98, -0.02,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0.5,
+SetTextureCoordinates,1, 1, 0.5,
+SetTextureCoordinates,2, 1, 0.8,
+SetTextureCoordinates,3, 0, 0.8,
+
+CreateMeshBuilder,
+AddVertex,6.76, 5.3, -0.02,
+AddVertex,5.16, 6.8, -0.02,
+AddVertex,5.06, 6.8, -0.02,
+AddVertex,6.66, 5.3, -0.02,
+AddFace,3,2,1,0,
+SetColor,144,144,144,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.35, 4.4, -0.02,
+AddVertex,2.35, 6.8, -0.02,
+AddVertex,2.25, 6.8, -0.02,
+AddVertex,2.25, 4.4, -0.02,
+AddFace,3,2,1,0,
+SetColor,170,170,170,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.27, 5.9, 0,
+AddVertex,-0.72, 5.9, 0,
+AddVertex,-0.72, 4.10, 0,
+AddVertex,2.27, 4.10, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mk3_LMast_Ra.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,147,147,147,
+
+CreateMeshBuilder,
+AddVertex,7.00, -0.15, 0.23,
+AddVertex,6.53, -0.15, 0.23,
+AddVertex,6.53, -0.15, -0.23,
+AddVertex,7.00, -0.15, -0.23,
+AddVertex,7.00, -0.93, 0.23,
+AddVertex,7.00, -0.93, -0.23,
+AddVertex,6.53, -0.93, -0.23,
+AddVertex,6.53, -0.93, 0.23,
+AddFace,3,2,1,0,
+AddFace,4,5,3,0,
+AddFace,5,6,2,3,
+AddFace,6,7,1,2,
+SetColor,130,130,120,
+GenerateNormals,

@@ -1,0 +1,49 @@
+;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-0.035, 7.04, -0,
+AddVertex,0.035, 7.04, -0,
+AddVertex,0.035, 5.36, -0,
+AddVertex,-0.035, 5.36, -0,
+AddFace,0,1,2,3,
+SetColor,230,230,230,
+GenerateNormals,
+
+LoadTexture,Mk3_Headspan_RC_Support.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 5,
+SetTextureCoordinates,3, 0, 5,
+
+CreateMeshBuilder,
+AddVertex,-0.16, 7.19, -0.03,
+AddVertex,0.16, 7.19, -0.03,
+AddVertex,0.16, 7.02, -0.03,
+AddVertex,-0.16, 7.02, -0.03,
+AddVertex,-0.14, 5.435, -0.03,
+AddVertex,0.14, 5.435, -0.03,
+AddVertex,0.14, 5.285, -0.03,
+AddVertex,-0.14, 5.285, -0.03,
+AddFace,0,1,2,3,
+AddFace,4,5,6,7,
+SetColor,230,230,230,
+GenerateNormals,
+
+LoadTexture,Mk3_Clamp_1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+SetTextureCoordinates,4, 0, 0.5,
+SetTextureCoordinates,5, 1, 0.5,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 0, 1,
+SetDecalTransparentColor,0,0,0,

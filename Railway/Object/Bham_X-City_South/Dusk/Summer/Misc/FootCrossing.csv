@@ -1,0 +1,89 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-3.38, 1.7, 1.18,
+AddVertex,-3.08, 1.7, 0.78,
+AddVertex,-3.08, 1.45, 0.78,
+AddVertex,-3.38, 1.45, 1.18,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Textures\No_pass2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,-3.43, 1.4, 1.18,
+AddVertex,-3.06, 1.4, 0.78,
+AddVertex,-3.06, 0.6, 0.78,
+AddVertex,-3.43, 0.6, 1.18,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Files\Generic\Signs\Warning_HighVoltage.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,-3.265,  1.8, 1.1,
+AddVertex,-3.195,  1.8, 1.1,
+AddVertex,-3.195, -0.134, 1.1,
+AddVertex,-3.265, -0.134, 1.1,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Files\Generic\Signs\PSRs\Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-10.22, -0.134, 1,
+AddVertex,-1.22, -0.134, 1,
+AddVertex,-1.22, -0.134, -1,
+AddVertex,-10.22, -0.134, -1,
+AddVertex,-1.22, -3.134, -3,
+AddVertex,-10.22, -3.134, -6,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,..\RailObjects\Ballast.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 0.8,
+SetTextureCoordinates,3, 0, 0.8,
+SetTextureCoordinates,4, 2, 3,
+SetTextureCoordinates,5, 0, 3,
+
+CreateMeshBuilder,
+AddVertex,10.22, -0.134, 1,
+AddVertex,1.22, -0.134, 1,
+AddVertex,1.22, -0.134, -1,
+AddVertex,10.22, -0.134, -1,
+AddVertex,1.22, -3.134, -3,
+AddVertex,10.22, -3.134, -6,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+GenerateNormals,
+
+LoadTexture,..\RailObjects\Ballast.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 0.8,
+SetTextureCoordinates,3, 0, 0.8,
+SetTextureCoordinates,4, 2, 3,
+SetTextureCoordinates,5, 0, 3,

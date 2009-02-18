@@ -1,0 +1,63 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,0.392, 5.03, -48.95,
+AddVertex,0.408, 5.03, -48.95,
+AddVertex,0.408, 5.08, -45,
+AddVertex,0.392, 5.08, -45,
+AddVertex,0.408, 4.914, -5,
+AddVertex,0.392, 4.914, -5,
+AddVertex,0.408, 4.864, 1.05,
+AddVertex,0.392, 4.864, 1.05,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+SetColor,150,150,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.392, 5.68, -48.95,
+AddVertex,0.408,  5.68, -48.95,
+AddVertex,0.408,  5.48, -45,
+AddVertex,0.392, 5.48, -45,
+AddVertex,0.408,  5.32, -35,;4
+AddVertex,0.392, 5.32, -35,;5
+AddVertex,0.408,  5.28, -25,;6
+AddVertex,0.392, 5.28, -25,;7
+AddVertex,0.408,  5.32, -15,;8
+AddVertex,0.392, 5.32, -15,;9
+AddVertex,0.408,  5.48, -5,;10
+AddVertex,0.392, 5.48, -5,;11
+AddVertex,0.408,  5.68, 1.05,;12
+AddVertex,0.392, 5.68, 1.05,;13
+AddVertex,0.408,  5.08, -45,;14
+AddVertex,0.392, 5.08, -45,;15
+AddVertex,0.408,  5.03, -35,;16
+AddVertex,0.392, 5.03, -35,;17
+AddVertex,0.408,  4.99, -25,;18
+AddVertex,0.392, 4.99, -25,;19
+AddVertex,0.408,  4.96, -15,;20
+AddVertex,0.392, 4.96, -15,;21
+AddVertex,0.408,  4.91, -5,;22
+AddVertex,0.392, 4.91, -5,;23
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+AddFace,7,6,8,9,
+AddFace,9,8,10,11,
+AddFace,11,10,12,13,
+AddFace,3,2,14,15,
+AddFace,5,4,16,17,
+AddFace,7,6,18,19,
+AddFace,9,8,20,21,
+AddFace,11,10,22,23,
+SetColor,150,150,150,
+GenerateNormals,

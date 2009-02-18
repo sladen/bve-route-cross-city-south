@@ -1,0 +1,45 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-0.010, 4.864, 0,
+AddVertex,0.010, 4.864, 0,
+AddVertex,0.010, 4.914, 5,
+AddVertex,-0.010, 4.914, 5,
+AddVertex,0.010, 4.914, 20,
+AddVertex,-0.010, 4.914, 20,
+AddVertex,0.010, 4.864, 25,
+AddVertex,-0.010, 4.864, 25,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+SetColor,150,150,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.010, 6.38, 25,
+AddVertex,0.010,  6.38, 25,
+AddVertex,0.010,  6.03, 20,
+AddVertex,-0.010, 6.03, 20,
+AddVertex,0.010,  5.78, 10,;4
+AddVertex,-0.010, 5.78, 10,;5
+AddVertex,0.010,  5.68, 0,;6
+AddVertex,-0.010, 5.68, 0,;7
+AddVertex,0.010,  4.914, 20,
+AddVertex,-0.010, 4.914, 20,
+AddVertex,0.010,  4.914, 10,;4
+AddVertex,-0.010, 4.914, 10,;5
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+AddFace,7,6,4,5,
+AddFace,8,9,3,2,
+AddFace,10,11,5,4,
+SetColor,150,150,150,
+GenerateNormals,

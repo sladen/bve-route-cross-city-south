@@ -1,0 +1,61 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,0, 1.0, 25,
+AddVertex,-1, 1.0, 21,
+AddVertex,-0.7, -0.3, 21,
+AddVertex,0, -0.3, 24,
+AddVertex,-1, 1.0, 0,
+AddVertex,-0.7, -0.3, 0,
+AddVertex,0, 1.2, -4,
+AddVertex,0, -0.3, -3,
+AddVertex,1, 1.0, 21,
+AddVertex,1, 1.0, 0,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+AddFace,0,8,9,6,4,1,
+GenerateNormals,
+
+LoadTexture,narrowboat2.bmp,
+SetTextureCoordinates,0,0,0.1,
+SetTextureCoordinates,1,0.13,0.1,
+SetTextureCoordinates,2,0.13,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0.2,0.1,
+SetTextureCoordinates,5,0.2,1,
+SetTextureCoordinates,6,1,0.1,
+SetTextureCoordinates,7,1,1,
+
+CreateMeshBuilder,
+AddVertex,0.7, 2.2, 20.9,
+AddVertex,-0.7, 2.2, 20.9,
+AddVertex,-0.9, 1.0, 21,
+AddVertex,0.9, 1.0, 21,
+AddVertex,-0.7, 2.2, 0.1,
+AddVertex,-0.9, 1.0, 0,
+AddVertex,0.7, 2.2, 0.1,
+AddVertex,0.9, 1.0, 0,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+AddFace,0,6,4,1,
+GenerateNormals,
+
+LoadTexture,narrowboat1.bmp,
+SetTextureCoordinates,0,0,0.1,
+SetTextureCoordinates,1,0.12,0.1,
+SetTextureCoordinates,2,0.12,1,
+SetTextureCoordinates,3,-0.02,1,
+SetTextureCoordinates,4,0.88,0.1,
+SetTextureCoordinates,5,0.88,1,
+SetTextureCoordinates,6,1,0.1,
+SetTextureCoordinates,7,1.02,1,

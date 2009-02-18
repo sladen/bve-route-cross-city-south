@@ -1,0 +1,121 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+;-----------------
+;Feather_LH_On.csv
+;-----------------
+
+CreateMeshBuilder,
+AddVertex,-1.85, 6.81, -0.39,
+AddVertex,-2.975, 6.81, -0.39,
+AddVertex,-2.975, 5.71, -0.39,
+AddVertex,-1.85, 5.71, -0.39,
+AddFace,3,2,1,0,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Feather_RH_On.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+;------------------
+;Feather_LH_Off.csv
+;------------------
+
+CreateMeshBuilder,
+AddVertex,-1.85, 606.81, -0.39,
+AddVertex,-2.975, 606.81, -0.39,
+AddVertex,-2.975, 605.71, -0.39,
+AddVertex,-1.85, 605.71, -0.39,
+AddFace,3,2,1,0,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Feather_RH_Off.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-1.85, 606.81, -0.39,
+AddVertex,-2.975, 606.81, -0.39,
+AddVertex,-2.975, 605.71, -0.39,
+AddVertex,-1.85, 605.71, -0.39,
+AddFace,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Feather_LH_Back.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,154,154,154,
+
+;-----------------
+;Feather_RH_On.csv
+;-----------------
+
+CreateMeshBuilder,
+AddVertex,-2.555, 1206.81, -0.39,
+AddVertex,-1.43, 1206.81, -0.39,
+AddVertex,-1.43, 1205.71, -0.39,
+AddVertex,-2.555, 1205.71, -0.39,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Feather_RH_On.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+;------------------
+;Feather_RH_Off.csv
+;------------------
+
+CreateMeshBuilder,
+AddVertex,-2.555, -593.19, -0.39,
+AddVertex,-1.43, -593.19, -0.39,
+AddVertex,-1.43, -594.29, -0.39,
+AddVertex,-2.555, -594.29, -0.39,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Feather_RH_Off.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2.555, -593.19, -0.39,
+AddVertex,-1.43, -593.19, -0.39,
+AddVertex,-1.43, -594.29, -0.39,
+AddVertex,-2.555, -594.29, -0.39,
+AddFace,3,2,1,0,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Feather_LH_Back.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,154,154,154,

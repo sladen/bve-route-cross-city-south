@@ -1,0 +1,118 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+;------------
+;Milepost.csv
+;------------
+
+CreateMeshBuilder,
+AddVertex,-2.69, 0.8, 0.0,
+AddVertex,-2.64, 0.8, 0.0,
+AddVertex,-2.64, -0.3, 0.0,
+AddVertex,-2.69, -0.3, 0.0,
+AddVertex,-2.64, 0.8, 0.05,
+AddVertex,-2.64, -0.3, 0.05,
+AddVertex,-2.69, 0.8, 0.05,
+AddVertex,-2.69, -0.3, 0.05,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+SetColor,250,220,0,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.8, 0.8, -0.22,
+AddVertex,-2.6, 0.8, 0.02,
+AddVertex,-2.6, 0.6, 0.02,
+AddVertex,-2.8, 0.6, -0.22,
+AddVertex,-2.8, 0.8, 0.22,
+AddVertex,-2.8, 0.6, 0.22,
+AddFace2,0,1,2,3,
+AddFace2,1,4,5,2,
+GenerateNormals,
+
+LoadTexture,Milepost.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,2,0,
+SetTextureCoordinates,5,2,1,
+
+;--------------
+;Wheelslip1.csv
+;--------------
+
+CreateMeshBuilder,
+AddVertex,-4.3, 601.9, 0.4,
+AddVertex,-2.2, 601.9, 0.4,
+AddVertex,-2.2, 601.9, 0,
+AddVertex,-4.3, 601.9, 0,
+AddVertex,-2.2, 601.3, 0.2,
+AddVertex,-4.3, 601.3, 0.2,
+AddVertex,-2.2, 601.3, 0.4,
+AddVertex,-4.3, 601.3, 0.4,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,2,1,6,4,
+AddFace,1,0,7,6,
+GenerateNormals,
+
+LoadTexture,Wheelslip1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0,0.5,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+
+CreateMeshBuilder,
+AddVertex,-4.1, 602.23, 0.2,
+AddVertex,-3.85, 602.23, 0.2,
+AddVertex,-3.85, 601.9, 0.2,
+AddVertex,-4.1, 601.9, 0.2,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Wheelslip2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-3.38, 601.35, 0.25,
+AddVertex,-3.14, 601.35, 0.25,
+AddVertex,-3.14, 599.97, 0.25,
+AddVertex,-3.37, 599.97, 0.25,
+AddVertex,-3.14, 601.35, 0.38,
+AddVertex,-3.14, 599.97, 0.38,
+AddVertex,-3.38, 601.35, 0.38,
+AddVertex,-3.38, 599.97, 0.38,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+AddFace,4,6,7,5,
+SetColor,170,170,170,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-4.8, 599.72, 1.5,
+AddVertex,-3.0, 599.72, 1.5,
+AddVertex,-3.0, 599.72, -1.5,
+AddVertex,-4.8, 599.72, -1.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\..\Summer\RailObjects\Ballast.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0,0.5,

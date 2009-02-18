@@ -1,0 +1,23 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,7.2, 2.7, 0,
+AddVertex,7.2, 2.7, 25.3,
+AddVertex,7.2, 1.1, 25.3,
+AddVertex,7.2, 1.1, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Misc\Stations\Fence.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,50,0,
+SetTextureCoordinates,2,50,1,
+SetTextureCoordinates,3,0,1,

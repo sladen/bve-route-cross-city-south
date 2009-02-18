@@ -1,0 +1,94 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,0, 4.85, 6,
+AddVertex,0, 4.85, 0,
+AddVertex,0, 1.5, 0,
+AddVertex,0, 1.5, 6,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,advert1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.15, 4.9, 6,
+AddVertex,0.15, 4.9, 6,
+AddVertex,0.15, 0.915, 6,
+AddVertex,-0.15, 0.915, 6,
+AddVertex,-0.15, 4.9, 0,
+AddVertex,0.15, 4.9, 0,
+AddVertex,0.15, 0.915, 0,
+AddVertex,-0.15, 0.915, 0,
+AddVertex,-0.01, 4.9, 6,
+AddVertex,-0.01, 4.9, 0,
+AddVertex,-0.01, 4.8, 0,
+AddVertex,-0.01, 4.8, 6,
+AddVertex,-0.01, 1.55, 6,
+AddVertex,-0.01, 1.55, 0,
+AddVertex,-0.01, 1.45, 0,
+AddVertex,-0.01, 1.45, 6,
+AddFace,0,1,2,3,
+AddFace,4,5,6,7,
+AddFace,8,9,10,11,
+AddFace,12,13,14,15,
+SetColor,220,220,220,
+GenerateNormals,
+
+LoadTexture,post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0, 0,
+SetTextureCoordinates,5, 1, 0,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 0, 1,
+SetTextureCoordinates,8, 0, 0,
+SetTextureCoordinates,9, 1, 0,
+SetTextureCoordinates,10, 1, 1,
+SetTextureCoordinates,11, 0, 1,
+SetTextureCoordinates,12, 0, 0,
+SetTextureCoordinates,13, 1, 0,
+SetTextureCoordinates,14, 1, 1,
+SetTextureCoordinates,15, 0, 1,
+
+CreateMeshBuilder
+AddVertex,-0.15, 4.885, 2.55
+AddVertex,-0.15, 4.885, 3.55
+AddVertex,-0.15, 4.835, 3.55
+AddVertex,-0.15, 4.835, 2.55
+AddVertex,-0.0, 4.835, 3.35
+AddVertex,-0.0, 4.835, 2.55
+AddVertex,-0.0, 4.885, 2.55
+AddFace,3,2,1,0
+AddFace,5,4,2,3
+AddFace,5,3,0,6
+SetColor,135,135,135
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,-0.13, 4.835, 2.58
+AddVertex,-0.13, 4.835, 3.52
+AddVertex,-0.11, 4.795, 3.52
+AddVertex,-0.11, 4.795, 2.58
+AddVertex,-0.05, 4.795, 3.52
+AddVertex,-0.05, 4.795, 2.58
+AddVertex,-0.03, 4.835, 2.58
+AddFace,3,2,1,0
+AddFace,5,4,2,3
+AddFace,5,3,0,6
+SetColor,190,190,190
+GenerateNormals

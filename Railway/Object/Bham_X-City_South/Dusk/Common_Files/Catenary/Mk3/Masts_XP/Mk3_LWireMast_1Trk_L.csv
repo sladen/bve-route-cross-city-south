@@ -1,0 +1,104 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshbuilder,
+AddVertex,-2.73, 5.42, 0,
+AddVertex,-0.90, 5.07, 0,
+AddVertex,-0.90, 5.05, 0,
+AddVertex,-2.73, 5.40, 0,
+AddFace2,0,1,2,3,
+SetColor,140,140,140,
+GenerateNormals,
+
+CreateMeshbuilder,
+AddVertex,-2.73, 6.02, 0,
+AddVertex,-0.90, 5.72, 0,
+AddVertex,-0.90, 5.70, 0,
+AddVertex,-2.73, 6.00, 0,
+AddVertex,-0.00, 5.67, 0,
+AddVertex,-0.00, 5.65, 0,
+AddFace2,0,1,2,3,
+AddFace2,1,4,5,2,
+SetColor,140,140,140,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.32, 5.23, 0,
+AddVertex,0.38, 5.23, 0,
+AddVertex,0.38, 4.77, 0,
+AddVertex,-1.32, 4.77, 0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk3_C_SA_1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,147,147,147,
+
+CreateMeshBuilder,
+AddVertex,-2.79, 6.3, -0.02,
+AddVertex,-2.64, 6.3, -0.02,
+AddVertex,-2.64, -0.3, -0.02,
+AddVertex,-2.79, -0.3, -0.02,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-2.95, -0.15, 0.23,
+AddVertex,-2.48, -0.15, 0.23,
+AddVertex,-2.48, -0.15, -0.23,
+AddVertex,-2.95, -0.15, -0.23,
+AddVertex,-2.95, -0.93, 0.23,
+AddVertex,-2.95, -0.93, -0.23,
+AddVertex,-2.48, -0.93, -0.23,
+AddVertex,-2.48, -0.93, 0.23,
+AddFace,0,1,2,3,
+AddFace,0,3,5,4,
+AddFace,3,2,6,5,
+AddFace,2,1,7,6,
+AddFace,1,0,4,7,
+SetColor,130,130,120,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.55, 6.05, 0.02,
+AddVertex,-2.2, 5.99, 0.02,
+AddVertex,-2.22, 5.85, 0.02,
+AddVertex,-2.57, 5.91, 0.02,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk3_LMast_La.bmp,
+SetTextureCoordinates,0, 0.025, 0.05,
+SetTextureCoordinates,1, 0.125, 0.05,
+SetTextureCoordinates,2, 0.125, 0.06,
+SetTextureCoordinates,3, 0.025, 0.06,
+
+CreateMeshBuilder,
+AddVertex,-2.55, 5.45, 0.02,
+AddVertex,-2.2, 5.38, 0.02,
+AddVertex,-2.22, 5.24, 0.02,
+AddVertex,-2.57, 5.31, 0.02,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk3_LMast_La.bmp,
+SetTextureCoordinates,0, 0.025, 0.05,
+SetTextureCoordinates,1, 0.125, 0.05,
+SetTextureCoordinates,2, 0.125, 0.06,
+SetTextureCoordinates,3, 0.025, 0.06,

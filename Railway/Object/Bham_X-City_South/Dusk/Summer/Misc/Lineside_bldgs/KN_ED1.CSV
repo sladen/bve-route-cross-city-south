@@ -1,0 +1,57 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,14, 7.4, 25.3,
+AddVertex,14, 7.4, 0,
+AddVertex,10.2, 6.3, 0,
+AddVertex,10.2, 6.3, 25.3,
+AddVertex,10.2, -0.3, 0,
+AddVertex,10.2, -0.3, 25.3,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,KN_ED2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.01,
+SetTextureCoordinates,3, 0, 0.01,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,18, 6.3, 25.3,
+AddVertex,18, 6.3, 0,
+AddVertex,18, -0.3, 0,
+AddVertex,18, -0.3, 25.3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,KN_ED2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,10, 7.5, 0,
+AddVertex,18, 7.5, 0,
+AddVertex,18, -0.3, 0,
+AddVertex,10, -0.3, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,KN_ED1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,

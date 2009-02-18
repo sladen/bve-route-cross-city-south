@@ -1,0 +1,26 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-12.5, 0.1, 14,
+AddVertex,12.5, 0.1, 14,
+AddVertex,12.5, 0.1, 7.8,
+AddVertex,-12.5, 0.1, 7.8,
+AddVertex,12.5, -0.3, 6.8,
+AddVertex,-12.5, -0.3, 6.8,
+AddVertex,-17.5, 3.1, 14,
+AddVertex,-17.5, 3.1, 7.8,
+AddVertex,-17.5, 2.7, 6.8,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,6,0,3,7,
+AddFace,7,3,5,8,
+SetColor,40,40,40,100,
+GenerateNormals,

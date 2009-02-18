@@ -1,0 +1,28 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-0.7, 3.2, 0,
+AddVertex,0, 3.2, 0,
+AddVertex,0, 0.915, 0,
+AddVertex,-0.7, 0.915, 0,
+AddVertex,0, 3.2, 1.1,
+AddVertex,0, 0.915, 1.1,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+GenerateNormals,
+
+LoadTexture,XCS_QuickFare.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.04, 0,
+SetTextureCoordinates,2, 0.04, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0.96, 0,
+SetTextureCoordinates,5, 0.96, 1,

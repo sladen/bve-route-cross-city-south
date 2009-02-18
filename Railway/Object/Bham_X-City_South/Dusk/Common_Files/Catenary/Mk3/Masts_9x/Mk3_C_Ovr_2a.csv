@@ -1,0 +1,86 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,2.97, 6.12, -0.05,
+AddVertex,-0.1, 6.12, -0.05,
+AddVertex,-0.1, 4.32, -0.05,
+AddVertex,2.97, 4.32, -0.05,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mk3_C_Ovr1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,147,147,147,
+
+CreateMeshBuilder,
+AddVertex,2.97, 5.9, 1.05,
+AddVertex,-0.50, 5.9, 1.05,
+AddVertex,-0.50, 4.32, 1.05,
+AddVertex,2.97, 4.32, 1.05,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mk3_C_Ovr1a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,147,147,147,
+
+CreateMeshbuilder,
+AddVertex,2.94, 5.88, -0.2,
+AddVertex,2.94, 5.88, 1.2,
+AddVertex,2.94, 5.73, 1.2,
+AddVertex,2.94, 5.73, -0.2,
+AddFace,3,2,1,0,
+SetColor,144,144,144,
+GenerateNormals,
+
+CreateMeshbuilder,
+AddVertex,2.94, 4.48, -0.2,
+AddVertex,2.94, 4.48, 1.2,
+AddVertex,2.94, 4.33, 1.2,
+AddVertex,2.94, 4.33, -0.2,
+AddFace,3,2,1,0,
+SetColor,144,144,144,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,3.09, 6.0, 0.3,
+AddVertex,2.94, 6.0, 0.3,
+AddVertex,2.94, -0.3, 0.3,
+AddVertex,3.09, -0.3, 0.3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0.5,
+SetTextureCoordinates,1, 1, 0.5,
+SetTextureCoordinates,2, 1, 0.9745,
+SetTextureCoordinates,3, 0, 0.9745,
+
+CreateMeshBuilder,
+AddVertex,3.09, 6.0, 0.7,
+AddVertex,2.94, 6.0, 0.7,
+AddVertex,2.94, -0.3, 0.7,
+AddVertex,3.09, -0.3, 0.7,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0.5,
+SetTextureCoordinates,1, 1, 0.5,
+SetTextureCoordinates,2, 1, 0.9745,
+SetTextureCoordinates,3, 0, 0.9745,
+

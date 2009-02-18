@@ -1,0 +1,97 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,-3.01, 7.81, 0,
+AddVertex,-2.19, 7.81, 0,
+AddVertex,-2.19, 6.91, 0,
+AddVertex,-3.01, 6.91, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk1_Girder_Support.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,197,197,197,
+
+CreateMeshBuilder,
+AddVertex,7.01, 7.81, 0,
+AddVertex,6.19, 7.81, 0,
+AddVertex,6.19, 6.91, 0,
+AddVertex,7.01, 6.91, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mk1_Girder_Support.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,197,197,197,
+
+CreateMeshBuilder,
+AddVertex,-2.39, 7.78, 0,
+AddVertex,6.39, 7.78, 0,
+AddVertex,6.39, 7.24, 0,
+AddVertex,-2.39, 7.24, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk1_Girder_Tile.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 15, 0,
+SetTextureCoordinates,2, 15, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,197,197,197,
+
+CreateMeshBuilder,
+AddVertex,-3.15, 7.79, 0,
+AddVertex,-2.96, 7.79, 0,
+AddVertex,-2.96, -0.3, 0,
+AddVertex,-3.15, -0.3, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,6.92, 7.79, 0,
+AddVertex,7.11, 7.79, 0,
+AddVertex,7.11, -0.3, 0,
+AddVertex,6.92, -0.3, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast1a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+Cylinder,6,0.32,0.32,0.9
+Rotate,0,1,0,90,
+Translate,-3.05,-0.6,0,
+SetColor,165,165,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,6,0.32,0.32,0.9
+Rotate,0,1,0,90,
+Translate,7.02,-0.6,0,
+SetColor,165,165,150,
+GenerateNormals,

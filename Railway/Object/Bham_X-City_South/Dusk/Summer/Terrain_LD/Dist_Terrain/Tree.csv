@@ -1,0 +1,24 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-20,9,0,
+AddVertex,-20,0,0,
+AddVertex,0,-5,0,
+AddVertex,0,14,0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\tree_pair.bmp,
+SetTextureCoordinates,0,00,0,
+SetTextureCoordinates,1,00,1,
+SetTextureCoordinates,2,01,1,
+SetTextureCoordinates,3,01,0,
+SetDecalTransparentColor,000,000,000,

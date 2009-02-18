@@ -1,0 +1,43 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+;-----------
+;L_Arrow.csv
+;-----------
+
+CreateMeshBuilder,
+AddVertex,-2.9, 1.30, -0.03,
+AddVertex,-2.1, 1.30, -0.03,
+AddVertex,-2.1, 1.10, -0.03,
+AddVertex,-2.9, 1.10, -0.03,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,L_Arrow.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2.9, 1.30, -0.03,
+AddVertex,-2.1, 1.30, -0.03,
+AddVertex,-2.1, 1.10, -0.03,
+AddVertex,-2.9, 1.10, -0.03,
+AddFace,3,2,1,0,
+SetColor,60,60,60,
+GenerateNormals,
+
+LoadTexture,L_Arrow.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,

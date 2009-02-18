@@ -1,0 +1,98 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,-3.9, 6.6, 0.45,
+AddVertex,1.0, 6.6, -1.9,
+AddVertex,1.0, 4.8, -1.9,
+AddVertex,-3.9, 4.8, 0.45,
+AddVertex,1.0, 6.6, 2.7,
+AddVertex,1.0, 4.8, 2.7,
+AddFace2,0,1,2,3,
+AddFace2,0,4,5,3,
+GenerateNormals,
+
+LoadTexture,BoosterTransformer_Supply.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1, 0,
+SetTextureCoordinates,5, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-3.41, 4.54, 0.05,
+AddVertex,-3.21, 4.48, -0.3,
+AddVertex,-3.18, 4.48, -0.3,
+AddVertex,-3.38, 4.54, 0.05,
+AddVertex,-2.91, 4.68, -0.9,
+AddVertex,-2.88, 4.68, -0.9,
+AddVertex,-2.68, 5.17, -1.6,
+AddVertex,-2.65, 5.17, -1.6,
+AddVertex,-2.61, 5.27, -1.9,
+AddVertex,-2.58, 5.27, -1.9,
+AddFace2,0,1,2,3,
+AddFace2,1,4,5,2,
+AddFace2,4,6,7,5,
+AddFace2,6,8,9,7,
+SetColor,100,100,100,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-3.41, 4.54, 0.75,
+AddVertex,-3.21, 4.48, 1.1,
+AddVertex,-3.18, 4.48, 1.1,
+AddVertex,-3.38, 4.54, 0.75,
+AddVertex,-2.91, 4.68, 1.7,
+AddVertex,-2.88, 4.68, 1.7,
+AddVertex,-2.68, 5.17, 2.4,
+AddVertex,-2.65, 5.17, 2.4,
+AddVertex,-2.61, 5.27, 2.7,
+AddVertex,-2.58, 5.27, 2.7,
+AddFace2,0,1,2,3,
+AddFace2,1,4,5,2,
+AddFace2,4,6,7,5,
+AddFace2,6,8,9,7,
+SetColor,100,100,100,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.71, 5.41, -1.4,
+AddVertex,-2.45, 5.41, -1.4,
+AddVertex,-2.45, 5.15, -1.4,
+AddVertex,-2.71, 5.15, -1.4,
+AddFace2,0,1,2,3,
+SetColor,160,90,90,
+GenerateNormals,
+
+LoadTexture,Mk3_RC_T_Insulator.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,198,198,198,
+
+CreateMeshBuilder,
+AddVertex,-2.71, 5.43, 2.2,
+AddVertex,-2.45, 5.43, 2.2,
+AddVertex,-2.45, 5.17, 2.2,
+AddVertex,-2.71, 5.17, 2.2,
+AddFace2,0,1,2,3,
+SetColor,160,90,90,
+GenerateNormals,
+
+LoadTexture,Mk3_RC_T_Insulator.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,198,198,198,

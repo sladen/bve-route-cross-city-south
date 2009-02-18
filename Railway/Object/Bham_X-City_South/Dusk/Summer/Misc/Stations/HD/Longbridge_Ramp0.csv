@@ -1,0 +1,61 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,15.2, 2.6, 25.3,
+AddVertex,15.2, 3.1, 0,
+AddVertex,8.2, 3.1, 0,
+AddVertex,8.2, 2.6, 25.3,
+AddVertex,5.2, 0.1, 0,
+AddVertex,5.2, 0.1, 25.3,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Emb2a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshbuilder,
+AddVertex,9.5, 4.7, 12,
+AddVertex,10.5, 4.7, 12,
+AddVertex,10.5, 0.915, 12,
+AddVertex,9.5, 0.915, 12,
+AddFace,0,1,2,3,
+SetColor,140,140,130,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,9, 5.1, 25.3,
+AddVertex,9, 6.1, 0,
+AddVertex,9, 5.1, 0,
+AddVertex,9, 4.1, 25.3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Stair1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 16, 0,
+SetTextureCoordinates,2, 16, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,132,132,132,
+
+CreateMeshBuilder,
+AddVertex,9, 4.1, 25.3,
+AddVertex,12, 4.1, 25.3,
+AddVertex,12, 5.1.0, 0,
+AddVertex,9, 5.1, 0,
+AddFace2,3,2,1,0,
+SetColor,180,180,180,
+GenerateNormals,

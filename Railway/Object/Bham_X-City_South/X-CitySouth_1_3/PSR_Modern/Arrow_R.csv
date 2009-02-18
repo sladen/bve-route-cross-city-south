@@ -1,0 +1,53 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-0.42, 2.17, -0.02,
+AddVertex,0.42, 2.17, -0.02,
+AddVertex,0.42, 1.93, -0.02,
+AddVertex,-0.42, 1.93, -0.02,
+AddFace,0,1,2,3,
+Translate,-2.5,0,0,
+GenerateNormals,
+
+LoadTexture,Arrow.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.42, 2.17, -0.02,
+AddVertex,0.42, 2.17, -0.02,
+AddVertex,0.42, 1.93, -0.02,
+AddVertex,-0.42, 1.93, -0.02,
+AddFace,3,2,1,0,
+Translate,-2.5,0,0,
+GenerateNormals,
+
+LoadTexture,PSRBack.bmp,
+SetTextureCoordinates,0, 0.1, 0.3,
+SetTextureCoordinates,1, 0.9, 0.3,
+SetTextureCoordinates,2, 0.9, 0.7,
+SetTextureCoordinates,3, 0.1, 0.7,
+
+CreateMeshBuilder,
+AddVertex,-2.525,  2.21, 0.02,
+AddVertex,-2.455,  2.21, 0.02,
+AddVertex,-2.455, -0.3, 0.02,
+AddVertex,-2.525, -0.3, 0.02,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Post_PSR.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

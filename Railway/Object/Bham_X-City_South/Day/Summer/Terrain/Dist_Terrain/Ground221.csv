@@ -1,0 +1,95 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-120, 8, 30,
+AddVertex,-3.5, -4.9, 30,
+AddVertex,-3.5, -5.5, 0,
+AddVertex,-3.5, -9.31, -5,
+AddVertex,-160, -9.31, -15,
+AddVertex,-120, 5, 0,
+AddFace,0,1,2,5,
+AddFace,5,2,3,4,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\emb3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 2,
+SetTextureCoordinates,4, 0, 2,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,120, 2, 30,
+AddVertex,12, -5.3, 30,
+AddVertex,12, -4.31, 0,
+AddVertex,12, -9.31, -5,
+AddVertex,160, -9.31, -15,
+AddVertex,120, 2, 0,
+AddFace,5,2,1,0,
+AddFace,4,3,2,5,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\grass2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 2,
+SetTextureCoordinates,4, 0, 2,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-24.26, -5.8, 8,
+AddVertex,-24.26, 6, 8,
+AddVertex,-2.7, 10, 12,
+AddVertex,-2.7, -2.9, 12,
+AddFace,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\tree_pair.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,000,000,000,
+
+CreateMeshBuilder,
+AddVertex,28.26, -4.9, 8,
+AddVertex,28.26, 10, 8,
+AddVertex,9.26, 10, 10,
+AddVertex,9.26, -4.9, 10,
+AddFace,3,2,1,0,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\t1.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,000,000,000,
+
+CreateMeshBuilder,
+AddVertex,-17.0, -2.9, 0,
+AddVertex,-17.0, -2.0, 25.3,
+AddVertex,-17.0, -3.5, 25.3,
+AddVertex,-17.0, -4.4, 0,
+AddFace,0,1,2,3,
+SetColor,200,200,200,
+GenerateNormals,
+
+LoadTexture,..\..\Misc\Stations\Fence_SellyOak.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,128,

@@ -1,0 +1,158 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+;--------------
+;Plat_Ind_8.csv
+;--------------
+
+CreateMeshBuilder,
+AddVertex,-2.45, 5.8, -0.39,
+AddVertex,-1.95, 5.8, -0.39,
+AddVertex,-1.95, 4.8, -0.39,
+AddVertex,-2.45, 4.8, -0.39,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Plat_Ind.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+
+CreateMeshBuilder,
+AddVertex,-3.3, 4.2, -0.39,
+AddVertex,-2.4, 4.2, -0.39,
+AddVertex,-2.4, 3.3, -0.39,
+AddVertex,-3.3, 3.3, -0.39,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\CO_O.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+
+;----------------
+;Platform_End.csv
+;----------------
+
+CreateMeshBuilder,
+AddVertex,-0.3, 0.915, 0,
+AddVertex,0.5, 0.915, 0,
+AddVertex,0.5, -0.3, 0,
+AddVertex,-0.3, -0.3, 0,
+AddFace,3,2,1,0,
+SetColor,130,130,130,
+GenerateNormals,
+
+;----------
+;NS_170.csv
+;----------
+
+CreateMeshBuilder,
+AddVertex,3.5, -1.4, 0.3,
+AddVertex,4.4, -1.4, 0.3,
+AddVertex,4.4, -2.2, 0.3,
+AddVertex,3.5, -2.2, 0.3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\NS_170.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,3.3, -1.3, -0.5,
+AddVertex,3.3, -1.3, 1,
+AddVertex,3.3, -1.8, 1,
+AddVertex,3.3, -1.8, -0.5,
+AddVertex,3.9, -2.4, 1,
+AddVertex,3.9, -2.4, -0.5,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+SetColor,190,190,190,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\mesh.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 16, 0,
+SetTextureCoordinates,2, 16, 16,
+SetTextureCoordinates,3, 0, 16,
+SetTextureCoordinates,4, 16, 24,
+SetTextureCoordinates,5, 0, 24,
+SetDecalTransparentColor,150,150,150,
+
+;-----------------
+;Fixed_Distant.csv
+;-----------------
+
+CreateMeshBuilder,
+AddVertex,4.35, 603.45, 0.1,
+AddVertex,3.05, 603.45, 0.1,
+AddVertex,3.05, 602.3, 0.1,
+AddVertex,4.35, 602.3, 0.1,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\FixedDistant.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+
+CreateMeshBuilder,
+AddVertex,3.05, 603.45, 0.1,
+AddVertex,4.35, 603.45, 0.1,
+AddVertex,4.35, 602.3, 0.1,
+AddVertex,3.05, 602.3, 0.1,
+AddFace,0,1,2,3,
+SetColor,210,210,210,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\SmallDoor.bmp,
+SetTextureCoordinates,0, 0.2, 0.2
+SetTextureCoordinates,1, 0.8, 0.2
+SetTextureCoordinates,2, 0.8, 0.8
+SetTextureCoordinates,3, 0.2, 0.8
+
+CreateMeshBuilder,
+AddVertex,3.2, 603.35, 0,
+AddVertex,3.27, 603.35, 0,
+AddVertex,3.27, 598.7, 0,
+AddVertex,3.2, 598.7, 0,
+AddFace2,0,1,2,3,
+SetColor,220,220,220,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Post.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+
+CreateMeshBuilder,
+AddVertex,4.1, 603.35, 0,
+AddVertex,4.17, 603.35, 0,
+AddVertex,4.17, 598.7, 0,
+AddVertex,4.1, 598.7, 0,
+AddFace2,0,1,2,3,
+SetColor,220,220,220,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signalling\Post.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1

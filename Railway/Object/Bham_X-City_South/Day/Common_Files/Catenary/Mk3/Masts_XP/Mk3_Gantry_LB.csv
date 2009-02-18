@@ -1,0 +1,110 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-18.2, 7.1, -0.02,
+AddVertex,-18.00, 7.1, -0.02,
+AddVertex,-18.00, -0.3, -0.02,
+AddVertex,-18.2, -0.3, -0.02,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0.2,
+SetTextureCoordinates,1, 1, 0.2,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,6.86, 7.1, -0.02,
+AddVertex,6.66, 7.1, -0.02,
+AddVertex,6.66, -0.3, -0.02,
+AddVertex,6.86, -0.3, -0.02,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0.5,
+SetTextureCoordinates,1, 1, 0.5,
+SetTextureCoordinates,2, 1, 1.025,
+SetTextureCoordinates,3, 0, 1.025,
+
+CreateMeshBuilder,
+AddVertex,6.88, 7.28, -0.02,
+AddVertex,6.88, 7.1, -0.02,
+AddVertex,-18.23, 7.1, -0.02,
+AddVertex,-18.23, 7.28, -0.02,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast1.bmp,
+SetTextureCoordinates,0, 0, 0.5,
+SetTextureCoordinates,1, 1, 0.5,
+SetTextureCoordinates,2, 1, 0.8
+SetTextureCoordinates,3, 0, 0.8
+
+CreateMeshBuilder,
+AddVertex,-18.10, 5.6, -0.02,
+AddVertex,-16.50, 7.1, -0.02,
+AddVertex,-16.40, 7.1, -0.02,
+AddVertex,-18.00, 5.6, -0.02,
+AddFace,0,1,2,3,
+SetColor,144,144,144,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,6.76, 5.6, -0.02,
+AddVertex,5.16, 7.1, -0.02,
+AddVertex,5.06, 7.1, -0.02,
+AddVertex,6.66, 5.6, -0.02,
+AddFace,3,2,1,0,
+SetColor,144,144,144,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-18.25, 5.33, 0.1,
+AddVertex,6.90, 5.33, 0.1,
+AddVertex,6.90, 5.30, 0.1,
+AddVertex,-18.25, 5.30, 0.1,
+AddFace,0,1,2,3,
+SetColor,110,110,110,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-18.35, 4.3, 0.23,
+AddVertex,-17.88, 4.3, 0.23,
+AddVertex,-17.88, 4.3, -0.23,
+AddVertex,-18.35, 4.3, -0.23,
+AddVertex,-18.35, 3.1, 0.23,
+AddVertex,-18.35, 3.1, -0.23,
+AddVertex,-17.88, 3.1, -0.23,
+AddVertex,-17.88, 3.1, 0.23,
+AddFace,0,1,2,3,
+AddFace,0,3,5,4,
+AddFace,3,2,6,5,
+AddFace,2,1,7,6,
+SetColor,165,165,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,6.99, 0.5, 0.23,
+AddVertex,6.52, 0.5, 0.23,
+AddVertex,6.52, 0.5, -0.23,
+AddVertex,6.99, 0.5, -0.23,
+AddVertex,6.99, -0.93, 0.23,
+AddVertex,6.99, -0.93, -0.23,
+AddVertex,6.52, -0.93, -0.23,
+AddVertex,6.52, -0.93, 0.23,
+AddFace,3,2,1,0,
+AddFace,4,5,3,0,
+AddFace,5,6,2,3,
+AddFace,6,7,1,2,
+SetColor,165,165,150,
+GenerateNormals,

@@ -1,0 +1,93 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-20.26, 6.6, -2.9,
+AddVertex,24.92, 6.6, 14.2,
+AddVertex,24.92, 5.1, 14.2,
+AddVertex,-20.26, 5.1, -2.9,
+AddVertex,24.92, 5.1, 23,
+AddVertex,-20.26, 5.1, 6.5,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,Bridge7.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 21, 0,
+SetTextureCoordinates,2, 21, 0.93,
+SetTextureCoordinates,3, 0, 0.93,
+SetTextureCoordinates,4, 21, 1,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-20.26, 5.3, -0.1,
+AddVertex,-20.26, -0.3, -0.1,
+AddVertex,-6.66, -0.3, 5.3,
+AddVertex,-6.66, 5.3, 5.3,
+AddVertex,-6.66, -0.3, 11.3,
+AddVertex,-6.66, 5.3, 11.3,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+GenerateNormals,
+
+LoadTexture,TunnelBrick.bmp,
+SetTextureCoordinates,0, 6, 0,
+SetTextureCoordinates,1, 6, 6,
+SetTextureCoordinates,2, 0, 6,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 9, 6,
+SetTextureCoordinates,5, 9, 0,
+
+CreateMeshBuilder,
+AddVertex,24.92, 5.3, 17,
+AddVertex,24.92, -0.3, 17,
+AddVertex,10.32, -0.3, 11.3,
+AddVertex,10.32, 5.3, 11.3,
+AddVertex,10.32, -0.3, 17,
+AddVertex,10.32, 5.3, 17,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,TunnelBrick.bmp,
+SetTextureCoordinates,0, 6, 0,
+SetTextureCoordinates,1, 6, 6,
+SetTextureCoordinates,2, 0, 6,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 9, 6,
+SetTextureCoordinates,5, 9, 0,
+
+CreateMeshBuilder,
+AddVertex,-6.9, 0.1, 10,
+AddVertex,10.9, 0.1, 16.5,
+AddVertex,10.9, 0.1, 12.5,
+AddVertex,-6.9, 0.1, 6.2,
+AddVertex,10.9, -0.3, 11.5,
+AddVertex,-6.9, -0.3, 5.2,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+SetColor,40,40,40,100,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-7.2,1.4,5.07,
+AddVertex,-7.0,1.4,5.07,
+AddVertex,-7.0,1.2,5.07,
+AddVertex,-7.2,1.2,5.07,
+AddFace,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Files\Generic\Signs\LC.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

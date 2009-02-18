@@ -1,0 +1,75 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,15, 6.0, 12.5,
+AddVertex,15, 6.0, 12.5,
+AddVertex,15, 4.0, 0,
+AddVertex,15, 4.0, 25.3,
+AddVertex,15, -3, 0,
+AddVertex,15, -3, 25.3,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,KN-B_Bldg1.bmp,
+SetTextureCoordinates,0, 2.53, 0,
+SetTextureCoordinates,1, 2.53, 0,
+SetTextureCoordinates,2, 5, 0.2,
+SetTextureCoordinates,3, 0, 0.2,
+SetTextureCoordinates,4, 5, 1,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,15, 5, 0,
+AddVertex,50, 5, 0,
+AddVertex,50, -3, 0,
+AddVertex,15, -3, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,KN-B_Bldg1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 10, 0,
+SetTextureCoordinates,2, 10, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,15, 6.0, 12.5,
+AddVertex,15, 7.0, 12.5,
+AddVertex,15, 5.0, 0,
+AddVertex,15, 4.0, 0,
+AddVertex,50, 7.0, 12.5,
+AddVertex,50, 5.0, 0,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+GenerateNormals,
+
+LoadTexture,KN-B_Bldg1a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.056, 0,
+SetTextureCoordinates,2, 0.056, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1, 0,
+SetTextureCoordinates,5, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,15, 4.0, 25.3,
+AddVertex,15, 5.0, 25.3,
+AddVertex,15, 7.0, 12.5,
+AddVertex,15, 6.0, 12.5,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,KN-B_Bldg1a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.056, 0,
+SetTextureCoordinates,2, 0.056, 1,
+SetTextureCoordinates,3, 0, 1,

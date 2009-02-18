@@ -1,0 +1,58 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-1.89, -0.29, 25.3,
+AddVertex,-1.89, -0.29, 0,
+AddVertex,-3.8, -0.29, 0,
+AddVertex,-15.8, -0.9, 0,
+AddVertex,-15.8, -0.9, 25.3,
+AddVertex,-3.8, -0.29, 25.3,
+AddFace,0,1,2,5,
+AddFace,5,2,3,4,
+GenerateNormals,
+
+LoadTexture,RailObjects\Ballast_g.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0.8,
+SetTextureCoordinates,4, 0, 0.8,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-7, 2, -0.3,
+AddVertex,-7, 2, 25.3,
+AddVertex,-7, -0.5, 25.3,
+AddVertex,-7, -0.5, -0.3,
+AddFace,0,1,2,3,
+SetColor,210,210,210,
+
+GenerateNormals,
+LoadTexture,Bridges\Bridge14.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 6, 0.5,
+SetTextureCoordinates,3, 0, 0.5,
+
+CreateMeshBuilder,
+AddVertex,-22,9,0,
+AddVertex,-22,-1,0,
+AddVertex,-3,-2,5,
+AddVertex,-3,7,5,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Common_Textures\tree_pair.bmp,
+SetTextureCoordinates,0,00,0,
+SetTextureCoordinates,1,00,1,
+SetTextureCoordinates,2,01,1,
+SetTextureCoordinates,3,01,0,
+SetDecalTransparentColor,000,000,000,

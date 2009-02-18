@@ -1,0 +1,101 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-3.8, 2.0, 0,
+AddVertex,-2.8, 2.0, 0,
+AddVertex,-2.8, -0.224, 0,
+AddVertex,-3.8, -0.224, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,e1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-3.6, 2.0, 4,
+AddVertex,-2.6, 2.0, 4,
+AddVertex,-2.6, -0.224, 4,
+AddVertex,-3.6, -0.224, 4,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,e2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-3.6, 2.0, 6,
+AddVertex,-2.6, 2.0, 6,
+AddVertex,-2.6, -0.224, 6,
+AddVertex,-3.6, -0.224, 6,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,e3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-3.3, 2.3, 8,
+AddVertex,-2.3, 2.3, 8,
+AddVertex,-2.3, -0.224, 8,
+AddVertex,-3.3, -0.224, 8,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,e4.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-3, 2.7, 11,
+AddVertex,-2.3, 2.7, 11,
+AddVertex,-2.3, -0.224, 11,
+AddVertex,-3, -0.224, 11,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,e5.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-3.6, 2.0, 16,
+AddVertex,-2.6, 2.0, 16,
+AddVertex,-2.6, -0.224, 16,
+AddVertex,-3.6, -0.224, 16,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,e3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+

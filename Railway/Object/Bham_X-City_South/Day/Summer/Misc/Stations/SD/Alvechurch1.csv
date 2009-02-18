@@ -1,0 +1,68 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,10, 4.5, 25.3,
+AddVertex,10, 3.84, 0,
+AddVertex,10, 2.34, 0,
+AddVertex,10, 3.0, 25.3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Fence2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 9, 0,
+SetTextureCoordinates,2, 9, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,150,150,150,
+
+CreateMeshBuilder,
+AddVertex,10, 3, 25.3,
+AddVertex,10, 2.34, 0,
+AddVertex,6, 0.44, 0,
+AddVertex,6, 0.915, 25.3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Emb1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,25, 3, 25.3,
+AddVertex,25, 2.34, 0,
+AddVertex,10, 2.34, 0,
+AddVertex,10, 3, 25.3,
+AddFace,0,1,2,3,
+SetColor,130,130,130,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\Ground.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,18, 15, 25.3,
+AddVertex,25, 14.33, 0,
+AddVertex,25, 2.24, 0,
+AddVertex,18, 2.9, 25.3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\..\..\Common_Textures\TreeWall.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,

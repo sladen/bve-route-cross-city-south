@@ -1,0 +1,29 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,1.9, -0.29, 25.3,
+AddVertex,1.9, -0.29, 0,
+AddVertex,8.5, -0.29, 0,
+AddVertex,21.06, -6.29, 0,
+AddVertex,21.06, -6.29, 25.3,
+AddVertex,8.5, -0.29, 25.3,
+AddFace,5,2,1,0,
+AddFace,4,3,2,5,
+GenerateNormals,
+
+LoadTexture,RailObjects\Ballast_gnc.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 2, 0.8,
+SetTextureCoordinates,4, 0, 0.8,
+SetTextureCoordinates,5, 0, 1,

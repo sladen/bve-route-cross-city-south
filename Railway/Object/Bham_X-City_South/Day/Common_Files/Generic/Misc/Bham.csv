@@ -1,0 +1,42 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,0, 5.3, 10,
+AddVertex,0, 5.3, 0,
+AddVertex,0, 2.0, 0,
+AddVertex,0, 2.0, 10,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,bham1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.15, 5.3, 10,
+AddVertex,0.15, 5.3, 10,
+AddVertex,0.15, 0.0, 10,
+AddVertex,-0.15, 0.0, 10,
+AddFace,0,1,2,3,
+SetColor,170,170,170,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.15, 5.3, 0,
+AddVertex,0.15, 5.3, 0,
+AddVertex,0.15, 0.0, 0,
+AddVertex,-0.15, 0.0, 0,
+AddFace,0,1,2,3,
+SetColor,170,170,170,
+GenerateNormals,

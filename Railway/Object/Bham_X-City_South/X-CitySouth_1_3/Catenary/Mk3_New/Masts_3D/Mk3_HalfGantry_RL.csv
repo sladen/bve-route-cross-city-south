@@ -1,0 +1,257 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder
+AddVertex,2.46, 6.37, -0.25
+AddVertex,-5.15, 6.37, -0.25
+AddVertex,-5.49, 5.85, -0.25
+AddVertex,2.46, 5.85, -0.25
+AddVertex,-5.49, 5.85, 0.25
+AddVertex,2.46, 5.85, 0.25
+AddVertex,-5.15, 6.37, 0.25
+AddVertex,2.46, 6.37, 0.25
+AddVertex,3.2, 5.37, -0.25
+AddVertex,3.2, 5.37, 0.25
+AddVertex,3.2, 6.37, -0.25
+AddVertex,3.2, 6.37, 0.25
+AddVertex,3.2, 6.33, -0.25
+AddVertex,3.2, 6.33, 0.25
+AddFace2,3,2,1,0
+AddFace,5,4,2,3
+AddFace,7,6,1,0
+AddFace2,5,4,6,7
+
+AddFace,9,5,3,8
+AddFace,0,10,11,7
+AddFace2,13,5,3,12
+Translate,2.3,1.27
+GenerateNormals
+
+LoadTexture,..\Mk3_Girder_Tile_3D.bmp
+SetTextureCoordinates,0, -0.0, 0
+SetTextureCoordinates,1, 10.57, 0
+SetTextureCoordinates,2, 11.05, 1
+SetTextureCoordinates,3, -0.0, 1
+SetTextureCoordinates,4, 11.05, 2
+SetTextureCoordinates,5, -0.0, 2
+SetTextureCoordinates,6, 10.57, 1
+SetTextureCoordinates,7, -0.0, 1
+SetTextureCoordinates,8, -1.5, 1
+SetTextureCoordinates,9, -1.5, 2
+SetTextureCoordinates,10, -1.0, 0
+SetTextureCoordinates,11, -1.0, 1
+SetTextureCoordinates,12, -1.5, 1
+SetTextureCoordinates,13, -1.5, 2
+SetDecalTransparentColor,197,197,197
+
+CreateMeshBuilder
+AddVertex,3.2, 5.41, -0.25
+AddVertex,2.46, 5.89, -0.25
+AddVertex,2.46, 5.85, -0.25
+AddVertex,3.2, 5.37, -0.25
+AddVertex,3.2, 5.41, 0.25
+AddVertex,2.46, 5.89, 0.25
+AddVertex,2.46, 5.85, 0.25
+AddVertex,3.2, 5.37, 0.25
+
+AddVertex,3.2, 6.37, -0.25
+AddVertex,3.2, 6.32, -0.25
+AddVertex,3.2, 6.37, 0.25
+AddVertex,3.2, 6.32, 0.25
+AddVertex,2.46, 6.37, -0.25
+AddVertex,2.46, 6.32, -0.25
+AddVertex,2.46, 6.37, 0.25
+AddVertex,2.46, 6.32, 0.25
+
+AddVertex,2.7, 6.37, -0.25
+AddVertex,2.66, 6.37, -0.25
+AddVertex,2.39, 5.85, -0.25
+AddVertex,2.43, 5.85, -0.25
+AddVertex,2.7, 6.37, -0.20
+AddVertex,2.43, 5.85, -0.20
+AddVertex,2.7, 6.37, 0.25
+AddVertex,2.66, 6.37, 0.25
+AddVertex,2.39, 5.85, 0.25
+AddVertex,2.43, 5.85, 0.25
+AddVertex,2.7, 6.37, 0.20
+AddVertex,2.43, 5.85, 0.20
+
+AddFace,3,2,1,0
+AddFace,7,6,5,4
+AddFace,9,2,1,8
+AddFace,11,6,5,10
+AddFace,9,13,12,8
+AddFace,11,15,14,10
+AddFace,19,18,17,16
+AddFace2,19,21,20,16
+AddFace,25,24,23,22
+AddFace2,25,27,26,22
+SetColor,175,175,175,
+Translate,2.3,1.27
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,-5.47, 7.12, -0.24
+AddVertex,-5.52, 7.12, -0.24
+AddVertex,-5.52, 5.39, -0.07
+AddVertex,-5.47, 5.39, -0.07
+AddVertex,-5.52, 5.24, -0.07
+AddVertex,-5.47, 5.24, -0.07
+AddVertex,-5.52, 5.24, 0.07
+AddVertex,-5.47, 5.24, 0.07
+AddVertex,-5.52, 5.39, 0.07
+AddVertex,-5.47, 5.39, 0.07
+AddVertex,-5.52, 7.12, 0.24
+AddVertex,-5.47, 7.12, 0.24
+
+AddVertex,-5.52, 7.12, -0.20
+AddVertex,-5.52, 5.39, -0.03
+AddVertex,-5.52, 5.39, 0.03
+AddVertex,-5.52, 7.12, 0.20
+
+AddVertex,-4.78, 7.12, -0.21
+AddVertex,-4.83, 7.12, -0.21
+AddVertex,-5.52, 5.39, -0.07
+AddVertex,-5.47, 5.39, -0.07
+AddVertex,-5.52, 5.39, 0.07
+AddVertex,-5.47, 5.39, 0.07
+AddVertex,-4.83, 7.12, 0.21
+AddVertex,-4.78, 7.12, 0.21
+
+AddVertex,-4.83, 7.12, -0.17
+AddVertex,-5.52, 5.39, -0.03
+AddVertex,-5.52, 5.39, 0.03
+AddVertex,-4.83, 7.12, 0.17
+
+AddFace,3,2,1,0
+AddFace,5,4,2,3
+AddFace,7,6,4,5
+AddFace,7,6,8,9
+AddFace,9,8,10,11
+AddFace,6,4,2,8
+
+AddFace,13,2,1,12
+AddFace,8,14,15,10
+
+AddFace,19,18,17,16
+AddFace,21,20,18,19
+AddFace,21,20,22,23
+AddFace,25,18,17,24
+AddFace,20,26,27,22
+SetColor,175,175,175,
+Translate,2.36,
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,0.14, 7.64, -0.25
+AddVertex,-0.14, 7.64, -0.25
+AddVertex,-0.14, -0.3, -0.25
+AddVertex,0.14, -0.3, -0.25
+AddVertex,-0.14, 7.64, 0.25
+AddVertex,-0.14, -0.3, 0.25
+AddVertex,0.14, 7.64, 0.25
+AddVertex,0.14, -0.3, 0.25
+AddFace2,3,2,1,0
+AddFace2,2,5,4,1
+AddFace2,4,6,7,5
+AddFace2,6,0,3,7
+AddFace2,6,4,1,0
+Translate,5.64,0
+GenerateNormals
+
+LoadTexture,..\Mk3_Mast4_3D.bmp
+SetTextureCoordinates,0, 0.38, 0
+SetTextureCoordinates,1, 0.43, 0
+SetTextureCoordinates,2, 0.43, 13
+SetTextureCoordinates,3, 0.38, 13
+SetTextureCoordinates,4, 1.1, 0
+SetTextureCoordinates,5, 1.1, 13
+SetTextureCoordinates,6, 1.10, 0
+SetTextureCoordinates,7, 1.10, 13
+SetDecalTransparentColor,171,171,171
+
+CreateMeshBuilder
+AddVertex,3.47, 0.83, -0.01
+AddVertex,3.15, 0.83, -0.01
+AddVertex,3.15, 0.51, -0.01
+AddVertex,3.47, 0.51, -0.01
+AddVertex,3.47, 0.83, 0.06
+AddVertex,3.47, 0.51, 0.06
+AddVertex,3.15, 0.83, 0.06
+AddVertex,3.15, 0.51, 0.06
+AddFace,3,2,1,0
+AddFace,5,3,0,4
+AddFace,2,7,6,1
+SetColor,255,255,255
+Translate,2.33,2.4,0.19
+GenerateNormals
+
+LoadTexture,..\id_plate_2.bmp
+SetTextureCoordinates,0, 0.01, 0
+SetTextureCoordinates,1, 0.02, 0
+SetTextureCoordinates,2, 0.02, 1
+SetTextureCoordinates,3, 0.01, 1
+SetTextureCoordinates,4, 0, 0
+SetTextureCoordinates,5, 0, 1
+SetTextureCoordinates,6, 0.01, 0
+SetTextureCoordinates,7, 0.01, 1
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,5.55, 0.95, -0.26,
+AddVertex,5.65, 0.95, -0.26,
+AddVertex,5.65, 0.81, -0.26,
+AddVertex,5.55, 0.81, -0.26,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk3_Mast_Label_1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder
+AddVertex,3.1, 5.34, 0.02
+AddVertex,-5.5, 5.34, 0.02
+AddVertex,-5.5, 5.32, 0.02
+AddVertex,3.1, 5.32, 0.02
+AddFace,3,2,1,0
+Translate,2.36,
+SetColor,110,110,110
+
+CreateMeshBuilder
+AddVertex,3.46, -0.15, 0.35
+AddVertex,2.99, -0.15, 0.35
+AddVertex,2.99, -0.15, -0.35
+AddVertex,3.46, -0.15, -0.35
+AddVertex,3.46, -0.93, 0.35
+AddVertex,3.46, -0.93, -0.35
+AddVertex,2.99, -0.93, -0.35
+AddVertex,2.99, -0.93, 0.35
+AddFace,3,2,1,0
+AddFace,4,5,3,0
+AddFace,5,6,2,3
+AddFace,6,7,1,2
+Translate,2.43,
+GenerateNormals
+
+GenerateNormals,
+
+LoadTexture,..\Concrete1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 0, 2,
+SetTextureCoordinates,6, 0, 0,
+SetTextureCoordinates,7, 1, 1,

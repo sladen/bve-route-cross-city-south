@@ -1,0 +1,72 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,48, 55, 30,
+AddVertex,45, 55, 12,
+AddVertex,45, 5, 12,
+AddVertex,48, 5, 30,
+AddVertex,65, 55, 9,
+AddVertex,65, 5, 9,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+GenerateNormals,
+
+LoadTexture,Northfield_Bldg1.bmp,
+SetTextureCoordinates,0,0,0.04,
+SetTextureCoordinates,1,1,0.04,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,2,0.04,
+SetTextureCoordinates,5,2,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-55, 30, 0,
+AddVertex,0, 30, 0,
+AddVertex,0, 5, 0,
+AddVertex,-55, 5, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Bham_Bldg2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,4.515,0,
+SetTextureCoordinates,2,4.515,3.5,
+SetTextureCoordinates,3,0,3.5,
+
+CreateMeshBuilder,
+AddVertex,-88, 42, -5,
+AddVertex,-75, 42, -5,
+AddVertex,-75, 5, -5,
+AddVertex,-88, 5, -5,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Bham_Bldg1a.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,12,
+SetTextureCoordinates,3,0,12,
+
+CreateMeshBuilder,
+AddVertex,-75, 42, -5,
+AddVertex,-75, 42, 110,
+AddVertex,-75, 5, 110,
+AddVertex,-75, 5, -5,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Bham_Bldg1.bmp,
+SetTextureCoordinates,0,-0.12,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,5,20,
+SetTextureCoordinates,3,-0.12,20,
+

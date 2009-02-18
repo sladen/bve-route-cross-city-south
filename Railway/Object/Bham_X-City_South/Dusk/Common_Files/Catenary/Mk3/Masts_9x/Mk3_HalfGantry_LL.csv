@@ -1,0 +1,77 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-3.10, 7.68, 0,
+AddVertex,-2.33, 7.68, 0,
+AddVertex,-2.33, 6.50, 0,
+AddVertex,-3.10, 6.50, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk3_Gantry_St.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,147,147,147,
+
+CreateMeshBuilder,
+AddVertex,-2.4, 7.7, 0,
+AddVertex,4.8, 7.7, 0,
+AddVertex,4.8, 6.95, 0,
+AddVertex,-2.4, 6.95, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk3_Gantry_Tile.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 9, 0,
+SetTextureCoordinates,2, 9, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,147,147,147,
+
+CreateMeshBuilder,
+AddVertex,4.7, 7.65, 0,
+AddVertex,5.55, 7.65, 0,
+AddVertex,5.55, 4.6, 0,
+AddVertex,4.7, 4.6, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mk3_Gantry_End.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,147,147,147,
+
+CreateMeshBuilder,
+AddVertex,-3.30, 7.62, 0,
+AddVertex,-3.06, 7.62, 0,
+AddVertex,-3.06, -0.3, 0,
+AddVertex,-3.30, -0.3, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.1, 5.33, 0.1,
+AddVertex,5.5, 5.33, 0.1,
+AddVertex,5.5, 5.30, 0.1,
+AddVertex,-3.1, 5.30, 0.1,
+AddFace,0,1,2,3,
+SetColor,110,110,110,
+

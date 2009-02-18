@@ -1,0 +1,24 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,6.2, 2.415, 0,
+AddVertex,6.2, 2.415, 25.3,
+AddVertex,6.2, 0.915, 25.3,
+AddVertex,6.2, 0.915, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Fence_Redditch.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 20, 0,
+SetTextureCoordinates,2, 20, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,

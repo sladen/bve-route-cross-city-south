@@ -1,0 +1,70 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-12, 5, 0,
+AddVertex,-0, 5, 0,
+AddVertex,-0, -0.4, 0,
+AddVertex,-12, -0.4, 0,
+AddVertex,0, 5, 30,
+AddVertex,0, -0.4, 30,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+SetColor,230,230,230,
+GenerateNormals,
+
+LoadTexture,Rover_Bldg1.bmp,
+SetTextureCoordinates,0,0.4,0,
+SetTextureCoordinates,1,0.41,0,
+SetTextureCoordinates,2,0.41,1,
+SetTextureCoordinates,3,0.4,1,
+SetTextureCoordinates,4,0.41,0,
+SetTextureCoordinates,5,0.41,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-12, 16, 3,
+AddVertex,-1, 16, 3,
+AddVertex,-1, 5, 3,
+AddVertex,-12, 5, 3,
+AddVertex,-1, 16, 27,
+AddVertex,-1, 5, 27,
+AddFace,0,1,2,3,
+AddFace,1,4,5,2,
+SetColor,230,230,230,
+GenerateNormals,
+
+LoadTexture,Rover_Bldg1a.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0.5,0,
+SetTextureCoordinates,2,0.5,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,1,0,
+SetTextureCoordinates,5,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,0, 5, 0,
+AddVertex,-12, 5, 0,
+AddVertex,-12, 5, 30,
+AddVertex,0, 5, 30,
+AddVertex,-12, -0.3, 0,
+AddVertex,-12, -0.3, 30,
+AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+SetColor,120,120,120,
+
+CreateMeshBuilder,
+AddVertex,-12, 5, 30,
+AddVertex,-6, 5, 30,
+AddVertex,-6, -0.3, 30,
+AddVertex,-12, -0.3, 30,
+AddFace,0,1,2,3,
+SetColor,100,100,100,

@@ -1,0 +1,33 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-0.08, 7.09, -0,
+AddVertex,0.08, 7.09, -0,
+AddVertex,0.035, 7.03, -0,
+AddVertex,-0.035, 7.03, -0,
+AddVertex,0.035, 5.36, -0,
+AddVertex,-0.035, 5.36, -0,
+AddVertex,0.08, 5.30, -0,
+AddVertex,-0.08, 5.30, -0,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+GenerateNormals,
+
+LoadTexture,Mk3_Headspan_RC_Support.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.2,
+SetTextureCoordinates,3, 0, 0.2,
+SetTextureCoordinates,4, 1, 0.8,
+SetTextureCoordinates,5, 0, 0.8,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 0, 1,

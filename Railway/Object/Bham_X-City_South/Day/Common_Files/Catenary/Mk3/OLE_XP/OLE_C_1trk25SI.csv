@@ -1,0 +1,126 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,-0.008, 4.864, 25,
+AddVertex,0.008,  4.864, 25,
+AddVertex,0.008,  4.914, 15,
+AddVertex,-0.008, 4.914, 15,
+AddVertex,0.16,  4.914, 14,
+AddVertex,0.14, 4.914, 14,
+AddVertex,0.16,  4.914, 11,
+AddVertex,0.14, 4.914, 11,
+AddVertex,0.008,  4.914, 10,
+AddVertex,-0.008, 4.914, 10,
+AddVertex,0.008,  4.864, 0,
+AddVertex,-0.008, 4.864, 0,
+AddVertex,-0.14,  4.914, 14,
+AddVertex,-0.16, 4.914, 14,
+AddVertex,-0.14,  4.914, 11,
+AddVertex,-0.16, 4.914, 11,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+AddFace,7,6,4,5,
+AddFace,9,8,6,7,
+AddFace,11,10,8,9,
+AddFace,13,12,2,3,
+AddFace,15,14,12,13,
+AddFace,9,8,14,15,
+SetColor,150,150,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.008, 5.68, 0,
+AddVertex,0.008, 5.68, 0,
+AddVertex,0.008, 5.48, 4.166,
+AddVertex,-0.008, 5.48, 4.166,
+AddVertex,0.008, 5.38, 11,
+AddVertex,-0.008, 5.38, 11,
+AddVertex,0.008, 5.38, 14,
+AddVertex,-0.008, 5.38, 14,
+AddVertex,0.008,  5.48, 20.832,
+AddVertex,-0.008, 5.48, 20.832,
+AddVertex,0.008,  5.68, 25,
+AddVertex,-0.008, 5.68, 25,
+AddVertex,0.008,4.894,4.166,
+AddVertex,-0.008,4.894,4.166,
+AddVertex,0.16,4.914,11,
+AddVertex,0.14,4.914,11,
+AddVertex,0.16,4.914,14,
+AddVertex,0.14,4.914,14,
+AddVertex,0.008,4.894,20.832,
+AddVertex,-0.008,4.894,20.832,
+AddVertex,-0.14,4.914,11,
+AddVertex,-0.16,4.914,11,
+AddVertex,-0.14,4.914,14,
+AddVertex,-0.16,4.914,14,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+AddFace,7,6,8,9,
+AddFace,9,8,10,11,
+AddFace,3,2,12,13
+AddFace,5,4,14,15
+AddFace,7,6,16,17
+AddFace,9,8,18,19,
+AddFace,5,4,20,21,
+AddFace,7,6,22,23,
+SetColor,150,150,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.16,  4.91, 14,
+AddVertex,0.14, 4.91, 14,
+AddVertex,0.14,  4.91, 12.8,
+AddVertex,0.16, 4.91, 12.8,
+AddVertex,-0.14,  4.91, 12.2,
+AddVertex,-0.16, 4.91, 12.2,
+AddVertex,-0.16,  4.91, 11,
+AddVertex,-0.14, 4.91, 11,
+AddFace,0,1,2,3,
+AddFace,4,5,6,7,
+SetColor,255,255,255,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,9,0.12,0.04,0.042
+Rotate,1,0,0,90,
+Translate,0.0,5.38,12.67,
+SetColor,105,75,75,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,9,0.12,0.04,0.042
+Rotate,1,0,0,90,
+Translate,0.0,5.38,12.55,
+SetColor,105,75,75,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,9,0.12,0.04,0.042
+Rotate,1,0,0,90,
+Translate,0.0,5.38,12.43,
+SetColor,105,75,75,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,4,0.045,0.045,0.32
+Rotate,1,0,0,90,
+Translate,0.0,5.38,12.555,
+SetColor,160,160,160,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder,4,0.045,0.02,0.05
+Rotate,1,0,0,90,
+Translate,0.0,5.38,12.37,
+SetColor,160,160,160,
+GenerateNormals,

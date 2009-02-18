@@ -1,0 +1,52 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,1.72, 0.915, 0,
+AddVertex,1.72, 0.915, 25.3,
+AddVertex,2.7, 0.915, 25.3,
+AddVertex,2.7, 0.915, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,Form_NewSt.bmp,
+SetTextureCoordinates,0, 0, 14,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 14,
+
+CreateMeshBuilder,
+AddVertex,1.92, -0.3, -2,
+AddVertex,1.92, -0.3, 25.3,
+AddVertex,1.92, 0.915, 25.3,
+AddVertex,1.92, 0.915, -2,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,FormSideBNS.bmp,
+SetTextureCoordinates,0, 15, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 15, 0,
+
+CreateMeshBuilder,
+AddVertex,1.905, 0.14, 12.64,
+AddVertex,1.905, 0.14, 12.46,
+AddVertex,1.905, -0.15, 12.46,
+AddVertex,1.905, -0.15, 12.64,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Cant_Sign_1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

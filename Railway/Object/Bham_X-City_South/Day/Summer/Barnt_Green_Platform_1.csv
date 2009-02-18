@@ -1,0 +1,54 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,-6.2, 0.88, 0,
+AddVertex,-2.8, 0.89, 0,
+AddVertex,-1.5, 0.89, -25.0,
+AddVertex,-10.7, 0.88, -25.0,
+AddVertex,1.8, 0.88, -50.0,
+AddVertex,-15.0, 0.88, -50.0,
+AddVertex,6.5, 0.88, -75.0,
+AddVertex,-19.2, 0.88, -75.0,
+AddVertex,12, 0.88, -100.0,
+AddVertex,-23.2, 0.88, -100.0,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+AddFace,7,6,8,9,
+GenerateNormals,
+
+LoadTexture,FormC.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.8, 0,
+SetTextureCoordinates,2, 0.8, 4,
+SetTextureCoordinates,3, 0, 4,
+SetTextureCoordinates,4, 0.8, 8,
+SetTextureCoordinates,5, 0, 8,
+SetTextureCoordinates,6, 0.8, 12,
+SetTextureCoordinates,7, 0, 12,
+SetTextureCoordinates,8, 0.8, 16,
+SetTextureCoordinates,9, 0, 16,
+
+
+CreateMeshBuilder,
+AddVertex,-6.2, -0.3, 0,
+AddVertex,-6.2, 0.915, 0,
+AddVertex,-2.8, 0.915, 0,
+AddVertex,-2.8, -0.3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,Wall.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,

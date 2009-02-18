@@ -1,0 +1,52 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+
+CreateMeshBuilder,
+AddVertex,5.6, 5.7, 12,
+AddVertex,5.6, 5.6, 12,
+AddVertex,6.04, 5.59, 12,
+AddVertex,5.91, 5.49, 12,
+AddVertex,5.91, 2.095, 12,
+AddVertex,6.04, 2.095, 12,
+AddVertex,5.875, 2.013, 12,
+AddVertex,5.875, 0.913, 12,
+AddVertex,6.075, 0.913, 12,
+AddVertex,6.075, 2.013, 12,
+AddVertex,5.2, 5.7, 12,
+AddVertex,5.2, 5.51, 12,
+AddVertex,5.6, 5.51, 12,
+AddVertex,6.4, 5.7, 12,
+AddVertex,6.8, 5.7, 12,
+AddVertex,6.8, 5.51, 12,
+AddVertex,6.4, 5.51, 12,
+AddVertex,6.04, 5.49, 12,
+AddFace,2,3,1,0,
+AddFace,5,4,3,2,
+AddFace,9,8,7,6,4,5,
+AddFace,12,11,10,0,
+AddFace,13,14,15,16,
+AddFace,2,13,14,17,
+SetColor,0,0,100,
+
+CreateMeshBuilder,
+AddVertex,5.9, 3.45, 12.8,
+AddVertex,5.9, 3.45, 11.2,
+AddVertex,5.9, 3.18, 11.2,
+AddVertex,5.9, 3.18, 12.8,
+AddFace,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\Signs\StationSign.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

@@ -1,0 +1,79 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-120, 5, 30,
+AddVertex,-3.5, -5.9, 30,
+AddVertex,-3.5, -4.91, 0,
+AddVertex,-3.5, -9.31, -5,
+AddVertex,-160, -9.31, -15,
+AddVertex,-120, 8, 0,
+AddFace,0,1,2,5,
+AddFace,5,2,3,4,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\emb3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 2,
+SetTextureCoordinates,4, 0, 2,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,120, 2, 30,
+AddVertex,12, -5.3, 30,
+AddVertex,12, -4.31, 0,
+AddVertex,12, -9.31, -5,
+AddVertex,160, -9.31, -15,
+AddVertex,120, 2, 0,
+AddFace,5,2,1,0,
+AddFace,4,3,2,5,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\grass2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 2,
+SetTextureCoordinates,4, 0, 2,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-20.26, -4.9, 8,
+AddVertex,-20.26, 8, 8,
+AddVertex,-7.26, 8, 10,
+AddVertex,-7.26, -4.9, 10,
+AddFace,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,..\..\Common_Textures\t1.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,000,000,000,
+
+CreateMeshBuilder,
+AddVertex,-17.0, -2.0, 0,
+AddVertex,-17.0, -2.9, 25.3,
+AddVertex,-17.0, -4.4, 25.3,
+AddVertex,-17.0, -3.5, 0,
+AddFace,0,1,2,3,
+SetColor,200,200,200,
+GenerateNormals,
+
+LoadTexture,..\..\Misc\Stations\Fence_SellyOak.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,128,

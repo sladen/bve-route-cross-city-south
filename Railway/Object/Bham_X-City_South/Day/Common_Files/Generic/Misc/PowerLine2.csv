@@ -1,0 +1,115 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-0.13, 13, 0.7,
+AddVertex,0.13, 13, 0.7,
+AddVertex,0.13, -0.3, 0.7,
+AddVertex,-0.13, -0.3, 0.7,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,PowerLinePole.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.13, 13, -0.7,
+AddVertex,0.13, 13, -0.7,
+AddVertex,0.13, -0.3, -0.7,
+AddVertex,-0.13, -0.3, -0.7,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,PowerLinePole.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.05, 11, 0.7,
+AddVertex,0.05, 11, 0.7,
+AddVertex,0.05, 3, -0.7,
+AddVertex,-0.05, 3, -0.7,
+AddFace,0,1,2,3,
+SetColor,150,150,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.05, 11, -0.7,
+AddVertex,0.05, 11, -0.7,
+AddVertex,0.05, 3, 0.7,
+AddVertex,-0.05, 3, 0.7,
+AddFace,0,1,2,3,
+SetColor,150,150,150,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.13, 12.9, -1.5,
+AddVertex,-0.13, 12.9, 1.5,
+AddVertex,-0.13, 11.7, 1.5,
+AddVertex,-0.13, 11.7, -1.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,PoleInsulatorSet2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,198,198,198,
+
+CreateMeshBuilder,
+AddVertex,-74.12, 12.1, 1.4,
+AddVertex,-0.12, 12.1, 1.4,
+AddVertex,-0.12, 9.6, 1.4,
+AddVertex,-74.12, 9.6, 1.4,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Transmission_Wires2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.36,
+SetTextureCoordinates,3, 0, 0.36,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-74.12, 12.1, 0,
+AddVertex,-0.12, 12.1, 0,
+AddVertex,-0.12, 9.6, 0,
+AddVertex,-74.12, 9.6, 0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Transmission_Wires2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.36,
+SetTextureCoordinates,3, 0, 0.36,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-74.12, 12.1, -1.4,
+AddVertex,-0.12, 12.1, -1.4,
+AddVertex,-0.12, 9.6, -1.4,
+AddVertex,-74.12, 9.6, -1.4,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Transmission_Wires2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 0.36,
+SetTextureCoordinates,3, 0, 0.36,
+SetDecalTransparentColor,0,0,0,

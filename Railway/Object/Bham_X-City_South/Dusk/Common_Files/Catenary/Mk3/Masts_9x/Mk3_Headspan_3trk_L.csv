@@ -1,0 +1,52 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+
+CreateMeshBuilder,
+AddVertex,-7.3, 9.9, 0.1,
+AddVertex,8.6, 9.9, 0.1,
+AddVertex,8.6, 5.3, 0.1,
+AddVertex,-7.3, 5.3, 0.1,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Headspan_3Trk.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,74,74,74,
+
+CreateMeshBuilder,
+AddVertex,-7.29, 10.5, -0.02,
+AddVertex,-7.06, 10.5, -0.02,
+AddVertex,-7.06, -0.3, -0.02,
+AddVertex,-7.29, -0.3, -0.02,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Mast2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,8.55, 10.5, -0.02,
+AddVertex,8.32, 10.5, -0.02,
+AddVertex,8.32, -0.3, -0.02,
+AddVertex,8.55, -0.3, -0.02,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,..\Mast2.bmp,
+SetTextureCoordinates,0, 0, 0.65,
+SetTextureCoordinates,1, 1, 0.65,
+SetTextureCoordinates,2, 1, 0.977,
+SetTextureCoordinates,3, 0, 0.977,

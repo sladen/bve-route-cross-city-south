@@ -1,0 +1,237 @@
+﻿;Originally developed by Anthony Bowden
+;www.railsimroutes.co.uk
+;
+;This file and any associated textures
+;have been released into the public
+;domain and can be freely modified or
+;re-used without restrictions
+;
+;See 'Readme.txt'
+;--------
+;Bham.csv
+;--------
+
+CreateMeshBuilder,
+AddVertex,0, 5.3, 10,
+AddVertex,0, 5.3, 0,
+AddVertex,0, 2.0, 0,
+AddVertex,0, 2.0, 10,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Misc\bham1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.15, 5.3, 10,
+AddVertex,0.15, 5.3, 10,
+AddVertex,0.15, 0.0, 10,
+AddVertex,-0.15, 0.0, 10,
+AddFace,0,1,2,3,
+SetColor,170,170,170,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.15, 5.3, 0,
+AddVertex,0.15, 5.3, 0,
+AddVertex,0.15, 0.0, 0,
+AddVertex,-0.15, 0.0, 0,
+AddFace,0,1,2,3,
+SetColor,170,170,170,
+GenerateNormals,
+
+;-----------
+;No_Pass.csv
+;-----------
+
+CreateMeshBuilder,
+AddVertex,2.825, 8, -0.05,
+AddVertex,2.745, 8, -0.05,
+AddVertex,2.745, 5.7, -0.05,
+AddVertex,2.825, 5.7, -0.05,
+AddFace,0,1,2,3,
+SetColor,195,195,195,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,3.0, 8.1, 0,
+AddVertex,2.6, 8.1, 0,
+AddVertex,2.6, 7.6, 0,
+AddVertex,3.0, 7.6, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Summer\Common_Textures\No_pass1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+;-------------
+;BillBoard.csv
+;-------------
+
+CreateMeshBuilder,
+AddVertex,0, 604.8, 6,
+AddVertex,0, 604.8, 0,
+AddVertex,0, 601.5, 0,
+AddVertex,0, 601.5, 6,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Misc\advert1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.15, 604.9, 6,
+AddVertex,0.15, 604.9, 6,
+AddVertex,0.15, 600.915, 6,
+AddVertex,-0.15, 600.915, 6,
+AddFace,0,1,2,3,
+SetColor,120,120,120,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.15, 604.9, 0,
+AddVertex,0.15, 604.9, 0,
+AddVertex,0.15, 600.915, 0,
+AddVertex,-0.15, 600.915, 0,
+AddFace,0,1,2,3,
+SetColor,120,120,120,
+GenerateNormals,
+
+;-----
+;X.csv
+;-----
+
+CreateMeshBuilder,
+AddVertex,-0.175, 1201.85, -0.02,
+AddVertex,0.175, 1201.85, -0.02,
+AddVertex,0.175, 1201.50, -0.02,
+AddVertex,-0.175, 1201.50, -0.02,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\X.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,0.175, 1201.85, 0.02,
+AddVertex,-0.175, 1201.85, 0.02,
+AddVertex,-0.175, 1201.50, 0.02,
+AddVertex,0.175, 1201.50, 0.02,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\X2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,-0.035,  1201.9, 0,
+AddVertex,0.035,  1201.9, 0,
+AddVertex,0.035, 1199.7, 0,
+AddVertex,-0.035, 1199.7, 0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\PSRs\Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;----------------
+;FootCrossing.csv
+;----------------
+
+CreateMeshBuilder,
+AddVertex,-3.38, 1801.7, 1.18,
+AddVertex,-3.08, 1801.7, 0.78,
+AddVertex,-3.08, 1801.45, 0.78,
+AddVertex,-3.38, 1801.45, 1.18,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Summer\Common_Textures\No_pass2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,-3.43, 1801.4, 1.18,
+AddVertex,-3.06, 1801.4, 0.78,
+AddVertex,-3.06, 1800.6, 0.78,
+AddVertex,-3.43, 1800.6, 1.18,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\Warning_HighVoltage.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,-3.265,  1801.8, 1.1,
+AddVertex,-3.195,  1801.8, 1.1,
+AddVertex,-3.195, 1799.866, 1.1,
+AddVertex,-3.265, 1799.866, 1.1,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Common_Files\Generic\Signs\PSRs\Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-10.22, 1799.866, 1,
+AddVertex,-1.22, 1799.866, 1,
+AddVertex,-1.22, 1799.866, -1,
+AddVertex,-10.22, 1799.866, -1,
+AddVertex,-1.22, 1796.866, -3,
+AddVertex,-10.22, 1796.866, -6,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+
+LoadTexture,..\Summer\RailObjects\Ballast.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 0.8,
+SetTextureCoordinates,3, 0, 0.8,
+SetTextureCoordinates,4, 2, 3,
+SetTextureCoordinates,5, 0, 3,
+
+CreateMeshBuilder,
+AddVertex,10.22, 1799.866, 1,
+AddVertex,1.22, 1799.866, 1,
+AddVertex,1.22, 1799.866, -1,
+AddVertex,10.22, 1799.866, -1,
+AddVertex,1.22, 1796.866, -3,
+AddVertex,10.22, 1796.866, -6,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+GenerateNormals,
+
+LoadTexture,..\Summer\RailObjects\Ballast.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 0.8,
+SetTextureCoordinates,3, 0, 0.8,
+SetTextureCoordinates,4, 2, 3,
+SetTextureCoordinates,5, 0, 3,
