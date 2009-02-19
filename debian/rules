@@ -1,0 +1,64 @@
+#!/usr/bin/make -f
+export DH_VERBOSE=1
+TARGET = $(CURDIR)/debian/bve-route-cross-city-south
+DOCTARGET = $(TARGET)/usr/share/doc/bve-route-cross-city-south
+BVETARGET = $(TARGET)/usr/share/games/bve
+
+configure: configure-stamp
+configure-stamp:
+	dh_testdir
+	touch configure-stamp
+
+build: build-stamp
+build-stamp: configure-stamp 
+	dh_testdir
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+	rm -rf $(TARGET)
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+
+	# Find the loose documentation
+	# There are several duplicates of 'Readme.txt', so this works.
+	(cd $(CURDIR) && find . -type f -a \! -iwholename \*rsr_img\* -a \( -iname \*txt -o -iname \*css -o -iname \*htm  \) -print0 | xargs -0 cp -ulpt $(DOCTARGET))
+
+	# Not in this finale version
+	## Find the HTML page documentation's images
+	#(cd $(CURDIR) && find . -type d -iwholename \*rsr_img\* -print0 | xargs -0 cp -rlupt $(DOCTARGET))
+
+	# Find the models/textures/etc (make sure to avoid .git)
+	(cd $(CURDIR)/Railway && find . -type f -a \! \( -iwholename \*rsr_img\* -o -iname \*txt -o -iname \*css -o -iname \*htm  \) -print0 | xargs -0 cp --parents -ulpt $(BVETARGET)/Railway/)
+
+	# Change the Route name to something closer to the previous tarball
+	mv $(BVETARGET)/Railway/Route/birmingham-cross-city-south-*.pd $(BVETARGET)/Railway/Route/Birmingham_Cross-City_South
+
+	# Fix up the Nice_Name of the recommended train
+	find $(BVETARGET)/Railway/Route -name \*.csv -print0 | xargs -0 sed -i -e 's/\.Folder *bve-train-br-class-323-unrefurb/.Folder BR_Class_323/'
+
+binary-arch:
+	# Do nothing
+
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_install
+	dh_installchangelogs
+	dh_installdocs
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep
+.PHONY: build clean binary-indep binary install configure
