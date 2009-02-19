@@ -55,6 +55,10 @@ install: build
 	mv $(ROUTETARGET)/Readme.txt $(ROUTETARGET)/Version.txt $(DOCTARGET)/
 	find $(BVETARGET) -name \*.txt -print0 | xargs -0 rm
 
+	# Replaces spaces and parentheses with '_' underscores
+	# (nb. sed doesn't have a -0 line separator)
+	find $(ROUTETARGET) -name '*[ )(]*' -print | sed -nre 'p;s/[)( ]+/_/g;s/_\././g;p' | xargs -d'\n' -n2 mv
+
 binary-arch:
 	# Do nothing
 
