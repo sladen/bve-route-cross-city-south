@@ -1,5 +1,8 @@
 birmingham-cross-city-south (1.31.03-0ubuntu1) unreleased; urgency=low
 
+  * This package can be modularised to produce multiple binary
+    packages once the extent of overlap with other trains/route data
+    is understood.
   * Initial release (LP: #331188)
 
  -- Paul Sladen <ubuntu@paul.sladen.org>  Wed, 18 Feb 2009 23:30:30 +0000

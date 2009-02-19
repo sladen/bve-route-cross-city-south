@@ -1,8 +1,19 @@
 #!/usr/bin/make -f
 export DH_VERBOSE=1
+
 TARGET = $(CURDIR)/debian/bve-route-cross-city-south
 DOCTARGET = $(TARGET)/usr/share/doc/bve-route-cross-city-south
+
+# Standarised location
 BVETARGET = $(TARGET)/usr/share/games/bve
+
+# Components
+MODELDIR = Railway/Object/Bham_X-City_South
+SOUNDDIR = Railway/Sound/Bham_X-City_Sounds
+ROUTEDIR = Railway/Route/birmingham-cross-city-south-1.31.03.pd
+
+# This on is renamed to something Nicer
+ROUTETARGET = $(BVETARGET)/Railway/Route/Birmingham_Cross-City_South
 
 configure: configure-stamp
 configure-stamp:
@@ -27,22 +38,22 @@ install: build
 	dh_clean -k 
 	dh_installdirs
 
-	# Find the loose documentation
-	# There are several duplicates of 'Readme.txt', so this works.
-	(cd $(CURDIR) && find . -type f -a \! -iwholename \*rsr_img\* -a \( -iname \*txt -o -iname \*css -o -iname \*htm  \) -print0 | xargs -0 cp -ulpt $(DOCTARGET))
-
-	# Not in this finale version
-	## Find the HTML page documentation's images
-	#(cd $(CURDIR) && find . -type d -iwholename \*rsr_img\* -print0 | xargs -0 cp -rlupt $(DOCTARGET))
-
-	# Find the models/textures/etc (make sure to avoid .git)
-	(cd $(CURDIR)/Railway && find . -type f -a \! \( -iwholename \*rsr_img\* -o -iname \*txt -o -iname \*css -o -iname \*htm  \) -print0 | xargs -0 cp --parents -ulpt $(BVETARGET)/Railway/)
+	# Hardlink the textures/models during building (for speed) since we don't modify them
+	for component in $(MODELDIR) $(SOUNDDIR) ; do \
+	  cp -al $(CURDIR)/$$component/* $(BVETARGET)/$$component/ ; \
+	done
 
 	# Change the Route name to something closer to the previous tarball
-	mv $(BVETARGET)/Railway/Route/birmingham-cross-city-south-*.pd $(BVETARGET)/Railway/Route/Birmingham_Cross-City_South
+	# A Copy is done, so that we can do an in-place 'sed' aftewards
+	cp -a $(CURDIR)/$(ROUTEDIR)/* $(ROUTETARGET)/
 
-	# Fix up the Nice_Name of the recommended train
-	find $(BVETARGET)/Railway/Route -name \*.csv -print0 | xargs -0 sed -i -e 's/\.Folder *bve-train-br-class-323-unrefurb/.Folder BR_Class_323/'
+	# Fix up the suggested Nice_Name of the recommended train to what rename it to elsewhere
+	find $(ROUTETARGET) -name \*.csv -print0 | xargs -0 sed -i -e 's/\.Folder bve-train-br-class-323-unrefurb/.Folder BR_Class_323/'
+
+	# There are duplicates of the documentation, move a copy to /usr/share/doc
+	# and delete (of the duplicates)
+	mv $(ROUTETARGET)/Readme.txt $(ROUTETARGET)/Version.txt $(DOCTARGET)/
+	find $(BVETARGET) -name \*.txt -print0 | xargs -0 rm
 
 binary-arch:
 	# Do nothing

@@ -1,2 +1,7 @@
-usr/share/games/bve/Railway
+usr/share/games/bve/Railway/Object/Bham_X-City_South
+usr/share/games/bve/Railway/Route/Birmingham_Cross-City_South
+usr/share/games/bve/Railway/Sound/Bham_X-City_Sounds
 usr/share/doc/bve-route-cross-city-south
+
+# Hack to allow you to run packaged route with Train from somewhere else (eg. ~/)
+usr/share/games/bve/Train
