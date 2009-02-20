@@ -5,6 +5,7 @@ birmingham-cross-city-south (1.31.03-0ubuntu1) unreleased; urgency=low
     is understood.
   * Initial release (LP: #331188)
   * Replace spaces in filenames with underscores
+  * Request lzma compression from dh_builddeb
 
  -- Paul Sladen <ubuntu@paul.sladen.org>  Wed, 18 Feb 2009 23:30:30 +0000
 
