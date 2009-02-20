@@ -15,6 +15,9 @@ ROUTEDIR = Railway/Route/birmingham-cross-city-south-1.31.03.pd
 # This on is renamed to something Nicer
 ROUTETARGET = $(BVETARGET)/Railway/Route/Birmingham_Cross-City_South
 
+# Script to symlink based on md5sum
+SYMLINK_DUPS = $(CURDIR)/debian/symlink-duplicates.sh
+
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
@@ -59,6 +62,9 @@ install: build
 	# (nb. sed doesn't have a -0 line separator)
 	find $(ROUTETARGET) -name '*[ )(]*' -print | sed -nre 'p;s/[)( ]+/_/g;s/_\././g;p' | xargs -d'\n' -n2 mv
 
+	# Symlink duplicate files
+	$(SYMLINK_DUPS) $(BVETARGET)/$(MODELDIR) $(BVETARGET)/$(SOUNDDIR)
+
 binary-arch:
 	# Do nothing
 
@@ -70,6 +76,7 @@ binary-indep: build install
 	dh_installdocs
 	dh_compress
 	dh_fixperms
+	dh_link
 	dh_installdeb
 	dh_gencontrol
 	dh_md5sums
