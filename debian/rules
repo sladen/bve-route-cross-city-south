@@ -53,9 +53,8 @@ install: build
 	# Fix up the suggested Nice_Name of the recommended train to what rename it to elsewhere
 	find $(ROUTETARGET) -name \*.csv -print0 | xargs -0 sed -i -e 's/\.Folder bve-train-br-class-323-unrefurb/.Folder BR_Class_323/'
 
-	# There are duplicates of the documentation, move a copy to /usr/share/doc
-	# and delete (of the duplicates)
-	mv $(ROUTETARGET)/Readme.txt $(ROUTETARGET)/Version.txt $(DOCTARGET)/
+	# There are duplicates of the documentation, delete these as
+	# .docs already installed a complete pair.
 	find $(BVETARGET) -name \*.txt -print0 | xargs -0 rm
 
 	# Replaces spaces and parentheses with '_' underscores
