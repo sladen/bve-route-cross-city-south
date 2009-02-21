@@ -1,0 +1,14 @@
+Unfixed:
+
+1. Missing track panel just before reaching Bournville in summer+dry
+routes; it is the junction point blades.
+
+2. Birmingham city centre backgrounds were removed for this PD
+release, so the whole route looks like it's in the countryside.
+
+3. To correctly stop at the signal on the main line, you need to stop
+about 150 metres in advance, but just before the signal.
+
+4. The Timetable refer to 'F3/F4' to hide/show, but these are different
+(and configurable) keys in OpenBVE.
+
