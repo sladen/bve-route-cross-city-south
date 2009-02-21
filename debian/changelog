@@ -5,6 +5,8 @@ birmingham-cross-city-south (1.31.03-0ubuntu1) unreleased; urgency=low
     is understood.
   * Initial release (LP: #331188)
   * Replace spaces in filenames with underscores
+  * Set the suggested train to 'BR_Class_323' to match with where
+    'bve-train-br-class-323' installs to.
   * Request lzma compression from dh_builddeb
   * Symlink duplicate models/textures together
   * Add a known-issues.txt file and add to docs.
