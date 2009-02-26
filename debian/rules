@@ -14,6 +14,7 @@ ROUTEDIR = Railway/Route/birmingham-cross-city-south-1.31.03.pd
 
 # This on is renamed to something Nicer
 ROUTETARGET = $(BVETARGET)/Railway/Route/Birmingham_Cross-City_South
+SOUNDTARGET = $(BVETARGET)/$(SOUNDDIR)
 
 # Script to symlink based on md5sum
 SYMLINK_DUPS = $(CURDIR)/debian/symlink-duplicates.sh
@@ -62,7 +63,11 @@ install: build
 	find $(ROUTETARGET) -name '*[ )(]*' -print | sed -nre 'p;s/[)( ]+/_/g;s/_\././g;p' | xargs -d'\n' -n2 mv
 
 	# Symlink duplicate files
-	$(SYMLINK_DUPS) $(BVETARGET)/$(MODELDIR) $(BVETARGET)/$(SOUNDDIR)
+	$(SYMLINK_DUPS) $(BVETARGET)/$(MODELDIR) $(SOUNDTARGET)
+
+	# Recode big .wavs to Ogg Vorbis;  SDL_LoadWAV loads them happily
+	# The impulse_noisetune is to keep the pitta-patta of the raindrops in Thunder*.wav
+	find $(SOUNDTARGET) -type f -iname \*wav -exec oggenc --advanced-encode-option impulse_noisetune=-5 -6 -o {}.ogg {} \; -exec mv {}.ogg {} \;
 
 binary-arch:
 	# Do nothing
