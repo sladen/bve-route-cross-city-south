@@ -1,10 +1,12 @@
-Source: birmingham-cross-city-south
+Source: bve-route-cross-city-south
 Section: games
 Priority: optional
 Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
 Build-Depends: debhelper (>= 5)
 Build-Depends-Indep: vorbis-tools
 Standards-Version: 3.8.0
+Vcs-Browser: http://github.com/sladen/bve-route-cross-city-south/tree/debian
+Vcs-Git: http://github.com/sladen/bve-route-cross-city-south.git
 Homepage: http://www.railsimroutes.co.uk/x-city_south/
 
 Package: bve-route-cross-city-south
