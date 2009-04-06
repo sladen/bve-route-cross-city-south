@@ -63,7 +63,7 @@ install: build
 	find $(ROUTETARGET) -name '*[ )(]*' -print | sed -nre 'p;s/[)( ]+/_/g;s/_\././g;p' | xargs -d'\n' -n2 mv
 
 	# Symlink duplicate files
-	$(SYMLINK_DUPS) $(BVETARGET)/$(MODELDIR) $(SOUNDTARGET)
+	/bin/sh $(SYMLINK_DUPS) $(BVETARGET)/$(MODELDIR) $(SOUNDTARGET)
 
 	# Recode big .wavs to Ogg Vorbis;  SDL_LoadWAV loads them happily
 	# The impulse_noisetune is to keep the pitta-patta of the raindrops in Thunder*.wav
