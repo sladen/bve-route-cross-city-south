@@ -4,4 +4,6 @@ usr/share/games/bve/Railway/Sound/Bham_X-City_Sounds
 usr/share/doc/bve-route-cross-city-south
 
 # Hack to allow you to run packaged route with Train from somewhere else (eg. ~/)
-usr/share/games/bve/Train
+# The currently package 'OpenBVE' patches out the check, so this workaround
+# is disabled for the moment
+#usr/share/games/bve/Train
