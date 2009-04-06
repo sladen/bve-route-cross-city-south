@@ -12,6 +12,7 @@ bve-route-cross-city-south (1.31.03-0ubuntu1) unreleased; urgency=low
   * Add a known-issues.txt file and add to docs.
   * Recode the huge .wav audio files to .ogg to save 90% size.
   * Rename source-package-name to match binary-package-name
+  * Include pseudo 'watch' file
 
  -- Paul Sladen <ubuntu@paul.sladen.org>  Wed, 18 Feb 2009 23:30:30 +0000
 
