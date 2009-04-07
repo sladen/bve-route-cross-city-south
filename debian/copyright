@@ -4,14 +4,56 @@ on 2009-02-18 23:33 +0000
 It was downloaded from:
   http://www.railsimroutes.co.uk/x-city_south/downloads.html
 
+  Following discussion with the authors, an extra upstream release
+  was specially prepared by the upstream authors, including the updated
+  Readme and file headers covering its release into the public domain:
+
+    This version of the Birmingham Cross-City South route has been
+    specially prepared for inclusion with openBVE, and is released
+    into the public domain. There are a few objects and sounds missing
+    from this version, and it doesn't yet use all of openBVE's
+    features as it's adapted from the BVE 4 version of the
+    route--there wasn't time to update it with newer features sadly.
+
 Upstream authors:
   Anthony Bowden <anthony-b@railsimroutes.net>
   Steve Green
 
 Public domain:
+  Copyright 2001-2009 Anthony Bowden
+  Copyright 2002-2009 Robert Glass (Tunnels and "Falling snow" objects)
+  Copyright 2004-2009 Steve Green (BR signalling materials)
+  Copyright 2005-2009 Simon Gathercole (Some objects, emissive lighting improvements)
+  Copyright      2009 Paul Sladen (Debian packaging)
 
-  -----------
-  -=Licence=-
-  -----------
+  From 'Readme.txt' and various file headers:
 
-  This route has been released into the Public Domain, and you are free to do anything you like with the files. :)
+    The files in the BrSigs folder are from Steve Green's BR Signals
+    Pack for BVE v4.
+    ---
+    This route has been released into the Public Domain, and you are
+    free to do anything you like with the files. :)
+
+    The decision to release the route free from restrictions was made
+    as a result of my own changed attitudes towards copyright which,
+    because of the way in which it is often used, doesn't help to
+    bring about the kind of world I want to live in. I was also
+    inspired by the remarkable attitude of openBVE's developer. In
+    releasing this route into the public domain, I hope I can help to
+    change the prevailing protective and copyright-focused attitude
+    amongst many BVE developers, and foster a new era of free and
+    harmonious sharing of creative works, without selfish
+    restrictions.
+
+    If you like any of my work and want to redistribute it, please
+    feel free to let me know, but you don't have to. :)
+    
+    Anthony Bowden.  February, 2009.
+    ---
+    This file and any associated textures have been released into the
+    public domain and can be freely modified or re-used without
+    restrictions
+    ---
+    This route has been released into the public domain and is free of restrictions
+
+  Any Debian-packaging additions are hereby placed into the Public Domain.
