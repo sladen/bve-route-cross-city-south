@@ -11,6 +11,7 @@ Homepage: http://www.railsimroutes.co.uk/x-city_south/
 
 Package: bve-route-cross-city-south
 Architecture: all
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Provides: bve-route
 Suggests: bve-train-br-class-323
 Recommends: bve-engine
