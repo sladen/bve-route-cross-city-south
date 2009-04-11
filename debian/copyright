@@ -19,7 +19,7 @@ Upstream authors:
   Anthony Bowden <anthony-b@railsimroutes.net>
   Steve Green
 
-Public domain:
+Copyright:
   Copyright 2001-2009 Anthony Bowden
   Copyright 2002-2009 Robert Glass (Tunnels and "Falling snow" objects)
   Copyright 2004-2009 Steve Green (BR signalling materials)
@@ -55,5 +55,12 @@ Public domain:
     restrictions
     ---
     This route has been released into the public domain and is free of restrictions
+
+  Railway/Object/Bham_X-City_South/Dusk/Common_Files/Generic/Signalling/BRSigs_signal*.x
+
+    By Anthony Bowden 2002-2008
+    Texture by Steve Green
+    This file may be freely re-used
+    Please acknowledge the original author
 
   Any Debian-packaging additions are hereby placed into the Public Domain.
