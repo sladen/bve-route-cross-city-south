@@ -1,5 +1,6 @@
 #!/bin/sh
-#Paul Sladen, 2009-02-20
+#Copyright Paul Sladen, 2009-02-20
+#Released into the public domain
 
 for dir in "$@" ; do
     test -d "$dir" || continue
