@@ -1,7 +1,8 @@
 Source: bve-route-cross-city-south
 Section: games
 Priority: optional
-Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
 Build-Depends: debhelper (>= 5)
 Build-Depends-Indep: vorbis-tools
 Standards-Version: 3.8.0
