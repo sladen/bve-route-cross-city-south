@@ -1,5 +1,6 @@
 bve-route-cross-city-south (1.31.03-0ubuntu2) unreleased; urgency=low
 
+  * debian/watch: populate with better match attempt
 
  -- Paul Sladen <ubuntu@paul.sladen.org>  Thu,  6 Aug 2009 16:54:00 +0100
 

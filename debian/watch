@@ -2,3 +2,7 @@
 # The 1.31.03 was an extra release prepared by the authors that
 # removed the non-free materials.  Currently only 1.31.02 is
 # distributed via the website.
+version=3
+opts="uversionmangle=s/_/./" \
+  http://www.railsimroutes.co.uk/x-city_south/downloads.html \
+  .*/x-city_south_v(.*)\.7z
