@@ -1,4 +1,4 @@
-﻿xof 0303txt 0032
+xof 0303txt 0032
 
 Header {
  1;
