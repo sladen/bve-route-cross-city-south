@@ -1,9 +1,10 @@
-bve-route-cross-city-south (1.31.03-0ubuntu2) unreleased; urgency=low
+bve-route-cross-city-south (1.31.03-0ubuntu2) karmic; urgency=low
 
   * debian/watch: populate with better match attempt
   * Remove erroneous UTF-8 BOM from start of PSR_Modern/*.x (LP: #409921)
+  * Remove leftover 'debian/tmp' file from Source upload
 
- -- Paul Sladen <ubuntu@paul.sladen.org>  Thu,  6 Aug 2009 16:54:00 +0100
+ -- Paul Sladen <ubuntu@paul.sladen.org>  Thu,  6 Aug 2009 18:03:00 +0100
 
 bve-route-cross-city-south (1.31.03-0ubuntu1) jaunty; urgency=low
 
