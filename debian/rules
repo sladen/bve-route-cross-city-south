@@ -51,6 +51,10 @@ install: build
 	# A Copy is done, so that we can do an in-place 'sed' aftewards
 	cp -a $(CURDIR)/$(ROUTEDIR)/* $(ROUTETARGET)/
 
+	# Patch signalling-only stations to be marked 'P' for pass-through (LP: #419525)
+	# Signed-off by and sent upstream on 2009-09-01
+	find $(ROUTETARGET) -name \*.csv -print0 | xargs -0 sed -i -e 's/\.Sta  ;;\([^;]*\);;/.Sta  ;P;\1;0;/'
+
 	# Fix up the suggested Nice_Name of the recommended train to what rename it to elsewhere
 	find $(ROUTETARGET) -name \*.csv -print0 | xargs -0 sed -i -e 's/\.Folder bve-train-br-class-323-unrefurb/.Folder BR_Class_323/'
 
