@@ -71,7 +71,7 @@ install: build
 
 	# Recode big .wavs to Ogg Vorbis;  SDL_LoadWAV loads them happily
 	# The impulse_noisetune is to keep the pitta-patta of the raindrops in Thunder*.wav
-	find $(SOUNDTARGET) -type f -iname \*wav -exec oggenc --advanced-encode-option impulse_noisetune=-5 -6 -o {}.ogg {} \; -exec mv {}.ogg {} \;
+	find $(SOUNDTARGET) -type f -iname \*wav -exec oggenc --advanced-encode-option impulse_noisetune=-5 -q6 -o {}.ogg {} \; -exec mv {}.ogg {} \;
 
 binary-arch:
 	# Do nothing

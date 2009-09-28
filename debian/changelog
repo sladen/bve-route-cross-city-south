@@ -2,6 +2,7 @@ bve-route-cross-city-south (1.31.03-0ubuntu3) unreleased; urgency=low
 
   * debian/rules: post-install patch signalling-only .Sta triggers to
     include 'P' pass-through flag.  (LP: #419525)
+  * debian/rules: fix oggenc quality parameter
 
  -- Paul Sladen <ubuntu@paul.sladen.org>  Wed,  2 Sep 2009 12:04:00 +0100
 
