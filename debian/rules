@@ -10,10 +10,10 @@ BVETARGET = $(TARGET)/usr/share/games/bve
 # Components
 MODELDIR = Railway/Object/Bham_X-City_South
 SOUNDDIR = Railway/Sound/Bham_X-City_Sounds
-ROUTEDIR = Railway/Route/birmingham-cross-city-south-1.31.03.pd
+ROUTEDIR = Railway/Route/Birmingham_Cross-City_South
 
 # This on is renamed to something Nicer
-ROUTETARGET = $(BVETARGET)/Railway/Route/Birmingham_Cross-City_South
+ROUTETARGET = $(BVETARGET)/$(ROUTEDIR)
 SOUNDTARGET = $(BVETARGET)/$(SOUNDDIR)
 
 # Script to symlink based on md5sum
