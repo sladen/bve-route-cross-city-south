@@ -1,4 +1,4 @@
-﻿;Originally developed by Anthony Bowden
+;Originally developed by Anthony Bowden
 ;www.railsimroutes.co.uk
 ;
 ;This file and any associated textures
@@ -28,14 +28,15 @@ SetTextureCoordinates,4, 1, 1,
 SetTextureCoordinates,5, 0, 1,
 
 CreateMeshBuilder,
-AddVertex,0, 9, 5,
-AddVertex,0, 9, 5,
+AddVertex,0, 9, 5.001,
+AddVertex,0, 9, 4.999,
 AddVertex,0, 5.7, 10,
 AddVertex,0, 5.7, 0,
 AddVertex,0, -0.3, 10,
 AddVertex,0, -0.3, 0,
-AddFace,0,1,2,3,
 AddFace,3,2,4,5,
+SetColor,220,220,220,
+AddFace,0,1,2,3,
 GenerateNormals,
 
 LoadTexture,KN-B3.bmp,
@@ -47,15 +48,14 @@ SetTextureCoordinates,4, 4, 6,
 SetTextureCoordinates,5, 0, 6,
 
 CreateMeshBuilder,
-AddVertex,-12, 9, 5,
-AddVertex,-12, 9, 5,
+AddVertex,-12, 9, 5.001,
+AddVertex,-12, 9, 4.999,
 AddVertex,-12, 5.7, 0,
 AddVertex,-12, 5.7, 10,
 AddVertex,-12, -0.3, 0,
 AddVertex,-12, -0.3, 10,
 AddFace,0,1,2,3,
 AddFace,3,2,4,5,
-;SetColor,220,220,220,
 GenerateNormals,
 
 LoadTexture,KN-B3.bmp,

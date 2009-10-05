@@ -1,4 +1,4 @@
-﻿;Originally developed by Anthony Bowden
+;Originally developed by Anthony Bowden
 ;www.railsimroutes.co.uk
 ;
 ;This file and any associated textures
@@ -9,8 +9,8 @@
 ;See 'Readme.txt'
 
 CreateMeshBuilder,
-AddVertex,15, 6.0, 12.5,
-AddVertex,15, 6.0, 12.5,
+AddVertex,15, 6.0, 12.501,
+AddVertex,15, 6.0, 12.499,
 AddVertex,15, 4.0, 0,
 AddVertex,15, 4.0, 25.3,
 AddVertex,15, -3, 0,

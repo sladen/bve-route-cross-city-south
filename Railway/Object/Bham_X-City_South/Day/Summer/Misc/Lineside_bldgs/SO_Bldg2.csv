@@ -1,4 +1,4 @@
-﻿;Originally developed by Anthony Bowden
+;Originally developed by Anthony Bowden
 ;www.railsimroutes.co.uk
 ;
 ;This file and any associated textures
@@ -28,8 +28,8 @@ SetTextureCoordinates,4, 1, 1,
 SetTextureCoordinates,5, 0, 1,
 
 CreateMeshBuilder,
-AddVertex,-6, 7, 3,
-AddVertex,-6, 7, 3,
+AddVertex,-6, 7, 3.001,
+AddVertex,-6, 7, 2.999,
 AddVertex,-6, 5.2, 0,
 AddVertex,-6, 5.2, 6,
 AddVertex,-6, -0.3, 0,
@@ -67,8 +67,8 @@ SetTextureCoordinates,4, 1, 1,
 SetTextureCoordinates,5, 0, 1,
 
 CreateMeshBuilder,
-AddVertex,6, 7, -4,
-AddVertex,6, 7, -4,
+AddVertex,5.999, 7, -4,
+AddVertex,6.001, 7, -4,
 AddVertex,9, 5.2, -4,
 AddVertex,3, 5.2, -4,
 AddVertex,9, -0.3, -4,

@@ -7,7 +7,7 @@ By Anthony Bowden
 
 www.railsimroutes.co.uk
 
-Version 1.31.03 (February, 2009)
+Version 1.31.04 (October, 2009)
 Released into the Public Domain
 
 *BVETSS 1.0 Compliant*
@@ -31,7 +31,7 @@ Please turn on "Word Wrap" in your text editor.
 
 Thank you for downloading the Birmingham Cross-City South route, and I hope you enjoy using it with the wonderful openBVE simulator. The official openBVE homepage:
 
-http://openbve.uuuq.com
+http://openbve.trainsimcentral.co.uk
 
 This version of the Birmingham Cross-City South route has been specially prepared for inclusion with openBVE, and is released into the public domain. There are a few objects and sounds missing from this version, and it doesn't yet use all of openBVE's features as it's adapted from the BVE 4 version of the route--there wasn't time to update it with newer features sadly.
 
@@ -43,7 +43,7 @@ http://railsimroutes.co.uk
 
 On my site there is also a Progress Updates section, where I post work-in-progress screenshots and videos:
 
-http://railsimroutes.co.uk/progress/
+http://railsimroutes.co.uk/blog/
 
 -----------
 -=Licence=-
@@ -125,4 +125,4 @@ For assisting with the route's signalling, and helping to remove signal warning 
 
 ------------------------------------------------------------
 Anthony Bowden.
-February, 2009.
+October, 2009.
