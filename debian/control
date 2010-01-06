@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
 XSBC-Original-Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
 Build-Depends: debhelper (>= 5)
-Build-Depends-Indep: vorbis-tools
 Standards-Version: 3.8.0
 Vcs-Browser: http://github.com/sladen/bve-route-cross-city-south/tree/debian
 Vcs-Git: http://github.com/sladen/bve-route-cross-city-south.git

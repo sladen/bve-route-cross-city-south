@@ -2,6 +2,8 @@ bve-route-cross-city-south (1.31.04-0ubuntu1) unreleased; urgency=low
 
   * New upstream release, fixes (LP: #419525)
   * debian/rules: fix oggenc quality parameter
+  * debian/rules: comment out oggenc stage as openbve=1.2.4.1 uses
+    a home-grown .wav only sound loader.
 
  -- Paul Sladen <ubuntu@paul.sladen.org>  Mon,  5 Oct 2009 22:16:00 +0100
 
