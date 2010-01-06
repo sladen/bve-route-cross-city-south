@@ -1,11 +1,11 @@
-bve-route-cross-city-south (1.31.04-0ubuntu1) unreleased; urgency=low
+bve-route-cross-city-south (1.31.04-0ubuntu1) lucid; urgency=low
 
   * New upstream release, fixes (LP: #419525)
   * debian/rules: fix oggenc quality parameter
   * debian/rules: comment out oggenc stage as openbve=1.2.4.1 uses
     a home-grown .wav only sound loader.
 
- -- Paul Sladen <ubuntu@paul.sladen.org>  Mon,  5 Oct 2009 22:16:00 +0100
+ -- Paul Sladen <ubuntu@paul.sladen.org>  Wed,  6 Jan 2009 04:30:00 +0100
 
 bve-route-cross-city-south (1.31.03-0ubuntu2) karmic; urgency=low
 
