@@ -1,6 +1,6 @@
-;Birmingham Cross-City South (Redditch to Birmingham New Street) v1.31.04
+﻿;Birmingham Cross-City South (Redditch to Birmingham New Street) v1.31.06
 ;High Detail Version
-;By Anthony Bowden 2002-2009 [www.railsimroutes.co.uk]
+;By Anthony Bowden 2002-2010 [www.railsimroutes.co.uk]
 
 With Route
 .Image ..\..\xcs_preview_image.png
@@ -1019,7 +1019,7 @@ Signal(5).Load Bham_X-City_South\BrSigs\repeat; Bham_X-City_South\BrSigs\glowrep
 Signal(8).Load Bham_X-City_South\BrSigs\signal4ygfeatherl; Bham_X-City_South\BrSigs\glow4ygfeatherl
 Signal(13).Load Bham_X-City_South\BrSigs\signal2gy; Bham_X-City_South\BrSigs\glow2gy
 Signal(14).Load Bham_X-City_South\BrSigs\signal4ygBNSplat8_; Bham_X-City_South\BrSigs\glow4yg
-Signal(15).Load Bham_X-City_South\BrSigs\groundrepeater4yg; Bham_X-City_South\BrSigs\glow4yg
+Signal(15).Load Bham_X-City_South\BrSigs\groundrepeater4yg; Bham_X-City_South\BrSigs\glowgroundrepeater4yg
 
 With Texture
 .Background(0) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Cloudy.bmp

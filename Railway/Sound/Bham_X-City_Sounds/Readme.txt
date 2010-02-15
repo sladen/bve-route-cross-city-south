@@ -1,4 +1,4 @@
-=======================================
+﻿=======================================
 Birmingham Cross-City South for openBVE
 [Redditch to Birmingham New Street]
 ---------------------------------------
@@ -7,8 +7,8 @@ By Anthony Bowden
 
 www.railsimroutes.co.uk
 
-Version 1.31.04 (October, 2009)
-Released into the Public Domain
+Version 1.31.06 (February, 2010)
+Public domain/unrestricted material
 
 *BVETSS 1.0 Compliant*
 [www.railsimroutes.co.uk/bvetss]
@@ -21,7 +21,7 @@ Please turn on "Word Wrap" in your text editor.
 ------------
 
 - Introduction
-- Licence (Public Domain)
+- Licence (Public Domain/Unrestricted)
 - Files by other authors
 - Special thanks to...
 
@@ -49,11 +49,11 @@ http://railsimroutes.co.uk/blog/
 -=Licence=-
 -----------
 
-This route has been released into the Public Domain, and you are free to do anything you like with the files. :)
+This add-on has been released into the public domain. However, if this isn't legally possible, then no conditions, restrictions or requirements are placed upon the use, modification or redistribution of this add-on.
 
 The decision to release the route free from restrictions was made as a result of my own changed attitudes towards copyright which, because of the way in which it is often used, doesn't help to bring about the kind of world I want to live in. I was also inspired by the remarkable attitude of openBVE's developer. In releasing this route into the public domain, I hope I can help to change the prevailing protective and copyright-focused attitude amongst many BVE developers, and foster a new era of free and harmonious sharing of creative works, without selfish restrictions.
 
-If you like any of my work and want to redistribute it, please feel free to let me know, but you don't have to. :)
+If you like any of my work and want to redistribute it, please feel free to let me know, but of course you don't have to. :)
 
 --------------------------
 -=Files by other authors=-
@@ -125,4 +125,4 @@ For assisting with the route's signalling, and helping to remove signal warning 
 
 ------------------------------------------------------------
 Anthony Bowden.
-October, 2009.
+February, 2010.
