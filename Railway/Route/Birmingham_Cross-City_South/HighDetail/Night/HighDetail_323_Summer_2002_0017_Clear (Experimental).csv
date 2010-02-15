@@ -1,6 +1,6 @@
-;Birmingham Cross-City South (Redditch to Birmingham New Street) v1.31.04
+﻿;Birmingham Cross-City South (Redditch to Birmingham New Street) v1.31.06
 ;High Detail Version
-;By Anthony Bowden 2002-2009 [www.railsimroutes.co.uk]
+;By Anthony Bowden 2002-2010 [www.railsimroutes.co.uk]
 
 With Route
 .Image ..\..\xcs_preview_image.png
@@ -1024,7 +1024,7 @@ Signal(5).Load Bham_X-City_South\BrSigs\night\repeat; Bham_X-City_South\BrSigs\n
 Signal(8).Load Bham_X-City_South\BrSigs\night\signal4ygfeatherl; Bham_X-City_South\BrSigs\night\glow4ygfeatherl
 Signal(13).Load Bham_X-City_South\BrSigs\night\signal2gy; Bham_X-City_South\BrSigs\night\glow2gy
 Signal(14).Load Bham_X-City_South\BrSigs\night\signal4ygBNSplat8_; Bham_X-City_South\BrSigs\night\glow4yg
-Signal(15).Load Bham_X-City_South\BrSigs\night\groundrepeater4yg; Bham_X-City_South\BrSigs\night\glow4yg
+Signal(15).Load Bham_X-City_South\BrSigs\night\groundrepeater4yg; Bham_X-City_South\BrSigs\night\glowgroundrepeater4yg
 
 With Texture
 .Background(0) Bham_X-City_South\Dusk\Summer\Backdrop_Countryside_1_Night.bmp
@@ -1034,13 +1034,6 @@ With Texture
 
 .Background(5) Bham_X-City_South\Dusk\Summer\Backdrop_Countryside_1_Night.bmp
 .Background(6) Bham_X-City_South\Dusk\Summer\Backdrop_Countryside_1_Night.bmp
-
-.Background(1).x 3
-.Background(2).x 3
-.Background(3).x 3
-.Background(4).x 3
-.Background(5).x 6
-.Background(6).x 6
 
 With Cycle
 .Ground(0) 63,
@@ -2568,7 +2561,7 @@ With Track
 23390, .Freeobj 0;429;-2.99;0.15;0,
 
 ;Five Ways Station - 23475
-23400, .Form 0;L;0;0, .Form 1;R;0;0, .Dike 0;-1;5, .Dike 1;1;5, .Curve -1500;60, .Railtype 0;29, .Railtype 1;29, .Freeobj 0;92, .Freeobj 1;93, .Beacon 24;0;0;1946006, .Sta Five Ways;;00.4500;;-1;0;;;25;1;;9, .Rail 2;-3;0, .Freeobj 2;102;1;-4.5, .Rail 3;22;2.59,
+23400, .Form 0;L;0;0, .Form 1;R;0;0, .Dike 0;-1;5, .Dike 1;1;5, .Curve -1500;60, .Railtype 0;29, .Railtype 1;29, .Freeobj 0;92, .Freeobj 1;93, .Beacon 24;0;0;1946006, .Sta Five Ways;P;00.4500;;-1;0;;;25;1;;9, .Rail 2;-3;0, .Freeobj 2;102;1;-4.5, .Rail 3;22;2.59,
 23425, .Freeobj 0;2;-0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 1;281;2.7;0;0, .Freeobj 0;297;-2.9;0.6;1.2, .Freeobj 1;294;2.9;0.6;1.2, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.84, .Freeobj 1;149;0.28;0;1.84, .Form 0;L;0;0, .Form 1;R;0;0, .Freeobj 2;102;1;-4.5, .Rail 3;22;2.9, .Freeobj 0;211;-4;7,
 23446, .Freeobj 0;67;0;0.0, .Freeobj 0;210;-5;8, .Beacon 44000;1;1;0, ;AWS Magnet
 23450, .Form 0;L;0;0, .Form 1;R;0;0,  .Freeobj 2;102;1;-4.5, .Rail 3;23;3.21,
