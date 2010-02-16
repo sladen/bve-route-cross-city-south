@@ -1,9 +1,9 @@
-bve-route-cross-city-south (1.31.06-0ubuntu1) unreleased; urgency=low
+bve-route-cross-city-south (1.31.06-0ubuntu1) lucid; urgency=low
 
   * New upstream release, fixes (LP: #511073)
   * debian/copyright: tweak new generalised wording
 
- -- Paul Sladen <ubuntu@paul.sladen.org>  Mon, 15 Feb 2010 19:44:00 +0000
+ -- Paul Sladen <ubuntu@paul.sladen.org>  Tue, 16 Feb 2010 00:40:00 +0000
 
 bve-route-cross-city-south (1.31.04-0ubuntu1) lucid; urgency=low
 
