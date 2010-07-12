@@ -1,33 +1,36 @@
-﻿;Birmingham Cross-City South (Redditch to Birmingham New Street) v1.31.06
-;Medium Detail Version
-;By Anthony Bowden 2002-2010 [www.railsimroutes.co.uk]
+;Birmingham Cross-City South (Redditch to Birmingham New Street) v1.31.08
+;High Detail Version
+;By Anthony Bowden 2002-2010 [railsimroutes.net]
+
+With Options
+.ObjectVisibility 1
 
 With Route
-.Image ..\..\xcs_preview_image.png
-.Comment Birmingham Cross-City South$Chr(13)Version 1.31.04 $Chr(40)Oct$Chr(46) 2009$Chr(41)$Chr(13)[www.railsimroutes.co.uk]$Chr(13)$Chr(13)This route has been released into the public domain and is free of restrictions$Chr(13)$Chr(13)Interim Release
+.Image ..\xcs_preview_image.png
+.Comment Birmingham Cross-City South$Chr(13)Version 1.31.08 $Chr(40)July 2010$Chr(41)$Chr(13)[railsimroutes.net]$Chr(13)$Chr(13)This route has been released into the public domain and is free of restrictions$Chr(13)$Chr(13)Interim Release
 .Change 1
 .Gauge 1435
 .Signal(1) 100,
 .Signal(2) 130,
 .Signal(3) 160,
 .LightDirection 40;310
-.DirectionalLight 75;70;70,
-.AmbientLight 190;190;190,
+.DirectionalLight 50;50;50,
+.AmbientLight 180;180;190,
 
 With Train
 .Folder BR_Class_323
-.Timetable(0).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_0.bmp
-.Timetable(1).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_1.bmp
-.Timetable(2).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_2.bmp
-.Timetable(3).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_3.bmp
-.Timetable(4).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_4.bmp
-.Timetable(5).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_5.bmp
-.Timetable(6).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_6.bmp
-.Timetable(7).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_7.bmp
-.Timetable(8).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_8.bmp
-.Timetable(9).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_9.bmp
-.Timetable(10).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_10.bmp
-.Timetable(11).Day.Load ..\..\Railway\Object\Bham_X-City_South\X-CitySouth_1_3\Timetables\X-CitySouth_S1.bmp
+.Timetable(0).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_0.bmp
+.Timetable(1).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_1.bmp
+.Timetable(2).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_2.bmp
+.Timetable(3).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_3.bmp
+.Timetable(4).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_4.bmp
+.Timetable(5).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_5.bmp
+.Timetable(6).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_6.bmp
+.Timetable(7).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_7.bmp
+.Timetable(8).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_8.bmp
+.Timetable(9).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_9.bmp
+.Timetable(10).Day.Load Bham_X-City_South\X-CitySouth_1_3\Timetables\323_2002_0931\X-CitySouth_TT_10.bmp
+
 .Run(0) 2
 .Run(1) 0
 .Run(2) 1
@@ -234,7 +237,7 @@ With Structure
 .Rail(19) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackCS_1_600L.csv
 .Rail(20) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackWS_1_1000R.csv
 .Rail(21) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackWS_1_800R.csv
-.Rail(22) Bham_X-City_South\Day\Summer\Weather\Rain1.csv,
+.Rail(22) Bham_X-City_South\Day\Summer\null.csv
 .Rail(23) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackWS_1_800R.csv
 .Rail(24) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackWS_1_600R.csv
 .Rail(25) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackWS_1_300R.csv
@@ -248,7 +251,7 @@ With Structure
 .Rail(33) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackWS_1_400R.csv
 .Rail(34) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackCS_1.csv,
 .Rail(35) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackCS_1_1000R.csv
-.Rail(36) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackSCS_1_300R.csv
+.Rail(36) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackS_NW_CS_1_300R.csv
 .Rail(37) Bham_X-City_South\Day\Summer\Misc\Stations\HD\Fence_9R.csv
 .Rail(38) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackCS_1_600L.csv
 .Rail(39) Bham_X-City_South\Day\Summer\RailObjects\Line\StdTrackCS_1_800R.csv
@@ -562,37 +565,37 @@ With Structure
 .RoofcR(15) Bham_X-City_South\Day\Summer\null.csv
 .RoofcL(15) Bham_X-City_South\Day\Summer\null.csv
 
-.FreeObj(0) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_H_Ovr2.csv
-.FreeObj(1) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_H_Ovr3.csv
-.FreeObj(2) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Headspan_2trk_L.csv
+.FreeObj(0) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_H_Ovr2.csv
+.FreeObj(1) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_H_Ovr3.csv
+.FreeObj(2) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Headspan_2trk_L.csv
 .FreeObj(3) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_HWire_Ovr_2.csv
-.FreeObj(4) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Headspan_3trk_L.csv
+.FreeObj(4) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Headspan_3trk_L.csv
 .FreeObj(5) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_HWire_Ovr_3.csv
 .FreeObj(6) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_HWire_Ovr_4.csv
-.FreeObj(7) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Headspan_4trk_L416.csv
-.FreeObj(8) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LMast_L.csv
-.FreeObj(9) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Ovr_1a.csv
-.FreeObj(10) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Ovr_1.csv
-.FreeObj(11) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Ovr_3.csv
-.FreeObj(12) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LMast_R.csv
+.FreeObj(7) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Headspan_4trk_L416.csv
+.FreeObj(8) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LMast_L.csv
+.FreeObj(9) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_1a.csv
+.FreeObj(10) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_1.csv
+.FreeObj(11) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_3.csv
+.FreeObj(12) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LMast_R.csv
 .FreeObj(13) Bham_X-City_South\Day\Summer\Misc\Stations\HD\NewSt01.csv
 .Freeobj(14) Bham_X-City_South\Day\Summer\Misc\Lineside_bldgs\Rotunda.csv
 .FreeObj(15) Bham_X-City_South\Day\Common_Files\Generic\Signalling\Sig_T6.csv
-.FreeObj(16) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_RMast_L.csv
+.FreeObj(16) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_RMast_L.csv
 .FreeObj(17) Bham_X-City_South\Day\Summer\Misc\Stations\HD\NewSt02.csv
-.FreeObj(18) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Ovr_2.csv
-.FreeObj(19) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Ovr_4.csv
-.FreeObj(20) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_RMast_R.csv
-.FreeObj(21) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Ovr_3a.csv
-.FreeObj(22) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_RT_1L.csv
-.FreeObj(23) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_RT_1R.csv
+.FreeObj(18) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_2.csv
+.FreeObj(19) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_4.csv
+.FreeObj(20) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_RMast_R.csv
+.FreeObj(21) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_3a.csv
+.FreeObj(22) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_RT_1L.csv
+.FreeObj(23) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_RT_1R.csv
 .FreeObj(24) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_1.csv
 .FreeObj(25) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_2.csv
 .FreeObj(26) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_3.csv
 .FreeObj(27) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_4.csv
 .FreeObj(28) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_6.csv
-.FreeObj(29) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Ovr_4a.csv
-.FreeObj(30) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Ovr_2a.csv
+.FreeObj(29) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_4a.csv
+.FreeObj(30) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Ovr_2a.csv
 .FreeObj(31) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_2a.csv
 .FreeObj(32) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C_1trk25.csv
 .FreeObj(33) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C_1trk50.csv,
@@ -609,7 +612,7 @@ With Structure
 .FreeObj(44) Bham_X-City_South\Day\Summer\Misc\Stations\HD\NewSt04.csv
 .FreeObj(45) Bham_X-City_South\X-CitySouth_1_3\MiddleSignal.x
 .FreeObj(46) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C-H_1trk50.csv
-.FreeObj(47) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Mk1_Gantry_SA2_L.csv
+.FreeObj(47) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Mk1_Gantry_SA2_L.csv
 .FreeObj(48) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C_1trk_b1.csv
 .FreeObj(49) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C_1trk_b2.csv
 .FreeObj(50) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C_1trk_b3.csv
@@ -619,15 +622,15 @@ With Structure
 .FreeObj(54) Bham_X-City_South\Day\Common_Files\Generic\Signs\PSRs\10mph.csv
 .FreeObj(55) Bham_X-City_South\Day\Common_Files\Generic\Signs\PSRs\15mph_R_Arrow.csv
 .FreeObj(56) Bham_X-City_South\Day\Common_Files\Generic\Signs\PSRs\20mph.csv
-.FreeObj(57) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_Transformer_Supply_XP.csv
-.FreeObj(58) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_Transformer_Supply2.csv
+.FreeObj(57) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_Transformer_Supply_XP.csv
+.FreeObj(58) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_Transformer_Supply2.csv
 .FreeObj(59) Bham_X-City_South\Day\Summer\Bridges\Bridge_Shadow.csv
 .FreeObj(60) Bham_X-City_South\Day\Common_Files\Generic\Signs\PSRs\40mph.csv
 .FreeObj(61) Bham_X-City_South\Day\Common_Files\Generic\Signs\PSRs\45mph.csv
 .FreeObj(62) Bham_X-City_South\Day\Common_Files\Generic\Signs\PSRs\50mph.csv
-.FreeObj(63) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_RT_5L.csv
+.FreeObj(63) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_RT_5L.csv
 .FreeObj(64) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C_1trk25SI.csv
-.FreeObj(65) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Feeder_a.csv
+.FreeObj(65) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Feeder_a.csv
 .FreeObj(66) Bham_X-City_South\Day\Common_Files\Generic\Signalling\TPWSLoop.csv
 .FreeObj(67) Bham_X-City_South\Day\Common_Files\Generic\Signalling\AWSMagnet.csv
 .FreeObj(68) Bham_X-City_South\Day\Common_Files\Generic\Signalling\Sig_T1.csv
@@ -656,10 +659,10 @@ With Structure
 .FreeObj(91) Bham_X-City_South\Day\Summer\RampDnR.csv
 .FreeObj(92) Bham_X-City_South\Day\Summer\RampUpL.csv
 .FreeObj(93) Bham_X-City_South\Day\Summer\RampUpR.csv
-.FreeObj(94) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_RT_4L.csv
+.FreeObj(94) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_RT_4L.csv
 
 .FreeObj(96) Bham_X-City_South\Day\Common_Files\Generic\Signs\CarStop.csv
-.FreeObj(97) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_HalfGantry_LL.csv
+.FreeObj(97) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_HalfGantry_LL.csv
 
 .FreeObj(99) Bham_X-City_South\Day\Summer\Bridges\Bridge_1.csv
 .FreeObj(100) Bham_X-City_South\Day\Summer\Bridges\Bridge_2.csv
@@ -673,8 +676,8 @@ With Structure
 .FreeObj(108) Bham_X-City_South\Day\Summer\Bridges\RetainingWall_1a_HD.csv
 .FreeObj(109) Bham_X-City_South\Day\Summer\Bridges\BathRowTunnel.csv
 .FreeObj(110) Bham_X-City_South\Day\Summer\Bridges\HollidayStTunnel.csv
-.FreeObj(111) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Gantry_RW_L.csv
-.FreeObj(112) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_H_Ovr4.csv
+.FreeObj(111) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Gantry_RW_L.csv
+.FreeObj(112) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_H_Ovr4.csv
 .FreeObj(113) Bham_X-City_South\Day\Summer\Misc\Stations\HD\NewSt06.csv
 .FreeObj(114) Bham_X-City_South\Day\Summer\RailObjects\Points\25m_166_WS_L_S.csv
 .FreeObj(115) Bham_X-City_South\Day\Summer\RailObjects\Points\25m_260_WS_X_L_S.csv
@@ -699,10 +702,10 @@ With Structure
 .FreeObj(134) Bham_X-City_South\Day\Summer\Bridges\Bridge_13a.csv
 .FreeObj(135) Bham_X-City_South\Day\Common_Files\Generic\Trains\Rover_W.csv
 .FreeObj(136) Bham_X-City_South\Day\Common_Files\Generic\Trains\66_EWS.csv
-.FreeObj(137) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_HalfGantry2_RL.csv
-.FreeObj(138) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Gantry_V_L.csv
-.FreeObj(139) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Gantry_LB.csv
-.FreeObj(140) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_H_Ovr1.csv
+.FreeObj(137) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_HalfGantry2_RL.csv
+.FreeObj(138) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Gantry_V_L.csv
+.FreeObj(139) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Gantry_LB.csv
+.FreeObj(140) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_H_Ovr1.csv
 .FreeObj(141) Bham_X-City_South\Day\Summer\Bridges\KN_Bridge1.csv
 .FreeObj(142) Bham_X-City_South\Day\Common_Files\Generic\Misc\Bufferstop.csv
 .FreeObj(143) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C_1trk_c.csv
@@ -713,10 +716,10 @@ With Structure
 .FreeObj(148) Bham_X-City_South\X-CitySouth_1_3\null.csv
 .FreeObj(149) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_H_1trk50bmp.csv
 .FreeObj(150) Bham_X-City_South\Day\Summer\Misc\Stations\HD\NewSt07.csv
-.FreeObj(151) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_HalfGantry_RL.csv
+.FreeObj(151) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_HalfGantry_RL.csv
 .FreeObj(152) Bham_X-City_South\Day\Common_Files\Generic\Signalling\Relay_Cab.csv
 .FreeObj(153) Bham_X-City_South\Day\Common_Files\Generic\Signalling\Sig_T5b.csv
-.FreeObj(154) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_Transformer.csv
+.FreeObj(154) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_Transformer.csv
 .FreeObj(155) Bham_X-City_South\Day\Common_Files\Generic\Signalling\Relay_Cab_Platform.csv
 .FreeObj(156) Bham_X-City_South\Day\Common_Files\Generic\Misc\Point_1.csv
 .FreeObj(157) Bham_X-City_South\Day\Common_Files\Generic\Misc\Point_2.csv
@@ -724,13 +727,13 @@ With Structure
 .FreeObj(159) Bham_X-City_South\Day\Summer\Misc\Stations\HD\NewStreetRoof.csv
 .FreeObj(160) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\OLE_XP\OLE_1trk_b3.csv
 .FreeObj(161) Bham_X-City_South\Day\Summer\Misc\Stations\HD\Longbridge_Ramp3.csv
-.FreeObj(162) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Headspan_KN.csv
+.FreeObj(162) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Headspan_KN.csv
 .FreeObj(163) Bham_X-City_South\Day\Summer\Misc\Lineside_Bldgs\Bham_Bldg1_XP_1.csv
-.FreeObj(164) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LMast_N_L.csv
-.FreeObj(165) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LMast_N_R.csv
+.FreeObj(164) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LMast_N_L.csv
+.FreeObj(165) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LMast_N_R.csv
 .FreeObj(166) Bham_X-City_South\Day\Summer\RailObjects\Points\75m_166_P2_WS_L.csv
 .FreeObj(167) Bham_X-City_South\Day\Common_Files\Generic\Signs\Milepost.csv
-.FreeObj(168) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_Bridge.csv
+.FreeObj(168) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_Bridge.csv
 .FreeObj(169) Bham_X-City_South\Day\Summer\Bridges\Redditch_1.csv
 .FreeObj(170) Bham_X-City_South\Day\Summer\Bridges\BarntGreen_1.csv
 .FreeObj(171) Bham_X-City_South\Day\Summer\Bridges\KN_Bridge2.csv
@@ -747,8 +750,8 @@ With Structure
 .FreeObj(182) Bham_X-City_South\Day\Summer\RailObjects\Points\75m_110_P1_WS_R_S.csv
 .FreeObj(183) Bham_X-City_South\Day\Summer\RailObjects\Points\NewSt_Pointwork_1.csv
 .FreeObj(184) Bham_X-City_South\Day\Summer\RailObjects\Points\NewSt_Pointwork_2.csv
-.FreeObj(185) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\TensionWeightL_XP.csv
-.FreeObj(186) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\TensionWeightR.csv
+.FreeObj(185) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\TensionWeightL_XP.csv
+.FreeObj(186) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\TensionWeightR.csv
 .FreeObj(187) Bham_X-City_South\X-CitySouth_1_3\Gnd_Sig_R.x
 
 .FreeObj(189) Bham_X-City_South\X-CitySouth_1_3\Fixed_Distant.csv
@@ -813,11 +816,11 @@ With Structure
 .FreeObj(248) Bham_X-City_South\Day\Summer\RailObjects\Line\Catch_Point.csv
 .FreeObj(249) Bham_X-City_South\Day\Summer\Bridges\NS_Bridge_1.csv
 .FreeObj(250) Bham_X-City_South\Day\Summer\Misc\Lineside_Bldgs\NS_SigBox.csv
-.FreeObj(251) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Masts_XP\Mk1_TensionGantry1.csv
-.FreeObj(252) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Masts_XP\Mk1_Gantry_1.csv
-.FreeObj(253) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Masts_XP\Mk1_Gantry_5d.csv
-.FreeObj(254) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Masts_XP\Mk1_Gantry_5.csv
-.FreeObj(255) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Mk1_Gantry_SA3_L.csv
+.FreeObj(251) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Masts_3D\Mk1_TensionGantry1.csv
+.FreeObj(252) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Masts_3D\Mk1_Gantry_1.csv
+.FreeObj(253) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Masts_3D\Mk1_Gantry_5d.csv
+.FreeObj(254) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Masts_3D\Mk1_Gantry_5.csv
+.FreeObj(255) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Mk1_Gantry_SA3_L.csv
 .FreeObj(256) Bham_X-City_South\Day\Summer\RailObjects\Points\25m_166_WS_C_L_S.csv
 .FreeObj(257) Bham_X-City_South\Day\Summer\RailObjects\Points\25m_166_WS_C_R_S.csv
 .FreeObj(258) Bham_X-City_South\Day\Summer\RailObjects\Points\25m_166_WS_NS_C_R_S.csv
@@ -825,25 +828,25 @@ With Structure
 .FreeObj(260) Bham_X-City_South\Day\Summer\RailObjects\Points\75m_166_P1_WS_R_S.csv
 .FreeObj(261) Bham_X-City_South\Day\Summer\RailObjects\Points\25m_166_WS_L_L.csv
 .FreeObj(262) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_7a.csv
-.FreeObj(263) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_HOvr_Support.csv
-.FreeObj(264) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_HOvr_Support2.csv
-.FreeObj(265) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_RT_6L.csv
+.FreeObj(263) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_HOvr_Support.csv
+.FreeObj(264) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_HOvr_Support2.csv
+.FreeObj(265) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_RT_6L.csv
 .FreeObj(266) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_C_1trk_b3a.csv
 .FreeObj(267) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_H_1trk50SI.csv
 .FreeObj(268) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_CWire_Ovr_7b.csv
 .FreeObj(269) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_HWire_Ovr_6a.csv
-.FreeObj(270) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_C_Point_1.csv
-.FreeObj(271) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LBridgeMast_L.csv
-.FreeObj(272) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_RBridgeMast_L.csv
-.FreeObj(273) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LWireMast_2Trk_L.csv
-.FreeObj(274) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LWireMast_1Trk_L.csv
+.FreeObj(270) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_C_Point_1.csv
+.FreeObj(271) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LBridgeMast_L.csv
+.FreeObj(272) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_RBridgeMast_L.csv
+.FreeObj(273) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LWireMast_2Trk_L.csv
+.FreeObj(274) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LWireMast_1Trk_L.csv
 .FreeObj(275) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_50_L.csv
 .FreeObj(276) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_25_L.csv
 .FreeObj(277) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_63_L.csv
 .FreeObj(278) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_50_R.csv
 .FreeObj(279) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_25_R.csv
 .FreeObj(280) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_63_R.csv
-.FreeObj(281) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_Headspan_RC_Support.csv
+.FreeObj(281) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_Headspan_RC_Support.csv
 .FreeObj(282) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_B_25_L.csv
 .FreeObj(283) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_B_25_R.csv
 .FreeObj(284) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_B_50_L.csv
@@ -852,9 +855,9 @@ With Structure
 .FreeObj(287) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_25_L_D.csv
 .FreeObj(288) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_25_R_U.csv
 .FreeObj(289) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_25_R_D.csv
-.FreeObj(290) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Mast.csv
+.FreeObj(290) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Mast.csv
 .FreeObj(291) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_B_25_R_D.csv
-.Freeobj(292) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_MastSection.csv
+.Freeobj(292) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_MastSection.csv
 .FreeObj(293) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_50_L_D.csv
 .FreeObj(294) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_50_R_U.csv
 .FreeObj(295) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_B_25_L_D.csv
@@ -876,17 +879,17 @@ With Structure
 .FreeObj(311) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_25_R_U3.csv
 .FreeObj(312) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_B_50_L_D.csv
 .FreeObj(313) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_B_50_R_D.csv
-.FreeObj(314) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Mk3_Headspan_RC_Support2.csv
+.FreeObj(314) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Mk3_Headspan_RC_Support2.csv
 .FreeObj(315) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_G_25_D.csv
 .FreeObj(316) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_50_L_D3.csv
 .FreeObj(317) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_50_L_U3.csv
 .FreeObj(318) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_50_R_D3.csv
 .FreeObj(319) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\OLE_C_50_R_U3.csv
 .FreeObj(320) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\ReturnConductors\Mk3_RC_Terminator.csv
-.FreeObj(321) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Mk1_Gantry_SA1_3.csv
-.FreeObj(322) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Mk1_Gantry_SA1_6.csv
-.FreeObj(323) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Mk1_Gantry_SA1_4.csv
-.FreeObj(324) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Mk1_Gantry_SA4_L.csv
+.FreeObj(321) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Mk1_Gantry_SA1_3.csv
+.FreeObj(322) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Mk1_Gantry_SA1_6.csv
+.FreeObj(323) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Mk1_Gantry_SA1_4.csv
+.FreeObj(324) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Mk1_Gantry_SA4_L.csv
 .FreeObj(325) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\OLE_XP\OLE_1trk25.csv
 
 .FreeObj(330) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\OLE_XP\OLE_H_1trk25SI.csv
@@ -903,30 +906,30 @@ With Structure
 .FreeObj(341) Bham_X-City_South\Day\Summer\Misc\FootCrossing.csv
 .FreeObj(342) Bham_X-City_South\Day\Summer\Misc\Lineside_bldgs\QE.csv
 .FreeObj(343) Bham_X-City_South\Day\Summer\Misc\BGCrossing.csv
-.FreeObj(344) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LMast2_L.csv
-.FreeObj(345) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_LMast2_R.csv
-.FreeObj(346) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_RMast2_L.csv
-.FreeObj(347) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_RMast2_R.csv
+.FreeObj(344) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LMast2_L.csv
+.FreeObj(345) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_LMast2_R.csv
+.FreeObj(346) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_RMast2_L.csv
+.FreeObj(347) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_RMast2_R.csv
 .FreeObj(348) Bham_X-City_South\Day\Summer\Misc\Stations\HD\Redditch1.csv
 .FreeObj(349) Bham_X-City_South\Day\Common_Files\Generic\Misc\Chimney.csv
-.FreeObj(350) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Masts_XP\Mk3_Tension_1.csv
+.FreeObj(350) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Masts_3D\Mk3_Tension_1.csv
 .FreeObj(351) Bham_X-City_South\Day\Summer\RailObjects\Line\TrackFill_1.csv
 .FreeObj(352) Bham_X-City_South\Day\Summer\RailObjects\Points\25m_KN_WS_X_L_S.csv
 .FreeObj(353) Bham_X-City_South\Day\Summer\Misc\Stations\HD\Northfield3.csv
 .FreeObj(354) Bham_X-City_South\Day\Summer\Misc\Stations\HD\KingsNorton1.csv
-.FreeObj(355) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Mk1_Gantry_SA1_7.csv
+.FreeObj(355) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Mk1_Gantry_SA1_7.csv
 .FreeObj(356) Bham_X-City_South\X-CitySouth_1_3\Bufferstop2.x
-.FreeObj(357) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Insulator.csv
+.FreeObj(357) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Insulator.csv
 .Freeobj(358) Bham_X-City_South\Day\Summer\Misc\Lineside_bldgs\KingsNorton1.csv
 .Freeobj(359) Bham_X-City_South\Day\Summer\Misc\Lineside_bldgs\Northfield_Bldg2.csv
-.FreeObj(360) Bham_X-City_South\Day\Common_Files\Catenary\Mk1\Masts_XP\Mk1_Gantry_1b.csv
+.FreeObj(360) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk1_New\Masts_3D\Mk1_Gantry_1b.csv
 .Freeobj(361) Bham_X-City_South\Day\Summer\Misc\Lineside_bldgs\Uni_Bldg3.csv
 .Freeobj(362) Bham_X-City_South\Day\Summer\Misc\Lineside_bldgs\Uni_Bldg3a.csv
 .FreeObj(363) Bham_X-City_South\Day\Common_Files\Generic\Signalling\PlatformSignal_1.csv
 .FreeObj(364) Bham_X-City_South\Day\Summer\Misc\Lineside_Bldgs\Bham_Bldg1_XP_2.csv
 .FreeObj(365) Bham_X-City_South\Day\Summer\Misc\Lineside_Bldgs\Bham_Bldg1_XP_3.csv
 
-.FreeObj(366) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Feeder_b.csv
+.FreeObj(366) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Feeder_b.csv
 .FreeObj(367) Bham_X-City_South\Day\Common_Files\Generic\Signs\PSRs\35mph.csv
 .FreeObj(368) Bham_X-City_South\Day\Common_Files\Generic\Signalling\Feather_LH_On.csv
 .FreeObj(369) Bham_X-City_South\X-CitySouth_1_3\Feather_LH_Off.csv
@@ -976,14 +979,14 @@ With Structure
 .FreeObj(427) Bham_X-City_South\X-CitySouth_1_3\BathRowTunnel_Dark.csv
 .FreeObj(428) Bham_X-City_South\Day\Summer\StopPoint_FormR_NewSt_U.csv
 .FreeObj(429) Bham_X-City_South\X-CitySouth_1_3\Sandite_3a.x
-.Freeobj(430) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\Wire_Section.csv
+.Freeobj(430) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\Wire_Section.csv
 
 .FreeObj(437) Bham_X-City_South\Day\Summer\Bridges\CanalTunnel_1.csv
 .FreeObj(438) Bham_X-City_South\Day\Summer\Barnt_Green_Platform_1.csv
 .FreeObj(439) Bham_X-City_South\Day\Summer\Bridges\BathRowTunnel_Disused.csv
 
 .FreeObj(449) Bham_X-City_South\Day\Summer\RailObjects\Line\Ballast_Lead_In.csv
-.FreeObj(450) Bham_X-City_South\Day\Common_Files\Catenary\Mk3\TensionWeightR_2.csv
+.FreeObj(450) Bham_X-City_South\X-CitySouth_1_3\Catenary\Mk3_New\TensionWeightR_2.csv
 
 .FreeObj(453) Bham_X-City_South\X-CitySouth_1_3\Gnd_Sig_R_2.x
 .FreeObj(454) Bham_X-City_South\Day\Common_Files\Generic\Signalling\Sig_BR.csv
@@ -1021,13 +1024,13 @@ Signal(14).Load Bham_X-City_South\BrSigs\signal4ygBNSplat8_; Bham_X-City_South\B
 Signal(15).Load Bham_X-City_South\BrSigs\groundrepeater4yg; Bham_X-City_South\BrSigs\glowgroundrepeater4yg
 
 With Texture
-.Background(0) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Sunny.bmp
-.Background(1) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Sunny.bmp
-.Background(2) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Sunny.bmp
-.Background(3) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Sunny.bmp
+.Background(0) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Cloudy.bmp
+.Background(1) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Cloudy.bmp
+.Background(2) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Cloudy.bmp
+.Background(3) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Cloudy.bmp
 
-.Background(5) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Sunny.bmp
-.Background(6) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Sunny.bmp
+.Background(5) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Cloudy.bmp
+.Background(6) Bham_X-City_South\Day\Summer\Backdrop_Countryside_1_Cloudy.bmp
 
 With Cycle
 .Ground(0) 63,
@@ -1317,22 +1320,22 @@ With Track
 25294, .Brightness 0,
 
 ;Redditch Station - 91330 - 91325 from NS - 0
-0, ;.Fog -80;850;180;180;180, .Adhesion 135, .Ground 1, .Height 1, .Accuracy 4, .Back 0, .Pitch -3.17, .Dike 0;1;5, .Railtype 0;1, .Sta Redditch;09.3015;09.3100;;1;0;;;20;30;;0, .form 0;R;0;0, 
+0, .Fog -80;850;180;180;180, .Adhesion 115, .Ground 1, .Height 1, .Accuracy 3, .Back 0, .Pitch -3.17, .Dike 0;1;5, .Railtype 0;1, .Sta Redditch;09.3015;09.3100;;1;0;;;20;30;;0, .form 0;R;0;0, 
 25, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.65, .Freeobj 0;33;-0.28;0;-0.65, .Form 0;R;3;0,
 50, .Form 0;R;3;0,
 57, .Beacon 23;0;0;1,
 62, .Stop 0;5;81, .Freeobj 0;469;5.17;0, .Doppler Bham_X-City_Sounds\Birds_Spring_2.wav;0;0,
-75, .Form 0;R;3;0, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.35, .Freeobj 0;33;0.28;0;0.65,
-100, .Form 0;R;3;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d315.gif;25,
-125, .SigF 4;1;-100;0, .Section 0;2;3;4, .Curve 400;45, .Railtype 0;33, .form 0;R;3;0, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-2.13, .Freeobj 0;291;-3.2;-0.6;2.05, .Freeobj 0;33;-0.28;0;-2.43, .Freeobj 0;48;-0.28,
+75, .Adhesion 95, .Announce Bham_X-City_Sounds\323Wheelslip.wav, .Form 0;R;3;0, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.35, .Freeobj 0;33;0.28;0;0.65,
+100, .Adhesion 130, .Form 0;R;3;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d315.gif;25,
+125, .Accuracy 4, .SigF 4;1;-100;0, .Section 0;2;3;4, .Curve 400;45, .Railtype 0;33, .form 0;R;3;0, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-2.13, .Freeobj 0;291;-3.2;-0.6;2.05, .Freeobj 0;33;-0.28;0;-2.43, .Freeobj 0;48;-0.28,
 137, .Freeobj 0;389;12;0;90, .Freeobj 0;470;5.17;0,
 150, .Freeobj 0;8;-0.28, .Freeobj 0;283;-2.3;-0.6;0, .Freeobj 0;143;-0.28, .Freeobj 0;91, .Dike 0;0;17, .Freeobj 0;181;-25;2,
 155, .Freeobj 0;169;-1,
 157, .Freeobj 0;168;-0.28,
 171, .Limit 32;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\20mph.gif;50, .Freeobj 0;56, 
-175, .Freeobj 0;8;-0.28, .Freeobj 0;286;-2.3;0;-2.05, .Freeobj 0;52;-0.28, .Announce Bham_X-City_Sounds\Flange1.wav,
+175, .Adhesion 115, .Freeobj 0;8;-0.28, .Freeobj 0;286;-2.3;0;-2.05, .Freeobj 0;52;-0.28, .Announce Bham_X-City_Sounds\Flange1.wav,
 200, .FreeObj 0;344;-0.28, .Freeobj 0;276;-3.2;0;0, .FreeObj 0;32;-0.28, .Dike 0;0;2, .Freeobj 0;181;-30;3,
-225, .FreeObj 0;344;-0.28, .Freeobj 0;276;-3.2;0;0, .FreeObj 0;32;-0.28, .Ground 5,
+225, .Accuracy 3, .FreeObj 0;344;-0.28, .Freeobj 0;276;-3.2;0;0, .FreeObj 0;32;-0.28, .Ground 5,
 250, .FreeObj 0;344;-0.28, .Freeobj 0;276;-3.2;0;0, .FreeObj 0;32;-0.28, .Freeobj 0;181;-20;3, .Pitch 0, .Freeobj 0;232;0;0;180,
 275, .FreeObj 0;344;-0.28, .Freeobj 0;276;-3.2;0;0, .FreeObj 0;32;-0.28, .Railtype 0;53, .Rail 1;-3.32;0;6, .Wall 1;-1;7, .Wall 0;1;7, .Ground 62, .Dike 0;-1;2, ;under bridge
 297, .Freeobj 0;116;0;0;0,
@@ -1355,16 +1358,16 @@ With Track
 725, .Freeobj 0;290;-2.95, .Freeobj 0;287;-2.73;-1.2;-0.5, .Freeobj 0;347;0.28, .Freeobj 0;48;0.28, .Height 2.5,
 750, .Freeobj 0;388;80;3;90, .Freeobj 0;12;0.28, .Freeobj 0;276;-2.9;-1.2;0, .Freeobj 0;143;0.28, .Railtype 0;54;0.28, .Freeobj 0;99;0.35, .Freeobj 0;59, .Freeobj 0;232;0;0;180, .Pitch -13.70, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d73.gif;50, ;Bridge Here
 761, .Freeobj 0;168;0.28, .Freeobj 0;213;28;5;0,
-775, .Freeobj 0;12;0.28, .Freeobj 0;288;-2.9;-0.6;0.4, .Freeobj 0;52;0.28, .Railtype 0;50,
+775, .Adhesion 15, .Freeobj 0;12;0.28, .Freeobj 0;288;-2.9;-0.6;0.4, .Freeobj 0;52;0.28, .Railtype 0;50,
 800, .Freeobj 0;290;-2.92, .Freeobj 0;288;-2.73;0;0, .Freeobj 0;347;0.28, .Freeobj 0;32;0.28, .Height 1, .Announce Bham_X-City_Sounds\Flange1.wav,
-825, .Freeobj 0;290;-2.95, .Freeobj 0;276;-2.73;0;-0.45, .Freeobj 0;347;0.28, .Freeobj 0;32;0.28, .Ground 2, .Dike 0;0;17, .Height 1, .Freeobj 0;232;0;0;180, .Pitch -16.67, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d60.gif;50,
+825, .Beacon 21;0;0;14, .Freeobj 0;290;-2.95, .Freeobj 0;276;-2.73;0;-0.45, .Freeobj 0;347;0.28, .Freeobj 0;32;0.28, .Ground 2, .Dike 0;0;17, .Height 1, .Freeobj 0;232;0;0;180, .Pitch -16.67, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d60.gif;50,
 846, .Freeobj 0;189;0;0;-20, .Freeobj 0;204;20;-3.5;60, .Height 2,
 850, .FreeObj 0;345;0.28, .Freeobj 0;276;-2.9;0;0, .FreeObj 0;32;0.28,
 868, .Freeobj 0;181;-42;1;0,
 875, .Freeobj 0;345;0.28, .Freeobj 0;276;-2.9;0;0, .Freeobj 0;32;0.28,
 900, .Freeobj 0;345;0.28, .Freeobj 0;276;-2.9;0;0, .Freeobj 0;32;0.28, .Freeobj 0;213;20;-4,
 925, .FreeObj 0;345;0.28, .FreeObj 0;32;0.28,
-950, .Freeobj 0;274;0.28;0;180, .Freeobj 0;32;0.28, .Freeobj 0;181;-42;2.5;0,
+950, .Adhesion 105, .Freeobj 0;274;0.28;0;180, .Freeobj 0;32;0.28, .Freeobj 0;181;-42;2.5;0,
 975, .Freeobj 0;12;0.28, .Freeobj 0;276;-2.9;0;0, .Freeobj 0;275;-2.9;0;6.15, .Freeobj 0;32;0.28,
 985, .Freeobj 0;56;0.2;0;180,
 1000, .Accuracy 3, .Freeobj 0;12;0.28, .Curve 0;0, .Railtype 0;5, .Wall 0;0;6, .Dikeend 0, .Ground 62, .Height 2, ;Under Bridge
@@ -1373,12 +1376,13 @@ With Track
 1022, .Freeobj 0;116;0;0;0,
 1023,
 1025, .Wallend 0, .Ground 5, .Railtype 0;1, .Dike 0;0;17, .Freeobj 0;181;-38;3;0, 
-1050, .Freeobj 0;388;44;0;90, .FreeObj 0;8;-0.28, .Freeobj 0;293;-3.2;-0.6;-0.35, .Freeobj 0;33;-0.28;0;-0.65, .Freeobj 0;145;-0.28;0;0.65,
+1050, .Adhesion 15, .FreeObj 0;8;-0.28, .Freeobj 0;293;-3.2;-0.6;-0.35, .Freeobj 0;33;-0.28;0;-0.65, .Freeobj 0;145;-0.28;0;0.65,
 1061, ;DISABLED.Marker Bham_X-City_South\Dusk\Common_Files\Generic\Signs\Markers\AWS1.gif;35,
 1075, .Freeobj 0;146;0;0;0.65,
 1100, .Freeobj 0;213;39;-2;0, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.15,
 1104, .Freeobj 0;167,
 1105, .Limit 88;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\55mph.gif;50, .Freeobj 0;377;0;0, .Freeobj 0;232;0;0;180, .Pitch 0,
+1125, .Adhesion 115,
 1162, .FreeObj 0;8;-0.28, .Freeobj 0;277;-3.2;0;-0.27, .FreeObj 0;35;-0.28;0;-0.5,
 1175, .Curve -6000, .Height 1,
 1180, .Freeobj 0;340;-2.8;0;0,
@@ -1389,9 +1393,9 @@ With Track
 1300, .Rail 6;0;-6;6, .Rail 7;0;-6;6, .Dike 6;1;3, .Dike 7;1;4, .Ground 4, .Height 1,
 1314, .Freeobj 0;339;-55.8;1;-54,
 1325, .Rail 6;0;-5, .Rail 7;0;-5, .Height 1,
-1350, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.8;0.0;180, .Freeobj 0;334;-2.8;0;-2.3, .Freeobj 0;292;-2.74, .Freeobj 0;298;-2.9;0.6;0.27, .FreeObj 0;35;0.28;0;0.5, .Rail 6;0;-4, .Rail 7;0;-4, .Height 4,
+1350, .Adhesion 105, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.8;0.0;180, .Freeobj 0;334;-2.8;0;-2.3, .Freeobj 0;292;-2.74, .Freeobj 0;298;-2.9;0.6;0.27, .FreeObj 0;35;0.28;0;0.5, .Rail 6;0;-4, .Rail 7;0;-4, .Height 4,
 1375, .Freeobj 0;339;-14;1;-55.57, .Rail 6;0;-2, .Rail 7;0;-2,
-1400, .Ground 4, .Rail 6;0;-1, .Rail 7;0;-1,
+1400, .Adhesion 115, .Ground 4, .Rail 6;0;-1, .Rail 7;0;-1,
 1412, .FreeObj 0;8;-0.28, .Freeobj 0;304;-3.2;0;-0.27, .FreeObj 0;35;-0.28;0;-0.5,
 1425, .Freeobj 0;339;40.4;1;-42.6, .Rail 6;0;0, .Rail 7;0;0,
 1450, .Rail 6;0;0, .Rail 7;0;0, .Height 7,
@@ -1399,7 +1403,7 @@ With Track
 1500, .Rail 6;0;-2, .Rail 7;0;-2,
 
 ;MP 56.25 - 1450
-1525, .Accuracy 2, .Freeobj 0;339;147.5;1;-43.8, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.72, .Freeobj 0;33;0.28;0;0.72, .Ground 5, .Curve -1000;50, .Railtype 0;27, .Rail 6;0;-4, .Rail 7;0;-4, .Height 4, .Announce Bham_X-City_Sounds\hs_flange.wav,
+1525, .Accuracy 2.5, .Freeobj 0;339;147.5;1;-43.8, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.72, .Freeobj 0;33;0.28;0;0.72, .Ground 5, .Curve -1000;50, .Railtype 0;27, .Rail 6;0;-4, .Rail 7;0;-4, .Height 4, .Announce Bham_X-City_Sounds\hs_flange.wav,
 1550, .Rail 6;0;-6, .Rail 7;0;-6, .Height 1,
 1575, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16, .Dikeend 6, .Dikeend 7, .Railend 6;0;-7, .Railend 7;0;-7,
 1625, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
@@ -1407,33 +1411,33 @@ With Track
 1700, .Wall 0;0;7, .Railtype 0;55, .Ground 62, .Dikeend 0, ;Underbridge
 1722, .Freeobj 0;116;0;0;0,
 1725, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,.Wallend 0, .Railtype 0;27, .Ground 5, .Dike 0;0;17,
-1775, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
+1775, .Beacon 21;0;0;20, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
 1825, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
 1850, .Freeobj 0;201;-70;1;-30,
 1875, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,.Wall 0;0;7, .Dikeend 0, .Railtype 0;55, .Ground 62, ;Underbridge
 1897, .Freeobj 0;116;0;0;0,
 1900, .Announce Bham_X-City_Sounds\CWR_Rattle3.wav, .Curve 0;0, .Wallend 0, .Railtype 0;1, .Ground 5, .Dike 0;0;17,
 1925, .Freeobj 0;389;-30;-3;91, .FreeObj 0;8;-0.28, .Freeobj 0;350;-2.995;0.0;0, .Freeobj 0;292;-2.995, .Freeobj 0;297;-3.2;0.6;-0.35, .Freeobj 0;33;-0.28;0;-0.65, .Curve 2000;50, .Railtype 0;1, .Freeobj 0;185;0.1, ;OVERLAP BLOCK,
-1950, .Railtype 0;70, .Accuracy 1,
-1975, .Freeobj 0;10;-0.28, .Freeobj 0;293;-3.2;0;-1.08, .Freeobj 0;25;-0.35;0;2.4, .Freeobj 0;24;-0.28;0;-1.08, ;.Fog -80;850;180;180;180, ;Visibility Reduction Start
+1950, .Railtype 0;70, .Accuracy 2,
+1975, .Freeobj 0;10;-0.28, .Freeobj 0;293;-3.2;0;-1.08, .Freeobj 0;25;-0.35;0;2.4, .Freeobj 0;24;-0.28;0;-1.08, .Fog -80;850;180;180;180, ;Visibility Reduction Start
 1977, .Freeobj 0;357;0.14;5.65;0,
-2000, ;.Fog -80;800;180;180;180,
+2000, .Fog -80;800;180;180;180,
 2024, .Freeobj 0;357;-0.28;5.9;0,
-2025, .Freeobj 0;11;-0.28, .Freeobj 0;299;-2.7;-0.6;-0.48, .Freeobj 0;26;-0.28;0;-1.08, .Freeobj 0;27;-0.28;0;-1.08, .Freeobj 0;154;-0.13, .Freeobj 0;57;-0.1;0;0, ;.Fog -80;750;180;180;180,
-2050, ;.Fog -80;750;175;175;175,
-2075, .FreeObj 0;8;-0.28, .Freeobj 0;350;-2.995;0.0;180, .Freeobj 0;292;-2.995, .Freeobj 0;300;-3.2;0.6;-1.68, .Freeobj 0;28;-3.0;0;-4.2, .Freeobj 0;33;-0.28;0;-1.5, .Freeobj 0;186;0;0;180, ;.Fog -80;750;170;170;170,
-2100, ;.Fog -80;750;165;165;165,
-2125, .FreeObj 0;8;-0.28, .Freeobj 0;293;-3.2;0;-1.08, .Freeobj 0;33;-0.28;0;-1.08, ;.Fog -80;750;160;160;160,
-2150, ;.Fog -80;750;155;155;155,
-2175, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-1.08, .Freeobj 0;33;-0.28;0;-1.08, ;.Fog -80;750;150;150;150,
-2200, ;.Fog -80;750;145;145;145,
-2225, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-1.08, .Freeobj 0;33;-0.28;0;-1.08, ;.Railstart 1;0;0;22, ;.Fog -80;750;140;140;140, ;Rainfall Start
+2025, .Freeobj 0;11;-0.28, .Freeobj 0;299;-2.7;-0.6;-0.48, .Freeobj 0;26;-0.28;0;-1.08, .Freeobj 0;27;-0.28;0;-1.08, .Freeobj 0;154;-0.13, .Freeobj 0;57;-0.1;0;0, .Fog -80;750;180;180;180,
+2050, .Fog -80;750;175;175;175,
+2075, .FreeObj 0;8;-0.28, .Freeobj 0;350;-2.995;0.0;180, .Freeobj 0;292;-2.995, .Freeobj 0;300;-3.2;0.6;-1.68, .Freeobj 0;28;-3.0;0;-4.2, .Freeobj 0;33;-0.28;0;-1.5, .Freeobj 0;186;0;0;180, .Fog -80;750;170;170;170,
+2100, .Fog -80;750;165;165;165,
+2125, .FreeObj 0;8;-0.28, .Freeobj 0;293;-3.2;0;-1.08, .Freeobj 0;33;-0.28;0;-1.08, .Fog -80;750;160;160;160,
+2150, .Fog -80;750;155;155;155,
+2175, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-1.08, .Freeobj 0;33;-0.28;0;-1.08, .Fog -80;750;150;150;150,
+2200, .Fog -80;750;145;145;145,
+2225, .Beacon 21;0;0;60, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-1.08, .Freeobj 0;33;-0.28;0;-1.08, .Railstart 1;0;0;22, .Fog -80;750;140;140;140, ;Rainfall Start
 
 ;mp 56.25
 2275, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.71, .Freeobj 0;276;-3.2;0;0.65, .Freeobj 0;32;-0.28;0;1.25, .Freeobj 0;33;-0.28;0;-0.7, .Curve 0;0, .Railtype 0;1,
 
 ;F 1437 
-2300, .FreeObj 0;12;0.28, .Curve -1000;50, .Railtype 0;27, .Accuracy 2,
+2300, .FreeObj 0;12;0.28, .Curve -1000;50, .Railtype 0;27, .Accuracy 2.5,
 2350, .FreeObj 0;345;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
 2400, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
 2450, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
@@ -1442,27 +1446,27 @@ With Track
 2600, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
 2650, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16, ;.Fog -80;750;230;230;230, ;Lightning Start
 2675, ;.Fog -80;750;140;140;140, ;Lightning Start
-2700, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16,
+2700, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16, .Announce Bham_X-City_Sounds\Thunder2.wav,
 2733, .Freeobj 0;339;-47.5;0;-60,
-2750, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16, .Ground 4,
+2750, .Beacon 21;0;0;90, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.16, .Freeobj 0;33;0.28;0;2.16, .Ground 4,
 2800, .Freeobj 0;339;-14;0;-60, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.74;0.0;0, .Freeobj 0;292;-2.74, .Freeobj 0;297;-2.9;0.6;2.16, .Freeobj 0;33;0.28;0;2.16,
 2816, .Freeobj 0;167,
 2825, .Curve 0;0, .Railtype 0;1,
 2847, .Freeobj 0;339;42.5;0;-39.6,
 
 ;F 1509
-2850, .Accuracy 3,  .FreeObj 0;8;-0.28, .Freeobj 0;331;-0.28;0;2.7, .Freeobj 0;293;-3.2;0;-0.47, .Freeobj 0;33;-0.28;0;-0.75, .Ground 2, .Curve 1500;50, .Railtype 0;26,
+2850, .Accuracy 2.5,  .FreeObj 0;8;-0.28, .Freeobj 0;331;-0.28;0;2.7, .Freeobj 0;293;-3.2;0;-0.47, .Freeobj 0;33;-0.28;0;-0.75, .Ground 2, .Curve 1500;50, .Railtype 0;26,
 2872, .Freeobj 0;339;112;0;-19.6,
-2900, .FreeObj 0;8;-0.28, .Freeobj 0;350;-3.0;0.0;180, .Freeobj 0;292;-3.0, .Freeobj 0;332;-3.0;0;-4.54, .Freeobj 0;297;-3.2;0.6;-1.45, .Freeobj 0;33;-0.28;0;-1.45,
+2900, .Beacon 21;0;0;60, .FreeObj 0;8;-0.28, .Freeobj 0;350;-3.0;0.0;180, .Freeobj 0;292;-3.0, .Freeobj 0;332;-3.0;0;-4.54, .Freeobj 0;297;-3.2;0.6;-1.45, .Freeobj 0;33;-0.28;0;-1.45,
 2925, .Ground 5,
 2950, .FreeObj 0;8;-0.28, .Freeobj 0;293;-3.2;0;-1.45, .Freeobj 0;33;-0.28;0;-1.44,
 2956, .Freeobj 0;341;0;0;0,
 3000, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-1.45, .Freeobj 0;33;-0.28;0;-1.44,
-3050, .Accuracy 2, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.96, .Freeobj 0;33;-0.28;0;-0.95, .Curve 0;0, .Railtype 0;1,
+3050, .Accuracy 2.6, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.96, .Freeobj 0;33;-0.28;0;-0.95, .Curve 0;0, .Railtype 0;1,
 3100, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.00, .Freeobj 0;276;-3.2;0;0.65, .Freeobj 0;33;-0.28;0;0, .Freeobj 0;32;-0.28;0;1.25,
 3125, .FreeObj 0;12;0.28, .Pitch 3.23, .Freeobj 0;232;0;0;180, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1u310.gif;50, .Ground 4,
 3187, .FreeObj 0;8;-0.28, .Freeobj 0;277;-3.2;0;-0.27, .FreeObj 0;35;-0.28;0;-0.5,
-3250, .Accuracy 4, .FreeObj 0;12;0.28, .Freeobj 0;277;-2.9;0;0.27, .FreeObj 0;35;0.28;0;0.5,
+3250, .Accuracy 3, .FreeObj 0;12;0.28, .Freeobj 0;277;-2.9;0;0.27, .FreeObj 0;35;0.28;0;0.5,
 3312, .FreeObj 0;8;-0.28, .Freeobj 0;277;-3.2;0;-0.27, .FreeObj 0;35;-0.28;0;-0.5,
 3375, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.735;0.0;0, .Freeobj 0;292;-2.735, .Freeobj 0;298;-2.9;0.6;0.27, .FreeObj 0;35;0.28;0;0.5, .Freeobj 0;185;0.3, ;OVERLAP BLOCK,
 3425, .Railtype 0;76, .FreeObj 0;10;-0.28, .Freeobj 0;293;-3.2;0;-0.35, .Freeobj 0;25;-0.30;0;3.3, .Freeobj 0;24;-0.28;0;-0.64,
@@ -1476,32 +1480,32 @@ With Track
 3675, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
 3700, .Ground 3,
 3725, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
-3775, .Accuracy 2, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Ground 5,
+3775, .Accuracy 2.5, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Ground 5,
 3825, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
 3850, .Freeobj 0;341;0;0;0,
 3875, .FreeObj 0;8;-0.25, .Freeobj 0;350;-2.98;0.0;0, .Freeobj 0;292;-2.98, .Freeobj 0;297;-3.2;0.6;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
 3925, .FreeObj 0;8;-0.25, .Freeobj 0;331;-0.28;0;1.65, .Freeobj 0;293;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
 3950, .Ground 3,
-3975, .FreeObj 0;8;-0.25, .Freeobj 0;350;-2.98;0.0;180, .Freeobj 0;292;-2.98, .Freeobj 0;332;-2.95;0;-4.5, .Freeobj 0;297;-3.2;0.6;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
+3975, .FreeObj 0;8;-0.25, .Freeobj 0;350;-2.98;0.0;180, .Freeobj 0;292;-2.98, .Freeobj 0;332;-2.95;0;-4.5, .Freeobj 0;297;-3.2;0.6;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Announce Bham_X-City_Sounds\Thunder2.wav,
 4025, .FreeObj 0;8;-0.25, .Freeobj 0;293;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
 4075, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
 4125, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
 4175, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44,
-4225, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Ground 5, ;.Fog -80;750;145;145;145, ;Visibility Increase Start
-4250, ;.Fog -80;750;150;150;150,
-4275, .Freeobj 0;388;60;5;0, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44, ;.Fog -80;750;155;155;155,
-4300, ;.Fog -80;750;160;160;160,
+4225, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Ground 5, .Fog -80;750;145;145;145, ;Visibility Increase Start
+4250, .Fog -80;750;150;150;150,
+4275, .Freeobj 0;388;60;5;0, .FreeObj 0;8;-0.25, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Fog -80;750;155;155;155,
+4300, .Fog -80;750;160;160;160,
 
 ;Bridge
-4325, .FreeObj 0;8;-0.25, .Freeobj 0;295;-3.2;-0.6;-1.15, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Freeobj 0;48;-0.25, ;.Fog -80;750;165;165;165, ;estimated
-4350, .FreeObj 0;8;-0.25, .Freeobj 0;282;-3.7;-0.6;0, .FreeObj 0;143;-0.25, .Railtype 0;20, .Freeobj 0;122, ;.Fog -80;750;170;170;170, ;Bridge Here
+4325, .FreeObj 0;8;-0.25, .Freeobj 0;295;-3.2;-0.6;-1.15, .Freeobj 0;275;-3.2;0;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Freeobj 0;48;-0.25, .Fog -80;750;165;165;165, ;estimated
+4350, .FreeObj 0;8;-0.25, .Freeobj 0;282;-3.7;-0.6;0, .FreeObj 0;143;-0.25, .Railtype 0;20, .Freeobj 0;122, .Fog -80;750;170;170;170, ;Bridge Here
 4361, .Freeobj 0;168;-0.25;0;180,
-4375, .FreeObj 0;8;-0.25, .Freeobj 0;286;-3.7;0;1.2, .Freeobj 0;52;-0.25, .Railtype 0;26, ;.Fog -80;750;175;175;175, .Height 1,
-4400, .Freeobj 0;8;-0.25, ;.Fog -80;750;180;180;180,
+4375, .Beacon 21;0;0;20, .FreeObj 0;8;-0.25, .Freeobj 0;286;-3.7;0;1.2, .Freeobj 0;52;-0.25, .Railtype 0;26, .Fog -80;750;175;175;175, .Height 1,
+4400, .Freeobj 0;8;-0.25, .Fog -80;750;180;180;180,
 
 ; MP 54 at 4425
-4425, .Ground 2, .Freeobj 0;167, ;.Fog -80;800;180;180;180,
-4450, .FreeObj 0;8;-0.28, .Freeobj 0;350;-3.0;0.0;0, .Freeobj 0;292;-3.0, .Freeobj 0;297;-3.2;0.6;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Ground 6, .Freeobj 0;185, ;.Railend 1;0;0, ;.Fog -80;850;180;180;180, ;Rainfall End OVERLAP BLOCK,
+4425, .Ground 2, .Freeobj 0;167, .Fog -80;800;180;180;180,
+4450, .Beacon 21;0;0;25, .FreeObj 0;8;-0.28, .Freeobj 0;350;-3.0;0.0;0, .Freeobj 0;292;-3.0, .Freeobj 0;297;-3.2;0.6;-1.44, .Freeobj 0;33;-0.28;0;-1.44, .Ground 6, .Freeobj 0;185, .Railend 1;0;0, .Fog -80;850;180;180;180, ;Rainfall End OVERLAP BLOCK,
 4475, .Freeobj 0;397;-5.5;0;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\W.gif;75,
 4500, .FreeObj 0;10;-0.28, .Freeobj 0;293;-3.2;0;-1.44, .Freeobj 0;25;-0.32;0;2.3, .Freeobj 0;24;-0.28;0;-1.44,
 4502, .Freeobj 0;357;0.14;5.65;0,
@@ -1517,16 +1521,16 @@ With Track
 4800, .Freeobj 0;210;-10;1;-20, .Pitch 14.49, .Freeobj 0;232;0;0;180, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1u69.gif;50,
 
 ;F 1939
-4825, .Accuracy 4, .Freeobj 0;181;-44;3;10, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.82, .Freeobj 0;33;0.28;0;1.12, .Curve -1500;60, .Railtype 0;65,
+4825, .Beacon 21;0;0;11, .Freeobj 0;181;-44;3;10, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.82, .Freeobj 0;33;0.28;0;1.12, .Curve -1500;60, .Railtype 0;65,
 4875, .Freeobj 0;210;-10;0;-20, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;1.44, .Freeobj 0;33;0.28;0;1.44,
 4925, .Freeobj 0;181;-43;3;10, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;1.44, .Freeobj 0;33;0.28;0;1.44,
 4965, .Freeobj 0;406;5;-0.4;0,
 4975, .Freeobj 0;210;-7;-2;-15, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;1.35, .Freeobj 0;33;0.28;0;1.35, .Curve -1800;50, .Railtype 0;65,
-5000, .Freeobj 0;181;-29;3;0, .Limit 32;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\20mph.gif;200, .Freeobj 0;56;0.3,
+5000, .Freeobj 0;181;-29;3;0, .Accuracy 3, .Limit 32;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\20mph.gif;200, .Freeobj 0;56;0.3,
 5002, .Freeobj 0;377;0;0;180,
 5025, .Freeobj 0;181;-57;0;0, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.74;0.0;0, .Freeobj 0;292;-2.74, .Freeobj 0;297;-2.9;0.6;1.22, .Freeobj 0;33;0.28;0;1.22, .Height 0,
 5027, .Freeobj 0;338;-83;0;0, .Freeobj 0;338;-8;0;0, .Freeobj 0;338;67;0;0,
-5050, .Freeobj 0;210;-5;0;-15, .Ground 6, .Height 1,
+5050, .Accuracy 3.5, .Freeobj 0;210;-5;0;-15, .Ground 6, .Height 1,
 5075, .FreeObj 0;12;0.28, .Freeobj 0;331;0.28;0;5.0, .Freeobj 0;293;-2.9;0;1.51, .Freeobj 0;33;0.28;0;1.51, .Curve -1000;60, .Railtype 0;27, .Announce Bham_X-City_Sounds\ls_flange.wav,
 5100, .Ground 1, .Form 0;R;8;2,
 5110, .Freeobj 0;211;28;0.5,
@@ -1540,20 +1544,20 @@ With Track
 5176, .Freeobj 0;232,
 5200, .Form 0;R;4;0, .Freeobj 0;175;0;-1.98,
 5225, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.71, .Freeobj 0;33;0.28;0;0.71, .Form 0;R;4;0, .Freeobj 0;175;0;-1.32,
-5250,  .Form 0;R;0;0, .Freeobj 0;175;0;-0.66, .Freeobj 0;177,
+5250, .Adhesion 15, .Form 0;R;0;0, .Freeobj 0;175;0;-0.66, .Freeobj 0;177,
 5260, .Freeobj 0;148;4,
 
 ;Bridge
-5275, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.71, .Freeobj 0;287;-2.9;-0.6;0, .Freeobj 0;33;0.28;0;0.71, .FreeObj 0;32;0.28, .Form 0;R;0;0, .Freeobj 0;175, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_Alvechurch.gif;100,
-5300, .Freeobj 0;12;0.28, .Freeobj 0;287;-2.9;-1.2;0, .Freeobj 0;48;0.28, .Form 0;R;0;0, .Freeobj 0;176,
+5275, .Adhesion 105, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.71, .Freeobj 0;287;-2.9;-0.6;0, .Freeobj 0;33;0.28;0;0.71, .FreeObj 0;32;0.28, .Form 0;R;0;0, .Freeobj 0;175, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_Alvechurch.gif;100,
+5300, .Adhesion 115, .Freeobj 0;12;0.28, .Freeobj 0;287;-2.9;-1.2;0, .Freeobj 0;48;0.28, .Form 0;R;0;0, .Freeobj 0;176,
 5312, .Stop 0;50;13, .Doppler Bham_X-City_Sounds\birds.wav;0;0, .Freeobj 0;96;5.17,
-5325, .FreeObj 0;12;0.28, .Freeobj 0;276;-2.9;-1.2;0, .FreeObj 0;143;0.28, .Curve -1500;50, .Ground 6, .Height 1, .Dike 0;0;17, .Freeobj 0;91, .Railtype 0;55, .Railend 1;0;0, .Dikeend 1, .Freeobj 0;99, .Freeobj 0;59;8.7, ;Bridge Here
+5325, .Beacon 21;0;0;0, .Adhesion 95, .Announce Bham_X-City_Sounds\323Wheelslip.wav, .FreeObj 0;12;0.28, .Freeobj 0;276;-2.9;-1.2;0, .FreeObj 0;143;0.28, .Curve -1500;50, .Ground 6, .Height 1, .Dike 0;0;17, .Freeobj 0;91, .Railtype 0;55, .Railend 1;0;0, .Dikeend 1, .Freeobj 0;99, .Freeobj 0;59;8.7, ;Bridge Here
 5333, .Freeobj 0;387;-57;5.2;0,
 5336, .Freeobj 0;168;0.28,
 5347, .Freeobj 0;213;30;5;0,
-5350, .FreeObj 0;12;0.28,  .Freeobj 0;286;-2.9;-0.6;0, .Freeobj 0;52;0.28, .Railtype 0;27, .Limit 64;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\40mph.gif;25, .Freeobj 0;60;0.38,
+5350, .Beacon 21;0;0;11, .Adhesion 130,  .FreeObj 0;12;0.28, .Freeobj 0;286;-2.9;-0.6;0, .Freeobj 0;52;0.28, .Railtype 0;27, .Limit 64;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\40mph.gif;25, .Freeobj 0;60;0.38,
 5351, .Freeobj 0;56;0;0;180,
-5375, .Freeobj 0;12;0.28, .Freeobj 0;286;-2.9;0;0, .Freeobj 0;32;0.28,
+5375, .Accuracy 3, .Freeobj 0;12;0.28, .Freeobj 0;286;-2.9;0;0, .Freeobj 0;32;0.28,
 5400, .FreeObj 0;12;0.28, .Freeobj 0;145;0.28;0;-0.5, .Beacon 24;0;0;0,
 5425, .Freeobj 0;146;0.06;0;0.5,
 5450, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.735;0.0;0, .Freeobj 0;292;-2.735, .Freeobj 0;297;-2.9;0.6;1.24, .Freeobj 0;185;0.3, .Pitch 13.51, .Freeobj 0;232;0;0;180, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1u74.gif;50, ;OVERLAP BLOCK,
@@ -1561,19 +1565,19 @@ With Track
 5550, .Freeobj 0;21;0.28, .Freeobj 0;275;-2.7;0;1.44, .Freeobj 0;26;0.28;0;1.44, .Freeobj 0;27;0.28;0;1.44,
 5600, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.735;0.0;180, .Freeobj 0;292;-2.735, .Freeobj 0;297;-2.9;0.6;1.22, .Freeobj 0;28;-2.8;0;-2.10, .Freeobj 0;33;0.28;0;0.95, ;.Ground 5, .Height 3, .Freeobj 0;186;0.2;0;180,
 5625, .Limit 56;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\35mph.gif;100, .Freeobj 0;367;0;0, ;MP53.25
-5650, .FreeObj 0;12;0.28, .Freeobj 0;293;-2.9;0;1.44, .Freeobj 0;33;0.28;0;1.44, 
+5650, .Beacon 21;0;0;25, .FreeObj 0;12;0.28, .Freeobj 0;293;-2.9;0;1.44, .Freeobj 0;33;0.28;0;1.44, 
 5700, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;1.44, .Freeobj 0;33;0.28;0;1.44, 
 5750, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.96, .Freeobj 0;33;0.28;0;0.95,  .Curve 0;0, .Railtype 0;1,
-5775, .Railtype 0;117, .Freeobj 0;449;0;0;0, .Accuracy 4,
+5775, .Railtype 0;117, .Freeobj 0;449;0;0;0, .Accuracy 2,
 5800, .FreeObj 0;344;-0.28, .Freeobj 0;275;-3.2;0;-1.25, .Freeobj 0;33;-0.28;0;-1.53, .Curve 800;60, .Railtype 0;111, .Height 3.5, .Announce Bham_X-City_Sounds\ls_flange.wav,
-5850, .Freeobj 0;389;20;-3;86, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-2.69, .Freeobj 0;33;-0.28;0;-2.69, .Height 4,
+5850, .Adhesion 105, .Freeobj 0;389;20;-3;86, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-2.69, .Freeobj 0;33;-0.28;0;-2.69, .Height 4,
 
 ;Underbridge 5875
 5875, .Wall 0;0;6, .Dikeend 0, .Railtype 0;112, .Ground 62, .Height 1,
 5891, .Freeobj 0;116;0;0;0,
-5900, .FreeObj 0;344;-0.28, .Freeobj 0;275;-3.2;0;-2.69, .Freeobj 0;33;-0.28;0;-2.69, .Wallend 0, .Railtype 0;111, .Ground 6, .Height 4.0, .Dike 0;0;17,
+5900, .Adhesion 15, .FreeObj 0;344;-0.28, .Freeobj 0;275;-3.2;0;-2.69, .Freeobj 0;33;-0.28;0;-2.69, .Wallend 0, .Railtype 0;111, .Ground 6, .Height 4.0, .Dike 0;0;17,
 5925, .Height 4, .Rail 2;-35;-3.5;6, .Dike 2;-1;14, .Height 4,
-5950, .FreeObj 0;344;-0.28, .Freeobj 0;275;-3.2;0;-2.69, .Freeobj 0;33;-0.28;0;-2.69, .Rail 2;-25;-3.5, .Ground 3, .Height 7,
+5950, .Adhesion 105, .FreeObj 0;344;-0.28, .Freeobj 0;275;-3.2;0;-2.69, .Freeobj 0;33;-0.28;0;-2.69, .Rail 2;-25;-3.5, .Ground 3, .Height 7,
 
 ;Canal underbridge
 5975, .Wall 0;-1;8, .Railtype 0;112, .Dike 0;1;17, .Rail 2;-15;-3.5, .Height 7,
@@ -1586,7 +1590,7 @@ With Track
 6050, .FreeObj 0;344;-0.28, .Freeobj 0;275;-3.2;0;-2.69, .Freeobj 0;33;-0.28;0;-2.69, .Dike 0;0;17, .Rail 2;18;-4,
 6074, .Freeobj 2;117;-4;-1;180,
 6075, .Rail 2;31;-4.5, .Dike 2;1;13,
-6100, .Ground 6, .Height 4, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-1.82, .Freeobj 0;33;-0.28;0;-1.8, .Curve 0;0, .Rail 2;45;-5, .Railtype 0;117,
+6100, .Accuracy 3, .Ground 6, .Height 4, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-1.82, .Freeobj 0;33;-0.28;0;-1.8, .Curve 0;0, .Rail 2;45;-5, .Railtype 0;117,
 6107, .Freeobj 0;338;-129;0;-19.65,
 6125, .Height 2, .Dikeend 2, .Railend 2;55;-5.5,
 6132, .Freeobj 0;338;-58;0;-19.45,
@@ -1602,7 +1606,7 @@ With Track
 6325, .Ground 6,
 6350, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.69, .Freeobj 0;276;-2.9;0;0, .Freeobj 0;33;0.28;0;2.69, .FreeObj 0;32;0.28,
 6365, .Freeobj 0;152;0;0;180, .Freeobj 0;155;0;0;180,
-6372, .SigF 13;1;-2.2;4.3, .Section 2;2;4, .Freeobj 0;68, .Freeobj 0;69;-2.775;0;180,
+6372, .SigF 13;1;-2.2;4.3, .Section 2;2;4, ;SY5R, .Freeobj 0;68, .Freeobj 0;69;-2.775;0;180,
 6374, .Freeobj 0;152;-0.2;0;0,
 6375, .FreeObj 0;12;0.28, .Freeobj 0;289;-2.9;-0.6;0.8, .FreeObj 0;48;0.28,
 6380, .Freeobj 0;181;-57;0;0,
@@ -1646,6 +1650,7 @@ With Track
 7125, 
 7150, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.69, .Freeobj 0;33;0.28;0;2.69,
 7200, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.69, .Freeobj 0;33;0.28;0;2.69,
+7225, .Adhesion 15,
 
 ;Bridge, ;MP52.25 - 7250
 7250, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;2.69, .Freeobj 0;33;0.28;0;2.69, .Railtype 0;55, .Freeobj 0;99;1;1, .Freeobj 0;59;8.4,
@@ -1656,7 +1661,7 @@ With Track
 7301, .Freeobj 0;66,
 7302, .Freeobj 0;66;0;0;180,
 7303, .SigF 3;1;2.2;4.5, .Section 0;2;4, ;SY5, .Freeobj 0;70;4.4, .Freeobj 0;69;2.2;0;180,
-7325, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.735;0.0;0, .Freeobj 0;292;-2.735, .Freeobj 0;185;0.3, .Curve 0;0, .Railtype 0;1,
+7325, .Adhesion 105, .FreeObj 0;12;0.28, .Freeobj 0;350;-2.735;0.0;0, .Freeobj 0;292;-2.735, .Freeobj 0;185;0.3, .Curve 0;0, .Railtype 0;1,
 7350, .Freeobj 0;152;0.4;0;180,
 7352, .Freeobj 0;152;0.4;0;180,
 7375, .Freeobj 0;10;-0.28, .Freeobj 0;293;-3.2;0;-0.34, .Freeobj 0;25;-0.4;0;3.2, .Freeobj 0;33;-0.28;0;-0.65, .Height 1,
@@ -1707,7 +1712,7 @@ With Track
 7946, .Freeobj 0;66;-0.14;0.06;2,
 7947, .Freeobj 0;66;-0.09;0.06;182,
 7948, .SigF 3;1;-3.2;5.5, .Section 0;2;4, ;SY9, .Freeobj 0;69;-5.8;1;180, .Freeobj 0;125;-1;1, .Freeobj 0;369;-1;-0.31,
-7950, .FreeObj 0;2;-0.28, .Freeobj 1;281;2.8;0;0, .Freeobj 1;279;3.1;0.6;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .FreeObj 0;144;-0.28, .FreeObj 1;144;-0.28, .Freeobj 1;178, .Rail 2;-40.52;0;0, .Rail 3;-37.26;0;0, .Form 3;R;0;0, .Form 0;L;5;9, .Form 1;R;0;9, .Wall 2;-1;13, .Announce Bham_X-City_Sounds\BGFlange2_NS.wav, 
+7950, .FreeObj 0;2;-0.28, .Freeobj 1;281;2.8;0;0, .Freeobj 1;279;3.1;0.6;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .FreeObj 0;144;-0.28, .FreeObj 1;144;-0.28, .Freeobj 1;178, .Rail 2;-40.52;0;0, .Rail 3;-37.26;0;0, .Form 3;R;0;0, .Form 0;L;5;9, .Form 1;R;0;9, .Wall 2;-1;13, .Announce Bham_X-City_Sounds\BGFlange2.wav, 
 7965, .Freeobj 3;222;24;1,
 7966, .Freeobj 1;223;-1.5,
 7975, .FreeObj 0;2;-0.28, .Freeobj 1;281;2.8;0;0, .Freeobj 1;310;3.1;-0.3;0, .Freeobj 0;94;-0.28, .Freeobj 1;94;-0.28, .FreeObj 0;48;-0.28, .FreeObj 1;48;-0.28, .Ground 63, .Form 3;R;0;0, .Form 0;L;8;9, .Form 1;R;0;9, .Freeobj 1;178, .Rail 2;-27.82;0, .Rail 3;-24.56;0;0, .Form 2;L;0;0, .Dike 2;-1;5,
@@ -1717,22 +1722,22 @@ With Track
 8009, .Freeobj 0;168;-0.28, .Freeobj 1;168;-0.28,
 8025, .FreeObj 0;2;-0.28, .Freeobj 1;281;2.8;0;0, .Freeobj 1;309;3.1;0.6;1.25, .Freeobj 0;475;-0.28;0, .Freeobj 1;475;-0.28;0, .FreeObj 0;52;-0.28, .FreeObj 1;52;-0.28, .Freeobj 0;50;-5.8;0.24;8.31, .Dikeend 0, .Dike 1;1;18, .Dike 2;-1;0, .Dikeend 3, .Crack 0;2;0, .Curve 2000;10, .Rail 2;-11.42;0, .Rail 3;-8.16;-0.02, .Railtype 0;28, .Railtype 1;28, .Freeobj 2;90, .Freeobj 0;90, .Freeobj 1;91, .Rail 5;6.52;0;10, .Dike 5;1;8, .Freeobj 0;181;-30;3, .Freeobj 0;438,
 8033, .Freeobj 1;70;5, .Freeobj 1;69;2.8;0;180, .Freeobj 1;385;2.8;4.45,
-8050, .Freeobj 2;351;0;0;-2, .Freeobj 3;351;0.02;0;1, .Curve 0;0, .Turn 0.042, .Railtype 0;6, .Railtype 1;25, .Freeobj 0;7;-8.2, .Freeobj 1;276;3.62;0.6;3.3, .Freeobj 0;94;-0.28, .Freeobj 1;94;-0.28, .FreeObj 0;32;-0.28, .FreeObj 1;32;-0.28, .Rail 2;-5.92;0, .Rail 3;-2.60;0;6, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\BG_Jn2.gif;50,
-8075, .Freeobj 2;351;0.02;0, .Freeobj 0;2;-0.28, .Freeobj 1;289;5.02;0;-3.9, .Freeobj 0;22;-0.28, .Freeobj 1;94;-0.28, .Freeobj 0;31;0.25;-0.2;0.65, .Freeobj 0;474;-0.28;0, .Freeobj 0;64;0.68;0;6.3, .FreeObj 0;32;-0.28, .Freeobj 1;32;-0.28, .Freeobj 3;115;0;0;180, .Turn 0.102, .Railtype 0;6, .Rail 1;3.32;0;6, .Rail 2;-1.66;0;6, .Rail 3;1.66;0;6, .Announce Bham_X-City_Sounds\Flange1.wav,
+8050, .Fog -80;750;160;160;160, .Freeobj 2;351;0;0;-2, .Freeobj 3;351;0.02;0;1, .Curve 0;0, .Turn 0.042, .Railtype 0;6, .Railtype 1;25, .Freeobj 0;7;-8.2, .Freeobj 1;276;3.62;0.6;3.3, .Freeobj 0;94;-0.28, .Freeobj 1;94;-0.28, .FreeObj 0;32;-0.28, .FreeObj 1;32;-0.28, .Rail 2;-5.92;0, .Rail 3;-2.60;0;6, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\BG_Jn2.gif;50,
+8075, .Fog -80;750;170;170;170, .Freeobj 2;351;0.02;0, .Freeobj 0;2;-0.28, .Freeobj 1;289;5.02;0;-3.9, .Freeobj 0;22;-0.28, .Freeobj 1;94;-0.28, .Freeobj 0;31;0.25;-0.2;0.65, .Freeobj 0;474;-0.28;0, .Freeobj 0;64;0.68;0;6.3, .FreeObj 0;32;-0.28, .Freeobj 1;32;-0.28, .Freeobj 3;115;0;0;180, .Turn 0.102, .Railtype 0;6, .Rail 1;3.32;0;6, .Rail 2;-1.66;0;6, .Rail 3;1.66;0;6, .Announce Bham_X-City_Sounds\Flange1.wav,
 8076, .Freeobj 2;152,
 8078, .Freeobj 2;152,
 
 ;Barnt Green Jcn - 83243 - 83250 from NS - 8075
-8100, .Freeobj 0;344;-0.28, .Freeobj 1;279;3.3;0;-0.91, .Freeobj 1;19;0.12, .Freeobj 0;32;-0.28;0;1.3, .Freeobj 1;32;-0.28;0;0, .Freeobj 1;32;0.12;0;0.0, .Turn 0.066, .Accuracy 2, .Freeobj 0;157;0;0;180, .Freeobj 1;157, .Dikeend 2, .Dikeend 3, .Wallend 2, .Railend 2;0;0, .Beacon 24;0;0;0, .Railend 3;3.32;0, .Freeobj 0;261;0;0;180, .Freeobj 1;261;0;0;180, .Railtype 0;0, .Railtype 1;0, .Ground 1, .Dike 0;-1;0, .Announce Bham_X-City_Sounds\Flange3.wav,
+8100, .Fog -80;750;175;175;175, .Freeobj 0;344;-0.28, .Freeobj 1;279;3.3;0;-0.91, .Freeobj 1;19;0.12, .Freeobj 0;32;-0.28;0;1.3, .Freeobj 1;32;-0.28;0;0, .Freeobj 1;32;0.12;0;0.0, .Turn 0.066, .Accuracy 2, .Freeobj 0;157;0;0;180, .Freeobj 1;157, .Dikeend 2, .Dikeend 3, .Wallend 2, .Railend 2;0;0, .Beacon 24;0;0;0, .Railend 3;3.32;0, .Freeobj 0;261;0;0;180, .Freeobj 1;261;0;0;180, .Railtype 0;0, .Railtype 1;0, .Ground 1, .Dike 0;-1;0, .Announce Bham_X-City_Sounds\Flange3.wav,
 8105, .Freeobj 0;407;-0.2;0;0,
-8125, .Freeobj 0;12;0.28, .Freeobj 1;270;0.0;0;180, .Limit 144;0, .Height 2,
+8125, .Beacon 21;0;0;0, .Freeobj 0;12;0.28, .Freeobj 1;270;0.0;0;180, .Limit 144;0, .Height 2,
 8126, .Freeobj 1;152;0;0;180,
 8161, .Freeobj 0;152,
 8175, .Freeobj 0;8;-0.28, .Freeobj 1;270;0.0;0;180, .Freeobj 1;278;2.9;0;-0, .Freeobj 0;33;-0.28;0;-0.65, .Freeobj 1;37;0.12;0, .Freeobj 1;37;-0.28;0, .Rail 2;3.32;0;6, .Freeobj 1;114;0;0;0, .Railtype 1;6, .Freeobj 1;156, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\90mph.gif;50,
-8200, .Rail 2;1.66;0;6, .Railtype 1;0, .Railtype 0;6, .Freeobj 0;181;-20;2,
-8225, .Freeobj 0;270;-0.12, .Freeobj 1;20;0.28, .Freeobj 1;278;3.2;0;0.35, .Freeobj 0;33;0.12;0;0.46, .Freeobj 0;104;-0.28;0;-4.24, .Freeobj 1;37;0.28;0;0.65, .Railend 2;0;0, .Freeobj 0;114;0;0;180, .Railtype 0;0, .Freeobj 0;156;0;0;180, .Dike 5;1;9,
-8250, .Rail 2;0;0;6, .Railtype 0;6, .Freeobj 0;157;0;0;180, .Dikeend 0, .Dike 2;-1;0, .Rail 5;6.52;0, .Freeobj 0;181;4, .Height 1,
-8275, .Freeobj 0;118;-0.04;0;0.07, .Freeobj 0;2;-0.12, .Freeobj 0;350;8.75;0.2;0, .Freeobj 0;297;8.4;0.6;2.3, .Freeobj 0;276;8.4;0.6;-1.1, .Freeobj 0;22;-0.28, .Freeobj 0;473;0.12;0;180, .Freeobj 1;23;0.28, .Freeobj 0;46;-0.28;0;0.15, .Freeobj 0;46;0.12;0;0.15, .Freeobj 0;40;-0.28;0;1.3, .Freeobj 0;40;0.12;0;-4.75, .Freeobj 1;46;0.28;0;-0.38, .Freeobj 1;40;0.28;0;0.0, .Freeobj 0;185;-2.6, .Freeobj 1;186;2.1;0.6, .Rail 2;-0.83;0, .Rail 1;3.46;0, .Rail 5;6.72;0, .Curve -5000;30, .Height 2,
+8200, .Rail 2;1.66;0;6, .Accuracy 3, .Railtype 1;0, .Railtype 0;6, .Freeobj 0;181;-20;2,
+8225, .Freeobj 0;270;-0.12, .Accuracy 2, .Freeobj 1;20;0.28, .Freeobj 1;278;3.2;0;0.35, .Freeobj 0;33;0.12;0;0.46, .Freeobj 0;104;-0.28;0;-4.24, .Freeobj 1;37;0.28;0;0.65, .Railend 2;0;0, .Freeobj 0;114;0;0;180, .Railtype 0;0, .Freeobj 0;156;0;0;180, .Dike 5;1;9,
+8250, .Rail 2;0;0;6, .Accuracy 3, .Railtype 0;6, .Freeobj 0;157;0;0;180, .Dikeend 0, .Dike 2;-1;0, .Rail 5;6.52;0, .Freeobj 0;181;4, .Height 1,
+8275, .Freeobj 0;118;-0.04;0;0.07, .Accuracy 2, .Freeobj 0;2;-0.12, .Freeobj 0;350;8.75;0.2;0, .Freeobj 0;297;8.4;0.6;2.3, .Freeobj 0;276;8.4;0.6;-1.1, .Freeobj 0;22;-0.28, .Freeobj 0;473;0.12;0;180, .Freeobj 1;23;0.28, .Freeobj 0;46;-0.28;0;0.15, .Freeobj 0;46;0.12;0;0.15, .Freeobj 0;40;-0.28;0;1.3, .Freeobj 0;40;0.12;0;-4.75, .Freeobj 1;46;0.28;0;-0.38, .Freeobj 1;40;0.28;0;0.0, .Freeobj 0;185;-2.6, .Freeobj 1;186;2.1;0.6, .Rail 2;-0.83;0, .Rail 1;3.46;0, .Rail 5;6.72;0, .Curve -5000;30, .Height 2,
 8300, .Railtype 0;0, .Freeobj 0;4;-0.28, .Freeobj 0;276;7.93;0.6;-0.1, .Freeobj 0;23;0.28, .Freeobj 2;22;-0.28, .Freeobj 1;23;0.28, .Freeobj 2;40;-0.28;0;1.3, .Freeobj 0;40;0.28;0;-1.3, .Freeobj 1;40;0.28;0;-1.3, .Rail 2;-1.66;0;67, .Rail 1;3.76;0, .Rail 5;7.02;0, .Height 3,
 8325, .Freeobj 2;157;0;0;180, .Freeobj 0;4;-0.28, .Freeobj 0;140;-0.28, .Freeobj 0;3;-0.28;0;7.3, .Freeobj 1;0;-0.28, .Freeobj 1;3;-0.28;0;-5.6, .Freeobj 2;23;0.28, .Freeobj 0;467;-0.28;0, .Freeobj 0;465;-0.28;0;0, .Rail 2;-3.0;0;23, .Rail 1;4.06;0, .Rail 5;7.32;0, .Ground 4, .Height 1, .Freeobj 2;248;0;0;-1.5, .Freeobj 0;65;-7.5;0;0, .Freeobj 0;65;8.1;0;180,
 8326, .Freeobj 0;357;0.29;6.25;0, .Freeobj 1;357;0.29;6.25;0,
@@ -1804,14 +1809,6 @@ With Track
 9650, .FreeObj 0;4;-0.28, .Freeobj 0;281;-2.52;0;0, .Freeobj 0;275;-2.72;0.6;1.075, .Freeobj 1;275;3.25;0.6;1.075, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.075, .Freeobj 1;149;0.28;0;1.075,
 9655, .Freeobj 2;56, ;20mph on up goods
 9675, .Ground 8,
-
-
-
-
-
-
-
-
 9700, .FreeObj 0;4;-0.28, .Freeobj 2;350;-4.1;0.0;0, .Freeobj 0;281;-2.52;0;0, .Freeobj 0;275;-2.72;0.6;1.075, .Freeobj 1;275;3.25;0.6;1.075, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.075, .Freeobj 1;149;0.28;0;1.075, .Freeobj 2;185;-1.2;0.0;0,
 
 ;Overlap Start
@@ -1879,7 +1876,9 @@ With Track
 ;Bridge
 10875, .Railtype 0;4, .Freeobj 0;124,
 10900, .Freeobj 0;7;-3.54, .Freeobj 0;281;-3.08;0;0, .Freeobj 1;281;2.52;0;0, .Freeobj 0;275;-3.28;0.6;-0.72, .Freeobj 1;278;2.72;0.6;-0.72, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .FreeObj 0;41;-0.28;0;-0.72, .Freeobj 1;149;-0.28;0;-0.72, .Railtype 0;0,
+10925, .Adhesion 15,
 10950, .Freeobj 0;7;-3.54, .Freeobj 0;278;-7.23;0.6;-5.25, .Freeobj 1;275;6.88;0.6;4.06, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .FreeObj 0;41;-0.28;0;-0.72, .Freeobj 1;149;-0.28;0;-0.72,
+10975, .Adhesion 110,
 11000, .Freeobj 0;7;-3.54, .Freeobj 2;350;-4.1;0.0;0, .Freeobj 3;350;3.8;0.0;5, .Freeobj 0;319;-7.23;0.9;-0.72, .Freeobj 1;317;6.88;0.9;-0.72, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .FreeObj 0;41;-0.28;0;-0.72, .Freeobj 1;149;-0.28;0;-0.72, .Freeobj 2;185;-1.2;0.0;0, .Freeobj 1;186;3.99;0.0;0,
 11025, .Ground 10, .Wall 0;-1;11,
 11050, .Freeobj 0;7;-3.54, .Freeobj 0;318;-7.23;0.6;-0.72, .Freeobj 1;316;6.88;0.6;-0.72, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;263;-2.0;0;180, .Freeobj 1;263;2.02;0;0, .Freeobj 0;262;-2.0;0;5.5, .Freeobj 1;262;2.0;0;-6.5, .FreeObj 0;41;-0.28;0;-0.72, .Freeobj 1;149;-0.28;0;-0.72,
@@ -1897,7 +1896,7 @@ With Track
 11353, .Freeobj 0;66, .Freeobj 2;66, .Beacon 44002;0;1;49,
 11371, .Freeobj 0;67;0;0.114, .Freeobj 2;67, .Beacon 44000;1;1;0, ;AWS Magnet
 11373,
-11375, .Wall 3;1;11, .Sta  ;P;09.4300;0;-1;1;;;1;0;;11,
+11375, .Wall 3;1;11, .Sta  ;P;09.4300;0;-1;1;;;1;0;;,
 11395, .Stop 0 
 11400, .Freeobj 0;7;-3.54, .Freeobj 0;278;-7.23;0.6;-0.72, .Freeobj 1;275;6.88;0.6;-0.72, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 3;22;-0.28, .FreeObj 0;41;-0.28;0;-0.72, .Freeobj 1;149;-0.28;0;-0.72, .Freeobj 3;149;-0.28;0;-0.72,
 11450, .Freeobj 0;7;-3.54, .Freeobj 0;278;-7.23;0.6;-0.72, .Freeobj 1;275;6.88;0.6;-0.72, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 3;22;-0.28, .FreeObj 0;41;-0.28;0;-0.72, .Freeobj 1;149;-0.28;0;-0.72, .Freeobj 3;149;-0.28;0;-0.72,
@@ -1957,7 +1956,7 @@ With Track
 12175, .Railtype 2;47, .Rail 4;7.92;0;24, .Freeobj 2;156, .Form 0;L;1;0, .Form 3;R;0;0, .Freeobj 0;7;-0.28, .Freeobj 0;279;-3.98;0.6;0, .Freeobj 1;276;10.1;0.6;0, .Freeobj 0;22;-0.28, .Freeobj 3;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 2;22;-0.28, .Freeobj 2;473;0.12;0;180, .FreeObj 0;40;-0.28, .Freeobj 1;40;-0.28, .Freeobj 2;40;-0.28;0;2.5, .Freeobj 2;40;0.12;0;-0.0, .Freeobj 3;40;-0.28, 
 12200, .Railtype 2;0, .Rail 4;9.15;0;1, .Form 0;L;1;0, .Form 3;R;0;0, .Freeobj 1;187;-4;0;180, .Freeobj 3;161;0;0;-0.5, .Freeobj 0;7;-0.28, .Freeobj 0;22;-0.28, .Freeobj 3;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 2;22;0.0, .Freeobj 2;473;0.84;0;180,  ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_Longbridge.gif;225,
 12212, .Freeobj 0;423;-4,
-12225, .Freeobj 3;230;50;2;90, .Rail 4;11.35;0;31, .Dike 0;-1;5, .Form 0;L;7;0, .Form 3;R;0;0, 
+12225, .Freeobj 3;230;50;2;90, .Adhesion 110, .Rail 4;11.35;0;31, .Dike 0;-1;5, .Form 0;L;7;0, .Form 3;R;0;0, 
 12237, .Stop 0;25;88, .Doppler Bham_X-City_Sounds\Birds_Spring_2.wav;0;0, .Freeobj 0;469;-5.52;0,
 12241, .Freeobj 3;389;12;-4;90,
 12250, .Railend 4;12.58;0, .Freeobj 3;156;0;0;180, .Form 0;L;7;0, .Dikeend 3, .Form 3;R;1;0, .Freeobj 0;7;-0.28, .Freeobj 0;278;-3.98;0.6;-0.72, .Freeobj 1;275;10.1;0.6;-0.72, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 2;22;-0.28, .Freeobj 3;473;-0.28;0;0, .Freeobj 3;23;0.12, .Freeobj 0;41;-0.28;0;-0.72, .Freeobj 1;149;-0.28;0;-0.72, .Freeobj 2;149;-0.28;0;-1.18, .Freeobj 3;267;0.12;0;3.77, .Freeobj 3;149;-0.28;0;-0.72,
@@ -2043,7 +2042,7 @@ With Track
 13625, .Freeobj 0;201;-15;-2;180,.FreeObj 0;8;-0.28, .Freeobj 0;331;-0.28;0;2.4, .Freeobj 3;331;-0.28;0;-4.1, .Freeobj 0;293;-3.2;0;-0.72, .Freeobj 3;299;2.9;0;-0.72, .Freeobj 0;33;-0.28;0;-0.72, .FreeObj 3;16, .Freeobj 3;37;-0.28;0;-0.7, .Rail 2;9.92;0, .Wallend 3, .Rail 3;14.08;0, .Crack 1;2;0, .Height 1,
 13650, .Rail 2;10.92;0, .Rail 3;15.08;0, .Crack 1;2;0, .Height 1,
 13672, .Freeobj 0;379;0;0, 
-13675, .FreeObj 0;8;-0.28, .Freeobj 0;350;-3.0;0.0;180, .Freeobj 3;350;2.72;0.0;180, .Freeobj 0;292;-2.99, .Freeobj 3;292;2.74;0;180, .Freeobj 0;332;-2.97;0;-3.8, .Freeobj 3;332;2.72;0;2.7, .Freeobj 0;297;-3.2;0.6;-0.72, .Freeobj 3;294;2.9;0.6;-0.72, .Freeobj 0;33;-0.28;0;-0.72, .FreeObj 3;16;-0.28, .Freeobj 3;37;-0.28;0;-0.72, .Accuracy 3, .Limit 112;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\70mph.gif;100, .Rail 2;11.92;0, .Rail 3;16.08;0, .Railtype 0;0, .Railtype 3;0, .Crack 1;2;0, .Height 1, .Freeobj 0;193, ;MP48.25
+13675, .FreeObj 0;8;-0.28, .Freeobj 0;350;-3.0;0.0;180, .Freeobj 3;350;2.72;0.0;180, .Freeobj 0;292;-2.99, .Freeobj 3;292;2.74;0;180, .Freeobj 0;332;-2.97;0;-3.8, .Freeobj 3;332;2.72;0;2.7, .Freeobj 0;297;-3.2;0.6;-0.72, .Freeobj 3;294;2.9;0.6;-0.72, .Freeobj 0;33;-0.28;0;-0.72, .FreeObj 3;16;-0.28, .Freeobj 3;37;-0.28;0;-0.72, .Accuracy 2, .Limit 112;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\70mph.gif;100, .Rail 2;11.92;0, .Rail 3;16.08;0, .Railtype 0;0, .Railtype 3;0, .Crack 1;2;0, .Height 1, .Freeobj 0;193, ;MP48.25
 13699, .Freeobj 0;389;35;-6.5;90,
 13700, .Beacon 23;0;0;-1, .Rail 2;12.92;0, .Rail 3;17.08;0, .Crack 1;2;0, .Freeobj 3;153;-1;0;180, .Freeobj 0;193, .Ground 63, .Height 4, .Freeobj 3;194;6;-5,
 13701, .Freeobj 0;152;-1;
@@ -2084,7 +2083,7 @@ With Track
 14077, .Freeobj 0;389;60;-5.5;90,
 14081, .Freeobj 0;167,
 14100, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.72, .Freeobj 3;278;2.9;0;-0.72, .Freeobj 0;33;-0.28;0;-0.72, .Freeobj 3;16;-0.28, .Freeobj 3;37;-0.28;0;-0.72, .Rail 2;8.92;0, .Rail 3;13.08;0,
-14125, .Freeobj 0;210;57;-8;40,  .Rail 2;7.92;0, .Rail 3;12.08;0,
+14125, .Freeobj 0;210;57;-8;40, .Rail 2;7.92;0, .Rail 3;12.08;0,
 14150, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.72, .Freeobj 3;278;2.9;0;-2.47, .Freeobj 0;33;-0.28;0;-0.72, .Freeobj 3;16;-0.28, .Freeobj 3;37;-0.28;0;-2.3, .Rail 2;7.48;0, .Rail 3;11.58;0, .Ground 13,
 14160, .Freeobj 3;194;20;1,
 14190, .Freeobj 0;389;60;-3.5;90,
@@ -2111,12 +2110,12 @@ With Track
 14450, .Freeobj 0;11;-0.28, .Freeobj 0;299;-2.7;-0.6;-0.12, .Freeobj 3;293;2.9;-0.6;-0.72, .Freeobj 0;26;-0.28;0;-0.72, .Freeobj 0;27;-0.28;0;-0.72, .Freeobj 3;19;0.12, .Freeobj 3;26;-0.68;0;-0.72, .Freeobj 3;27;0.12;0;-0.72, .Freeobj 0;154;-0.15, .Freeobj 0;57;-0.15;0;0, .Height 4,
 14451, .Freeobj 3;154;0.2;0;180, .Freeobj 3;57;0.2;0;180,
 14475, .Height 6, ;MP 47.75
-14500, .Freeobj 0;8;-0.28, .Freeobj 0;350;-3.0;0.0;180, .Freeobj 3;350;2.72;0.0;180, .Freeobj 0;292;-2.995, .Freeobj 3;292;2.735;0;180, .Freeobj 0;300;-3.2;0.6;-1.32, .Freeobj 3;301;2.9;0.6;-0.72, .Freeobj 0;33;-0.28;0;-1.17, .Freeobj 0;28;-2.9;0;-3.7, .Freeobj 3;16;-0.28, .Freeobj 3;37;-0.28;0;-0.69, .Freeobj 3;28;2.9;0;2.44, .Freeobj 0;182;0;0;0, .Rail 5;0;0;6, .Railtype 0;6, .Freeobj 0;156;0;0;180, .Freeobj 0;186;0;0;180, .Freeobj 3;185;0;0;180, .Ground 21, .Height 1,
+14500, .Accuracy 3, .Freeobj 0;8;-0.28, .Freeobj 0;350;-3.0;0.0;180, .Freeobj 3;350;2.72;0.0;180, .Freeobj 0;292;-2.995, .Freeobj 3;292;2.735;0;180, .Freeobj 0;300;-3.2;0.6;-1.32, .Freeobj 3;301;2.9;0.6;-0.72, .Freeobj 0;33;-0.28;0;-1.17, .Freeobj 0;28;-2.9;0;-3.7, .Freeobj 3;16;-0.28, .Freeobj 3;37;-0.28;0;-0.69, .Freeobj 3;28;2.9;0;2.44, .Freeobj 0;182;0;0;0, .Rail 5;0;0;6, .Railtype 0;6, .Freeobj 0;156;0;0;180, .Freeobj 0;186;0;0;180, .Freeobj 3;185;0;0;180, .Ground 21, .Height 1,
 14501, .Freeobj 3;204;30;-2;20, .Freeobj 0;210;-9;-9, .Freeobj 0;181;-50;-5;-2,
-14525, .Freeobj 0;458;0;0;0, .Railtype 1;6, .Rail 5;1.13;0;6, .Rail 4;16.54;0;1, .Dike 3;1;10, .Sta  ;P;09.4900;0;-1;1;;;1;0;;11, .stop 0,
+14525, .Freeobj 0;458;0;0;0, .Railtype 1;6, .Rail 5;1.13;0;6, .Rail 4;16.54;0;1, .Dike 3;1;10, .Sta  ;P;09.4900;0;-1;1;;;1;0;;, .stop 0,
 14528, .Freeobj 4;142;0;0;180, .Freeobj 4;196;0;-1,
 14539, ;.Freeobj 0;67;0;0;0, ;.Beacon 44001;1;0;0,
-14550, .FreeObj 0;8;-0.28, .Freeobj 0;293;-3.2;0;-0.72, .Freeobj 3;299;2.2;0;-1.5, .Freeobj 0;33;-0.28;0;-0.72, .FreeObj 3;137;-0.28, .Freeobj 3;37;-0.28;0;-0.72, .Rail 5;3.03;0;6, .Railtype 0;0,
+14550, .Accuracy 2, .FreeObj 0;8;-0.28, .Freeobj 0;293;-3.2;0;-0.72, .Freeobj 3;299;2.2;0;-1.5, .Freeobj 0;33;-0.28;0;-0.72, .FreeObj 3;137;-0.28, .Freeobj 3;37;-0.28;0;-0.72, .Rail 5;3.03;0;6, .Railtype 0;0,
 14575, .Freeobj 1;182;0;0;179.53, .Railend 5;4.16;0, .Freeobj 1;156;0;0;180,  .Railtype 1;0,
 14600, .Freeobj 1;260;0;0;0, .Railtype 1;6, .FreeObj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.72, .Freeobj 3;278;2.2;0;-0.72, .Freeobj 0;33;-0.28;0;-0.72, .FreeObj 3;137;-0.28, .Freeobj 3;37;-0.28;0;-0.72, .Rail 5;4.36;0;6, .Freeobj 1;156;0;0;180,
 14625, .Freeobj 1;463;0;0;0, .Rail 5;4.99;0;6, .Freeobj 4;196;0;-1, .Railtype 2;6,
@@ -2241,14 +2240,14 @@ With Track
 15975, .Beacon 23;0;0;-1, .Freeobj 4;12;0.28, .Freeobj 4;292;-2.735;0.3;0, .Freeobj 0;462;0;0;180.47, .Freeobj 0;8;-0.28, .Freeobj 0;276;-3.2;0;0.65, .Freeobj 3;276;3.2;0;3.8, .Freeobj 0;143;-0.28;0;1.3, .Freeobj 3;20;0.28, .Freeobj 4;143;0.28, .Freeobj 3;143;0.28, .Railend 1;0;0, .Rail 4;14.43;0, .Rail 3;17.69;0, .Railtype 0;11, .Crack 2;4;0, .Freeobj 0;156;0;0;180, .Freeobj 3;221;6, ;single wire under bridge start
 15986, .Freeobj 2;187;-3.7;0;180,
 15990, .Freeobj 0;141,
-16000, .Railend 2;3.32;0, .Railend 4;14.43;0, .Railend 3;17.69;0, .Rail 1;3.32;0;0, .Rail 2;14.43;0;0, .Rail 3;17.69;0;0, .Freeobj 0;204;-20;3;-90, .Freeobj 0;162;0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 0;286;-2.9;0.6;0.0, .Freeobj 3;286;4.9;0.6;0.0, .Freeobj 0;475;0.28;0;180, .Freeobj 0;52;0.28, .Freeobj 2;23;0.28, .Freeobj 2;52;0.28, .Freeobj 3;23;0.28, .Freeobj 3;52;0.28, .Dike 0;-1;5, ;.Dike 1;1;6, .Dike 3;1;5, .Freeobj 0;92, .Freeobj 1;93, .Freeobj 2;92, .Freeobj 3;93, .Form 0;L;13;0, .Form 1;2;0;0, .Form 3;R;8;0, .Railtype 0;2, .Ground 63, .Beacon 24;0;0;2194006, .Sta Kings Norton;;09.5100;;-1;0;;;25;30;;5,
-16025, .Freeobj 0;162;0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 0;276;-2.9;0.6;-0.65, .Freeobj 3;279;4.9;0.6;0, .Freeobj 0;94;0.28;0;180, .Freeobj 0;42;0.28;0;-1.3, .Freeobj 2;94;0.28;0;180, .Freeobj 2;42;0.28;0;-1.3, .Freeobj 3;94;0.28;0;180, .Form 0;L;13;0, .Form 1;2;0;0, .Form 3;R;8;0, .Freeobj 1;70;0.5;0;180, .Freeobj 0;369;3.8;-1.05;180, .Freeobj 3;181;-25;3,
+16000, .Accuracy 3, .Railend 2;3.32;0, .Railend 4;14.43;0, .Railend 3;17.69;0, .Rail 1;3.32;0;0, .Rail 2;14.43;0;0, .Rail 3;17.69;0;0, .Fog -80;750;170;170;170, .Freeobj 0;204;-20;3;-90, .Freeobj 0;162;0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 0;286;-2.9;0.6;0.0, .Freeobj 3;286;4.9;0.6;0.0, .Freeobj 0;475;0.28;0;180, .Freeobj 0;52;0.28, .Freeobj 2;23;0.28, .Freeobj 2;52;0.28, .Freeobj 3;23;0.28, .Freeobj 3;52;0.28, .Dike 0;-1;5, ;.Dike 1;1;6, .Dike 3;1;5, .Freeobj 0;92, .Freeobj 1;93, .Freeobj 2;92, .Freeobj 3;93, .Form 0;L;13;0, .Form 1;2;0;0, .Form 3;R;8;0, .Railtype 0;2, .Ground 63, .Beacon 24;0;0;2194006, .Sta Kings Norton;;09.5100;;-1;0;;;25;30;;5,
+16025, .Fog -80;750;165;165;165, .Freeobj 0;162;0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 0;276;-2.9;0.6;-0.65, .Freeobj 3;279;4.9;0.6;0, .Freeobj 0;94;0.28;0;180, .Freeobj 0;42;0.28;0;-1.3, .Freeobj 2;94;0.28;0;180, .Freeobj 2;42;0.28;0;-1.3, .Freeobj 3;94;0.28;0;180, .Form 0;L;13;0, .Form 1;2;0;0, .Form 3;R;8;0, .Freeobj 1;70;0.5;0;180, .Freeobj 0;369;3.8;-1.05;180, .Freeobj 3;181;-25;3,
 16026, .Freeobj 1;66,
 16027, .Freeobj 1;66;0;0;180,
-16050, .Freeobj 0;162;-0.28, .Freeobj 0;281;-3.0;0;0, .Freeobj 0;22;-0.28, .Freeobj 2;22;-0.28, .Freeobj 3;22;-0.28, .Form 0;L;13;0, .Form 1;2;0;0, .Form 3;R;8;0, .Curve 0;0,
-16075, .Form 0;L;13;0, .Form 1;2;0;0, .Form 3;R;8;0, .Freeobj 3;181;-25;4,
-16100, .Freeobj 0;162;0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 0;275;-2.9;0.6;0.3, .Freeobj 3;275;4.9;0.6;0, .Freeobj 0;23;0.28, .Freeobj 0;41;0.28;0;0.65, .Freeobj 2;23;0.28, .Freeobj 2;149;0.28;0;0.65, .Freeobj 3;149;0.28;0;0.65, .Freeobj 3;23;0.28, .Form 0;L;8;0, .Form 1;2;0;4, .Form 3;R;8;0, .Freeobj 0;199,
-16125, .Form 0;L;8;0, .Form 1;2;0;4, .Form 3;R;8;0, .Freeobj 0;199,
+16050, .Fog -80;750;160;160;160, .Freeobj 0;162;-0.28, .Freeobj 0;281;-3.0;0;0, .Freeobj 0;22;-0.28, .Freeobj 2;22;-0.28, .Freeobj 3;22;-0.28, .Form 0;L;13;0, .Form 1;2;0;0, .Form 3;R;8;0, .Curve 0;0,
+16075, .Fog -80;750;155;155;155, .Form 0;L;13;0, .Form 1;2;0;0, .Form 3;R;8;0, .Freeobj 3;181;-25;4,
+16100, .Fog -80;750;150;150;150, .Freeobj 0;162;0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 0;275;-2.9;0.6;0.3, .Freeobj 3;275;4.9;0.6;0, .Freeobj 0;23;0.28, .Freeobj 0;41;0.28;0;0.65, .Freeobj 2;23;0.28, .Freeobj 2;149;0.28;0;0.65, .Freeobj 3;149;0.28;0;0.65, .Freeobj 3;23;0.28, .Form 0;L;8;0, .Form 1;2;0;4, .Form 3;R;8;0, .Freeobj 0;199,
+16125, .Beacon 21;0;0;$Rnd(10;40), .Form 0;L;8;0, .Form 1;2;0;4, .Form 3;R;8;0, .Freeobj 0;199,
 16150, .Freeobj 0;389;25;-1;90, .Freeobj 0;162;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 0;278;-3.2;0.6;-0.3, .Freeobj 3;275;4.9;0.6;0, .Freeobj 0;279;-3.2;0.6;0.65, .Freeobj 3;276;4.9;0.6;0, .Freeobj 0;22;-0.28, .Freeobj 0;41;-0.28;0;-0.65, .Freeobj 0;144;-0.28;0;1.3, .Freeobj 2;22;-0.28, .Freeobj 2;144;-0.28;0;1.3, .Freeobj 2;149;-0.28;0;-0.65, .Freeobj 3;149;-0.28;0;-0.65, .Freeobj 3;22;-0.28, .Freeobj 3;144;-0.28;0;1.3, .Form 0;L;1;0, .Form 1;2;0;4, .Form 3;R;1;0, .Dikeend 0, .Dikeend 1, .Dikeend 3, .Freeobj 0;199, .Freeobj 3;181;-35;2,
 16175, .Freeobj 0;162;0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 0;289;-2.9;0;-0.65, .Freeobj 3;287;4.9;0;0, .Freeobj 0;94;0.28;0;180, .Freeobj 0;48;0.28, .Freeobj 2;94;0.28;0;180, .Freeobj 2;48;0.28, .Freeobj 3;94;0.28;0;180, .Freeobj 3;48;0.28, .Form 0;L;1;0, .Form 1;2;0;4, .Form 3;R;1;0, .Freeobj 0;199, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_KingsNorton.gif;250,
 16185, .Freeobj 0;423;-4, .Freeobj 3;423;4,
@@ -2268,7 +2267,7 @@ With Track
 16270, .Freeobj 0;152;-0.4,
 16271, .Freeobj 0;67, .Beacon 44000;1;1;0, ;AWS Magnet
 16274, .SigF 5;1;-2.6;4.3, .Freeobj 0;70;-0.4, .Freeobj 0;69;-2.6;0;180,
-16275, .Freeobj 0;50;0.28, .Curve -600;80, .Accuracy 4, .Crack 1;2;0,  .Railtype 0;41, .Railtype 1;41, .Freeobj 0;127;-0.45, .Dikeend 1, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\45mph.gif;50, ;Bridge
+16275, .Freeobj 0;50;0.28, .Curve -600;80, .Accuracy 3, .Crack 1;2;0,  .Railtype 0;41, .Railtype 1;41, .Freeobj 0;127;-0.45, .Dikeend 1, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\45mph.gif;50, ;Bridge
 16280, .Freeobj 0;387;-96;7;0,
 16282, .Freeobj 0;168;0.28;-0.1,
 16293, .Freeobj 0;168;0.28;-0.1,
@@ -2303,10 +2302,10 @@ With Track
 16625, .Freeobj 0;210;-4;6;0, .Freeobj 0;210;65;8;30, .Freeobj 0;12;0.28, .Freeobj 0;289;-2.5;-1.2;0, .Freeobj 1;287;2.8;-1.2;-0.7, .Freeobj 1;20;0.28,  .Freeobj 0;49;0.28;0;-0.61, .Freeobj 1;49;0.28;0;-0.61,
 16638, .Freeobj 0;387;-37;8;-35,
 16649, .Freeobj 0;320;-2.5;-0.3, .Freeobj 1;320;2.5;-0.3,
-16650, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\PershoreRoadTun.gif;100, .Railtype 0;19, .Railtype 1;19, .Freeobj 0;121, .Wall 0;-1;5, .Dikeend 0, .Dikeend 1, .Wall 1;1;5,;tun start
+16650, .Beacon 21;0;0;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\PershoreRoadTun.gif;100, .Railtype 0;19, .Railtype 1;19, .Freeobj 0;121, .Wall 0;-1;5, .Dikeend 0, .Dikeend 1, .Wall 1;1;5,;tun start
 16655, .Freeobj 0;388;-33;7;-35,
 16675, .Freeobj 0;168;0;0;180, .Freeobj 1;168, .Freeobj 0;204;37;5;20,
-16700, .Freeobj 0;288;-2.5;-0.6;0, .Freeobj 1;296;3.3;-0.6;-2.4, .Freeobj 0;51;0;0;0.61, .Freeobj 1;51;0;0;0.61, .Railtype 0;18, .Railtype 1;18, .Dike 0;-1;0, .Dike 1;1;0, .Wallend 0, .Wall 1;1;13, .Freeobj 0;204;28;5;-90, ;Tun end
+16700, .Beacon 21;0;0;$Rnd(10;40), .Freeobj 0;288;-2.5;-0.6;0, .Freeobj 1;296;3.3;-0.6;-2.4, .Freeobj 0;51;0;0;0.61, .Freeobj 1;51;0;0;0.61, .Railtype 0;18, .Railtype 1;18, .Dike 0;-1;0, .Dike 1;1;0, .Wallend 0, .Wall 1;1;13, .Freeobj 0;204;28;5;-90, ;Tun end
 16725, .Freeobj 0;12;0.28, .Freeobj 0;286;-2.5;0;-0.9, .Freeobj 1;288;2.23;0;2.25, .Freeobj 1;20;0.28,  .Freeobj 0;52;0.28, .Freeobj 1;52;0.28, .Announce Bham_X-City_Sounds\flange1.wav,
 16740, .Freeobj 1;70;0;0;180,
 16742, .Freeobj 1;67;0;0;180,
@@ -2327,12 +2326,12 @@ With Track
 16950, .Dikeend 1, .Freeobj 2;472;0;0;-4, .Freeobj 3;472;0;0;-4, .Freeobj 0;8;-0.28, .Freeobj 0;293;-3.2;0;0, .Freeobj 0;276;-3.2;0;0.65, .Freeobj 0;33;-0.28, .Freeobj 0;32;-0.28;0;1.3, .Rail 2;5.92;0;6, .Rail 3;9.24;0;25, .Railtype 1;6, .Dike 3;1;0,
 16964, .Freeobj 3;152;0;0;180,
 16966, .Freeobj 3;152;0.2;0;180,
-16975, .Freeobj 0;210;-4;6;0, .Freeobj 1;115;0;0;180, .Railtype 0;6, .Railtype 1;6, .Freeobj 0;12;0.28, .Freeobj 1;292;3.6;0;180, .Freeobj 0;279;-2.9;0;0, .Freeobj 1;289;3.8;0;0, .Freeobj 1;278;3.8;0.6;0.72, .Freeobj 1;29;0.68, .Freeobj 1;37;0.28, .Freeobj 1;25;0.35;0;-2.7, .Freeobj 0;48;0.28;0;-1.3, .Freeobj 1;48;0.28;0;-1.3, .Freeobj 1;48;0.68;0;-1.3, .Rail 2;1.66;0;6, .Rail 3;4.98;0;6, .Height 1,
+16975, .Accuracy 3, .Freeobj 0;210;-4;6;0, .Freeobj 1;115;0;0;180, .Railtype 0;6, .Railtype 1;6, .Freeobj 0;12;0.28, .Freeobj 1;292;3.6;0;180, .Freeobj 0;279;-2.9;0;0, .Freeobj 1;289;3.8;0;0, .Freeobj 1;278;3.8;0.6;0.72, .Freeobj 1;29;0.68, .Freeobj 1;37;0.28, .Freeobj 1;25;0.35;0;-2.7, .Freeobj 0;48;0.28;0;-1.3, .Freeobj 1;48;0.28;0;-1.3, .Freeobj 1;48;0.68;0;-1.3, .Rail 2;1.66;0;6, .Rail 3;4.98;0;6, .Height 1,
 16990, .Freeobj 0;167;0;-600,
 
 ;Lifford west Jn - loc correct
 ;Bridge
-17000, .Dikeend 3, .Dike 1;1;0, .Freeobj 0;210;55;8;40, .Railtype 1;4, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;4.0;0;0, .Freeobj 0;276;-2.9;0;-0.7, .Freeobj 1;279;3.8;0;-2.5, .Freeobj 0;475;-0.28;0, .Freeobj 1;63;0.28;0;180, .Freeobj 0;143;-0.28;0;0, .Freeobj 1;143;-0.28;0;0, .Freeobj 1;143;0.12;0;0, .Wallend 3, .Wall 1;1;13, .Freeobj 0;114;0;0;180, .Freeobj 1;114;0;0;180, .Railend 2;0;0, .Railend 3;3.32;0, .Freeobj 0;156, .Freeobj 1;156;0;0;180, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\LiffordWestJn.gif;125, .Railtype 0;4, .Freeobj 0;100, .Height 2,
+17000, .Accuracy 2, .Dikeend 3, .Dike 1;1;0, .Freeobj 0;210;55;8;40, .Railtype 1;4, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;4.0;0;0, .Freeobj 0;276;-2.9;0;-0.7, .Freeobj 1;279;3.8;0;-2.5, .Freeobj 0;475;-0.28;0, .Freeobj 1;63;0.28;0;180, .Freeobj 0;143;-0.28;0;0, .Freeobj 1;143;-0.28;0;0, .Freeobj 1;143;0.12;0;0, .Wallend 3, .Wall 1;1;13, .Freeobj 0;114;0;0;180, .Freeobj 1;114;0;0;180, .Railend 2;0;0, .Railend 3;3.32;0, .Freeobj 0;156, .Freeobj 1;156;0;0;180, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\LiffordWestJn.gif;125, .Railtype 0;4, .Freeobj 0;100, .Height 2,
 17006, .Freeobj 0;320;-2.98;0.58, .Freeobj 1;320;3.55;0.58,
 17025, .Freeobj 0;271;-0.28, .Freeobj 0;276;-3.2;0;-0, .Freeobj 1;279;2.7;0;0.5, .Freeobj 1;272;-0.28, .Freeobj 0;52;-0.28;0;-0, .Freeobj 1;52;-0.28;0;-0, .Freeobj 1;52;0.12;0;-0, .Railtype 0;0, .Height 3,
 17026, .Freeobj 1;272;0.12,
@@ -2340,8 +2339,8 @@ With Track
 17050, .Freeobj 0;8;-0.28, .Freeobj 1;270;0;0;180, .Freeobj 1;114;0;0;0, .Rail 2;3.32;0;6, .Railtype 1;6, .Freeobj 1;156, .Height 4,
 
 ;Train
-17075, .Rail 2;1.66;0;6, .Railtype 0;6, .Railtype 1;0, .Ground 24, .Wallend 1, .Height 0, 
-17100, .Freeobj 1;82, .Freeobj 0;114;0;0;180, .Railtype 0;0, .Freeobj 0;270;0;0;0, .Freeobj 1;20;0.28, .Freeobj 0;275;-2.9;0;0.35, .Freeobj 1;278;3.2;0;0.35, .Freeobj 0;33;0.28;0;0.65, .Freeobj 0;104;-0.12;0;-4.1, .Freeobj 1;37;0.28;0;0.65, .Railend 2;0;0, .Freeobj 0;156;0;0;180, .Freeobj 0;181;-100;8;-40,
+17075, .Accuracy 3, .Rail 2;1.66;0;6, .Railtype 0;6, .Railtype 1;0, .Ground 24, .Wallend 1, .Height 0, 
+17100, .Accuracy 2, .Freeobj 1;82, .Freeobj 0;114;0;0;180, .Railtype 0;0, .Freeobj 0;270;0;0;0, .Freeobj 1;20;0.28, .Freeobj 0;275;-2.9;0;0.35, .Freeobj 1;278;3.2;0;0.35, .Freeobj 0;33;0.28;0;0.65, .Freeobj 0;104;-0.12;0;-4.1, .Freeobj 1;37;0.28;0;0.65, .Railend 2;0;0, .Freeobj 0;156;0;0;180, .Freeobj 0;181;-100;8;-40,
 17110, .Freeobj 0;395;-5;-0.6;180, .Freeobj 0;238;-5;-0.6;180, .Freeobj 0;187;-4;0;180, .Freeobj 0;194;25;-6;-20,
 17125, .Freeobj 1;85,
 17149, .Freeobj 0;194;45;-4;-60,
@@ -2398,7 +2397,7 @@ With Track
 17649, .Freeobj 0;357;-0.14;5.89;0, .Freeobj 1;357;0.10;5.89;0,
 17650, .Freeobj 0;21;-0.12, .Freeobj 0;294;-2.8;0;1.7, .Freeobj 1;294;3.3;0;2.4, .Freeobj 0;26;-0.12;0;1.95, .Freeobj 0;27;-0.12;0;1.95, .Freeobj 0;145;0.28;0;-0.3, .Freeobj 1;29;0.12, .Freeobj 1;26;-0.68;0;1.95, .Freeobj 1;27;0.12;0;1.95, .Freeobj 1;145;-0.28;0;0.6, .Rail 2;30;-1.8, .Railstart 3;30;-2.8;6, .Wall 3;1;13,
 17660, .Freeobj 1;152;7.3;0;90,
-17675, .Freeobj 0;146;0.14;0;0.3, .Freeobj 1;146;0.0;0;0.6, .Pitch -12, .Rail 2;25;-1.6, .Rail 3;25;-2.6, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Canal.gif;100,
+17675, .Adhesion 15, .Freeobj 0;146;0.14;0;0.3, .Freeobj 1;146;0.0;0;0.6, .Pitch -12, .Rail 2;25;-1.6, .Rail 3;25;-2.6, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Canal.gif;100,
 17690, .Freeobj 1;383;0.09;0,
 17695, .Freeobj 0;337;32;0;-10,
 17700, .Freeobj 0;210;-22;0;0, .Freeobj 0;12;0.28, .Freeobj 0;350;-2.74;0.0;180, .Freeobj 1;350;2.99;0.0;180, .Freeobj 0;292;-2.735, .Freeobj 1;292;2.995;0;180, .Freeobj 0;297;-2.9;0.6;1.55, .Freeobj 1;301;3.2;0.6;1.7, .Freeobj 0;287;-2.9;0;0, .Freeobj 1;289;3.2;0;0, .Freeobj 0;28;-2.7;-0.2;-1.7, .Freeobj 0;32;0.28, .FreeObj 1;20;0.28, .Freeobj 1;28;3.1;-0.2;4.5, .Freeobj 1;32;0.28, .Curve 0;0, .Railtype 0;0, .Railtype 1;0, .Rail 2;21;-1.4, .Rail 3;21;-2.4, .Freeobj 0;186;0.28;0;180, .Freeobj 1;185;0;-0.2;180,
@@ -2411,25 +2410,25 @@ With Track
 17769, .Freeobj 0;203;22;9;0, .Freeobj 0;203;22;3;0,
 17770, .Freeobj 0;181;-20;7.5,
 17775, .FreeObj 0;2;-0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 0;281;-2.7;-0.5;0, .Freeobj 1;281;3.0;0;0, .Freeobj 1;281;3.0;-0.5;0, .Freeobj 0;311;-2.5;0;-1.6, .Freeobj 1;309;2.8;0;0.24, .Freeobj 0;475;-0.28;0, .Freeobj 1;475;-0.28;0, .Freeobj 0;52;-0.28;0;1.3, .Freeobj 1;52;-0.28;0;1.3, .Wallend 0, .Dike 0;-1;5, .Dike 1;1;5, .Form 0;L;0;0, .Form 1;R;4;0, .Freeobj 0;92, .Freeobj 1;93, .Beacon 24;0;0;1878713, .Sta Bournville;;09.5300;;-1;0;;;25;20;;6, .Railtype 0;0, .Rail 3;17;-1.5,
-17800, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;288;-3.2;0.6;0, .Freeobj 1;286;2.9;0.6;0, .Freeobj 0;94;0.28;0;180, .Freeobj 1;94;0.28;0;180, .Freeobj 0;42;0.28;0;-1.3, .Freeobj 1;42;0.28;0;-1.3, .Form 0;L;0;0, .Form 1;R;4;0, .Rail 3;17;-3.5,
+17800, .Adhesion 105, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;288;-3.2;0.6;0, .Freeobj 1;286;2.9;0.6;0, .Freeobj 0;94;0.28;0;180, .Freeobj 1;94;0.28;0;180, .Freeobj 0;42;0.28;0;-1.3, .Freeobj 1;42;0.28;0;-1.3, .Form 0;L;0;0, .Form 1;R;4;0, .Rail 3;17;-3.5,
 17825, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;279;-3.2;0.6;0, .Freeobj 1;276;2.9;0.6;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;40;-0.28;0;0, .FreeObj 1;40;-0.28;0;0, .Form 0;L;0;0, .Form 1;R;0;0, .Freeobj 0;205;0.4, .Freeobj 2;117,
 17846, .Freeobj 0;67, .Beacon 44000;1;1;0, ;AWS Magnet
-17850, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Form 0;L;0;0, .Form 1;R;4;0, .Freeobj 0;206, 
+17850, .Adhesion 15, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Form 0;L;0;0, .Form 1;R;4;0, .Freeobj 0;206, 
 17852, .Freeobj 1;423;4,
 17863, .Freeobj 0;196;-18;1.5;-50, .Freeobj 0;181;-25;7;20,
 17865, .Freeobj 0;148;-4,
 17870, .Freeobj 0;388;-17;1;90,
-17875, .Form 0;L;14;0, .Form 1;R;4;0, .Dikeend 0, .Freeobj 0;199;-3;-1, .Rail 3;17;-4.5, .Dikeend 1, .Freeobj 2;117;-4,
+17875, .Adhesion 105, .Form 0;L;14;0, .Form 1;R;4;0, .Dikeend 0, .Freeobj 0;199;-3;-1, .Rail 3;17;-4.5, .Dikeend 1, .Freeobj 2;117;-4,
 17900, .Form 0;L;0;0, .Form 1;R;5;0, .Freeobj 0;181;-24;4;30, .Freeobj 0;207,
 17901, .Freeobj 1;148;4,
 17905, .Freeobj 0;423;-4,
 17912, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;280;-3.2;0.6;0, .Freeobj 1;277;2.9;0.6;0, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .FreeObj 0;43;0.28;0;0.5, .FreeObj 1;43;0.28;0;0.5,
 17919, .Freeobj 0;337;32;0;0.28,
 17925, .Form 0;L;14;0, .Form 1;R;5;0,
-17950, .Form 0;L;8;0, .Form 1;R;5;0, .Height 1.3, .Dike 0;-1;5, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_Bournville.gif;275,
+17950, .Adhesion 110, .Form 0;L;8;0, .Form 1;R;5;0, .Height 1.3, .Dike 0;-1;5, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_Bournville.gif;275,
 17951, .Freeobj 0;181;-88;3;-19,
 17962, .Stop 0;87;13, .Doppler Bham_X-City_Sounds\birds.wav;0;0, .Freeobj 0;96;-5.52,
-17975, .Freeobj 0;389;35;-1;90, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;280;-3.2;0.6;0, .Freeobj 1;277;2.9;0.6;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .FreeObj 0;43;-0.28;0;-0.5, .FreeObj 1;43;-0.28;0;-0.5,     .Freeobj 0;90, .Freeobj 1;91, .Railtype 0;4, .Wall 0;-1;7, .Railend 3;17;-3.5, .Wallend 3, .Dikeend 0, .Dike 1;1;0, .Ground 62,
+17975, .Beacon 21;0;0;$Rnd(10;40), .Freeobj 0;389;35;-1;90, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;280;-3.2;0.6;0, .Freeobj 1;277;2.9;0.6;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .FreeObj 0;43;-0.28;0;-0.5, .FreeObj 1;43;-0.28;0;-0.5,     .Freeobj 0;90, .Freeobj 1;91, .Railtype 0;4, .Wall 0;-1;7, .Railend 3;17;-3.5, .Wallend 3, .Dikeend 0, .Dike 1;1;0, .Ground 62,
 17981, .Freeobj 1;208,
 17997, .Freeobj 0;388;-8;-6.5;0,
 18000, .Wallend 0, .Ground 16, .Dike 0;-1;0, .Railtype 0;0, .Freeobj 0;116;0;0;0,
@@ -2494,11 +2493,11 @@ With Track
 18846, .Freeobj 0;67, .Beacon 44000;1;1;0, ;AWS Magnet
 18850, .Back 5, .FreeObj 0;12;0.28, .Freeobj 0;310;-2.9;-0.9;0.9, .Freeobj 1;308;3.2;-0.9;-0.9, .Freeobj 1;20;0.28, .Freeobj 0;48;0.28, .Freeobj 1;48;0.28, .Rail 2;38;-1.6, 
 18867, .Freeobj 1;152;0.3;0;180,
-18875, .FreeObj 0;12;0.28, .Freeobj 0;279;-2.5;-0.9;-0.7, .Freeobj 1;276;2.8;-0.9;-0.7, .Freeobj 1;20;0.28, .Freeobj 0;143;0.28;0;-1.3, .Freeobj 1;143;0.28;0;-1.3, .Curve 0;0, .Railtype 0;4, .Railtype 1;4, .Freeobj 0;130, .Rail 2;42;-1.8, .Freeobj 0;239;1, ;Bridge2
+18875, .Accuracy 3, .FreeObj 0;12;0.28, .Freeobj 0;279;-2.5;-0.9;-0.7, .Freeobj 1;276;2.8;-0.9;-0.7, .Freeobj 1;20;0.28, .Freeobj 0;143;0.28;0;-1.3, .Freeobj 1;143;0.28;0;-1.3, .Curve 0;0, .Railtype 0;4, .Railtype 1;4, .Freeobj 0;130, .Rail 2;42;-1.8, .Freeobj 0;239;1, ;Bridge2
 18885, .Freeobj 0;168;0.0;-0.1, .Freeobj 1;168;0.0;-0.1;180,
 18889, .Freeobj 0;389;11.8;3.5;180, .Freeobj 0;389;121;3.5;180,
-18900, .Accuracy 4, .FreeObj 0;8;-0.28, .Freeobj 0;309;-2.8;0;-0.9, .Freeobj 1;311;2.5;0;0.9, .Freeobj 1;16;-0.28, .Freeobj 0;52;-0.28, .Freeobj 1;52;-0.28, .Railtype 0;0, .Rail 2;44;-2.0,
-18925, .FreeObj 0;8;-0.28, .Freeobj 0;286;-3.2;0.6;0, .Freeobj 1;288;2.9;0.6;0, .Freeobj 1;16;-0.28, .Freeobj 0;32;-0.28, .Freeobj 1;32;-0.28, .Curve 1000;70, .Rail 2;42;-2.2, .Railtype 0;28, .Railtype 1;28, .Announce Bham_X-City_Sounds\hs_flange.wav,
+18900, .Accuracy 2.5, .FreeObj 0;8;-0.28, .Freeobj 0;309;-2.8;0;-0.9, .Freeobj 1;311;2.5;0;0.9, .Freeobj 1;16;-0.28, .Freeobj 0;52;-0.28, .Freeobj 1;52;-0.28, .Railtype 0;0, .Rail 2;44;-2.0,
+18925, .Accuracy 2, .FreeObj 0;8;-0.28, .Freeobj 0;286;-3.2;0.6;0, .Freeobj 1;288;2.9;0.6;0, .Freeobj 1;16;-0.28, .Freeobj 0;32;-0.28, .Freeobj 1;32;-0.28, .Curve 1000;70, .Rail 2;42;-2.2, .Railtype 0;28, .Railtype 1;28, .Announce Bham_X-City_Sounds\hs_flange.wav,
 18950, .FreeObj 0;8;-0.28, .Freeobj 0;350;-2.99;0.0;0, .Freeobj 1;350;2.74;0.0;0, .Freeobj 0;292;-2.995, .Freeobj 1;292;2.735;0;180, .Freeobj 1;16;-0.28, .Freeobj 0;185, .Freeobj 1;186;-0.28;0.2, .Rail 2;40;-2.4, ;OVERLAP BLOCK,
 18975, .Rail 2;37;-2.6,
 19000, .Freeobj 0;10;-0.12, .Freeobj 0;293;-3.0;0;-1.87, .Freeobj 1;299;3.3;0;-2.2, .Freeobj 0;25;-0.17;0;1.9, .Freeobj 0;24;-0.12;0;-1.97, .FreeObj 1;18;0.12, .Freeobj 1;25;-0.63;0;-5.4, .Freeobj 1;24;0.12;0;-2.2, .Pitch 2.3, .Freeobj 0;232, .Rail 2;35;-2.8, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1u440.gif;100,
@@ -2521,15 +2520,15 @@ With Track
 19180, .Freeobj 0;200;10, 
 19200, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;1.5, .Freeobj 1;278;3.2;0;1.5, .FreeObj 1;20;0.28, .Freeobj 0;33;0.28;0;1.50, .Freeobj 1;37;0.28;0;1.50, .Rail 2;-18;-3.5, .Dike 0;-1;0, .Ground 18, .Height 0,
 19225, .Rail 2;-25;-3.5,
-19226, .Freeobj 0;201;15;1,
 19230, .Freeobj 0;211;-4;-2.3,
 19250, .Freeobj 0;337;30;0;12.8, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;1.8, .Freeobj 1;278;3.2;0;1.8, .FreeObj 1;20;0.28, .Freeobj 0;33;0.28;0;1.8, .Freeobj 1;37;0.28;0;1.8, .Rail 2;-31;-3.5, .Freeobj 0;196;0.8;0.5;-160,
+19251, .Freeobj 0;201;15;1,
 19275, .Rail 2;-36;-3.5, .Freeobj 0;211;-4;-0.3,
 19284, .Freeobj 0;196;-14.5;0.5;-50,
 19300, .FreeObj 0;12;0.28, .Freeobj 0;275;-2.9;0;1.2, .Freeobj 1;278;3.2;0;1.2, .FreeObj 1;20;0.28, .Freeobj 0;33;0.28;0;1.2, .Freeobj 1;37;0.28;0;1.2, .Curve 0;0, .Railtype 0;0, .Railtype 1;0, .Rail 2;-39;-3.5, .Ground 19, .Height 0,
 19304, .Freeobj 0;388;28.8;-4;93.6,
-19306, .Freeobj 0;201;15;2,
 19325, .Rail 2;-40;-3.5,
+19326, .Freeobj 0;201;15;2,
 19362, .FreeObj 0;8;-0.28, .Freeobj 0;277;-3.2;0;-0.27, .Freeobj 1;280;2.9;0;-0.27, .FreeObj 1;16;-0.28, .FreeObj 0;35;-0.28;0;-0.5, .FreeObj 1;39;-0.28;0;-0.5,
 19395, .Freeobj 0;204;22;-1;90,
 19400, .Freeobj 0;411;-2.8;-0.3;0,
@@ -2563,7 +2562,7 @@ With Track
 19647, .Freeobj 1;67;0;0;180,
 19650, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.4;0;0, .Freeobj 1;281;3.1;0;0, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Form 0;L;9;0, .Form 1;R;9;0, .Pitch 0, .Freeobj 1;194;14;-4;-8, .Height 3, .Freeobj 0;196;3;1, .Freeobj 0;192,
 19662, .Freeobj 0;470;-5.52;0,
-19675, .Freeobj 0;389;-21;-2;90, .Curve 5000;10, .Freeobj 0;90, .Freeobj 1;91, .Dike 0;-1;0, .Dike 1;1;0, .Height 4, .Freeobj 0;196;2;-1, .Freeobj 0;193,
+19675, .Beacon 21;0;0;14, .Freeobj 0;389;-21;-2;90, .Curve 5000;10, .Freeobj 0;90, .Freeobj 1;91, .Dike 0;-1;0, .Dike 1;1;0, .Height 4, .Freeobj 0;196;2;-1, .Freeobj 0;193,
 19696, .Freeobj 0;337;-33;0;0,
 19700, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;3.4;0;0, .Freeobj 0;278;-2.9;0.6;0, .Freeobj 1;293;3.2;0;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;41;-0.28;0;-1, .Freeobj 1;149;-0.28;0;-1, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\A38.gif;50, .Railtype 0;4, .Wall 0;-1;9, .Wall 1;1;9, .Ground 62, .Height 1, .Dikeend 0, .Dikeend 1, ;Bridge w. red parapits start
 19707, .Freeobj 0;387;-63;-6.5;0,
@@ -2584,7 +2583,7 @@ With Track
 19919, .Freeobj 0;337;-36;0;-6.5,
 19925, .Curve 800;70, .Rail 2;18;-3.5;6, .Dike 2;-1;15, .Dike 1;1;0, .Freeobj 0;210;-40;-3;-20, .Freeobj 0;211;-10;-4;0, .Height 6, .Railtype 0;39, .Railtype 1;39,
 19950, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-2.355, .Freeobj 1;278;2.9;0;-1.445, .Freeobj 1;16;-0.28, .Freeobj 0;38;-0.28;0;-2.355, .Freeobj 1;38;-0.28;0;-2.355, .Rail 2;25.5;-3.5, .Ground 27, .Height 0.3,
-19975, .Pitch -4.5, .Freeobj 0;232, .Rail 2;32;-3.5, .Freeobj 0;210;-10;-4;-20, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d220.gif;100,
+19975, .Beacon 21;0;0;$Rnd(10;40), .Pitch -4.5, .Freeobj 0;232, .Rail 2;32;-3.5, .Freeobj 0;210;-10;-4;-20, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d220.gif;100,
 20000, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-2.685, .Freeobj 1;278;2.9;0;-2.685, .Freeobj 1;16;-0.28, .Freeobj 0;33;-0.28;0;-2.685, .Freeobj 1;37;-0.28;0;-2.895, .Rail 2;37.8;-3.5,
 20025, .Rail 2;43.2;-3.3,
 20050, .Freeobj 0;344;-0.28, .Freeobj 0;275;-3.2;0;-2.685, .Freeobj 1;278;2.9;0;-2.685, .Freeobj 1;16;-0.28, .Freeobj 0;33;-0.28;0;-2.685, .Freeobj 1;37;-0.28;0;-2.685, .Rail 2;47.5;-3.0, .Height 0.3,
@@ -2610,14 +2609,14 @@ With Track
 20403, .SigF 4;1;-2.2;4.8, .Section 0;2;3;4, ;NS455, .Freeobj 0;68, .Freeobj 0;69;-2.775,
 20425, .Rail 2;35.8;-1.1,
 20445, .Freeobj 0;62, .Freeobj 1;378;0;0;180,
-20450, .Freeobj 0;10;-0.12, .Freeobj 0;275;-3.0;0;-0.64, .Freeobj 1;299;3.3;0;-1.09, .Freeobj 0;24;-0.12;0;-1.37, .Freeobj 0;25;-0.16;0;2.34, .Freeobj 1;18;0.12, .Freeobj 1;24;0.12;0;-1.1, .Freeobj 1;25;-0.59;0;-4.76, .Rail 2;32;-1.1, .Curve 600;80, .Railtype 0;30, .Railtype 1;30, .Limit 80;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\50mph.gif;275,
+20450, .Adhesion 100, .Freeobj 0;10;-0.12, .Freeobj 0;275;-3.0;0;-0.64, .Freeobj 1;299;3.3;0;-1.09, .Freeobj 0;24;-0.12;0;-1.37, .Freeobj 0;25;-0.16;0;2.34, .Freeobj 1;18;0.12, .Freeobj 1;24;0.12;0;-1.1, .Freeobj 1;25;-0.59;0;-4.76, .Rail 2;32;-1.1, .Curve 600;80, .Railtype 0;30, .Railtype 1;30, .Limit 80;0, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\50mph.gif;275,
 20452, .Freeobj 0;357;0.33;5.65;1, .Freeobj 1;357;-0.24;5.65;1,
 20475, .Rail 2;27.7;-1.3;6, .Dike 2;-1;6, .Announce Bham_X-City_Sounds\hs_flange.wav,
 20499, .Freeobj 0;357;-0.09;5.89;0, .Freeobj 1;357;0.14;5.89;0,
 20500, .Freeobj 0;11;-0.12, .Freeobj 0;299;-2.6;-0.6;-3.1, .Freeobj 1;299;3.0;-0.6;-3.95, .Freeobj 0;26;-0.12;0;-3.59, .Freeobj 0;27;-0.12;0;-3.59, .Freeobj 1;19;0.12, .Freeobj 1;26;-0.68;0;-3.59, .Freeobj 1;27;0.12;0;-3.59, .Rail 2;24;-1.9, .Freeobj 0;154;-0.05, .Freeobj 0;57;0.04;0;0,
 20501, .Freeobj 1;154;0.25;0;180, .Freeobj 1;57;0.25;0;180,
 20525, .Rail 2;21;-1.7, .Curve 500;80,
-20550, .Freeobj 0;344;-0.28, .Freeobj 0;350;-2.99;0.0;180, .Freeobj 1;350;2.74;0.0;180, .Freeobj 0;292;-2.995, .Freeobj 1;292;2.735;0;180, .Freeobj 0;300;-3.2;0.6;-4.85, .Freeobj 1;300;2.9;0.6;-4.3, .Freeobj 0;28;-3.1;0;-7.57, .Freeobj 0;33;-0.28;0;-4.75, .Freeobj 1;16;-0.28, .Freeobj 1;28;2.8;0;-1.17, .Freeobj 1;37;-0.28;0;-4.11, .Ground 20, .Rail 2;18.5;-1.5;6,, .Dike 2;1;15, .Freeobj 0;186;0;0;180, .Freeobj 1;185;-0.28;0;180, .Announce Bham_X-City_Sounds\CurveRumble2.wav,
+20550, .Adhesion 30, .Freeobj 0;344;-0.28, .Freeobj 0;350;-2.99;0.0;180, .Freeobj 1;350;2.74;0.0;180, .Freeobj 0;292;-2.995, .Freeobj 1;292;2.735;0;180, .Freeobj 0;300;-3.2;0.6;-4.85, .Freeobj 1;300;2.9;0.6;-4.3, .Freeobj 0;28;-3.1;0;-7.57, .Freeobj 0;33;-0.28;0;-4.75, .Freeobj 1;16;-0.28, .Freeobj 1;28;2.8;0;-1.17, .Freeobj 1;37;-0.28;0;-4.11, .Ground 20, .Rail 2;18.5;-1.5;6,, .Dike 2;1;15, .Freeobj 0;186;0;0;180, .Freeobj 1;185;-0.28;0;180, .Announce Bham_X-City_Sounds\CurveRumble2.wav,
 20575, .Rail 2;15;-0.3,
 20600, .Freeobj 0;342;-80;15;-60, .Freeobj 0;344;-0.28, .Freeobj 0;293;-3.2;0;-4.32, .Freeobj 1;299;2.9;0;-4.32, .Freeobj 0;310;-3.2;-0.9;0.9, .Freeobj 1;308;2.9;-0.9;-0.9, .Freeobj 1;16;-0.28, .Freeobj 0;33;-0.28;0;-4.32, .Freeobj 1;37;-0.28;0;-4.32, .Freeobj 0;48;-0.28, .Freeobj 1;48;-0.28, .Rail 2;15;-0.1, .Height 0.3,
 20617, ;.Freeobj 0;167,
@@ -2627,37 +2626,37 @@ With Track
 20635, .Freeobj 0;387;-97.5;5.5;0,
 20636, .Freeobj 0;168;-0.28;-0.1, .Freeobj 1;168;-0.28;-0.1;180,
 20644, .Freeobj 0;235;0,
-20650, .Freeobj 0;151;0.7;-0.2, .Freeobj 1;281;1.5;0;0, .Freeobj 1;281;1.5;-0.5;0, .Freeobj 0;311;-2.6;0;-0.67, .Freeobj 1;311;1.72;0;3.4, .Freeobj 0;475;-0.28;0, .Freeobj 1;475;-0.28;0, .Freeobj 0;52;-0.28, .Freeobj 1;52;-0.28, .Form 0;L;0;10, .Form 1;R;0;10, .Freeobj 0;236, .Freeobj 1;237, .Freeobj 0;92, .Freeobj 1;93, .Rail 2;18;0.1, .Beacon 24;0;0;1123588, .Sta University;;09.5800;;-1;0;;;25;50;;8, .Railtype 0;32, .Railtype 1;32,
+20650, .Adhesion 15, .Freeobj 0;151;0.7;-0.2, .Freeobj 1;281;1.5;0;0, .Freeobj 1;281;1.5;-0.5;0, .Freeobj 0;311;-2.6;0;-0.67, .Freeobj 1;311;1.72;0;3.4, .Freeobj 0;475;-0.28;0, .Freeobj 1;475;-0.28;0, .Freeobj 0;52;-0.28, .Freeobj 1;52;-0.28, .Form 0;L;0;10, .Form 1;R;0;10, .Freeobj 0;236, .Freeobj 1;237, .Freeobj 0;92, .Freeobj 1;93, .Rail 2;18;0.1, .Beacon 24;0;0;1123588, .Sta University;;09.5800;;-1;0;;;25;50;;8, .Railtype 0;32, .Railtype 1;32,
 20659, .Freeobj 0;148;-8;0;15,
 20662, .Freeobj 1;68;0.5;0;180, .Freeobj 0;148;-4,
 20670, .Freeobj 1;148;2.5,
 20675, ;.Doppler Bham_X-City_Sounds\323_Idle.wav;3.32;0, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.9;0;0, .Freeobj 0;288;-2.9;0.6;0, .Freeobj 1;288;3.2;0.6;0, .Freeobj 0;94;-0.28, .Freeobj 1;94;-0.28, .Freeobj 0;42;-0.28, .Freeobj 1;42;-0.28, .Form 0;L;1;10, .Form 1;R;15;10, .Freeobj 1;77, .Rail 2;19.5;0.1, .Announce Bham_X-City_Sounds\Flange1.wav,
-20700, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.9;0;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28,  .Form 0;L;1;10, .Form 1;R;10;10, .Freeobj 1;78, .Rail 2;22;0.1,
+20700, .Adhesion 105, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.9;0;0, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28,  .Form 0;L;1;10, .Form 1;R;10;10, .Freeobj 1;78, .Rail 2;22;0.1,
 20701, .Freeobj 0;148;-4,
 20715, .Freeobj 0;148;-6;0;10,
-20725, .Form 0;L;1;10, .Form 1;R;10;10, .Freeobj 1;79, .Rail 2;25;0.1, .Dike 1;1;5, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_University.gif;275,
+20725, .Adhesion 105, .Form 0;L;1;10, .Form 1;R;10;10, .Freeobj 1;79, .Rail 2;25;0.1, .Dike 1;1;5, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_University.gif;275,
 20726, .Freeobj 0;181;-35;6, .Freeobj 0;148;-3,
 20736, .Freeobj 0;423;-5,
-20750, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;3.0;0;0, .Freeobj 0;278;-2.9;0.6;-4.32, .Freeobj 1;278;3.2;0.6;-4.32, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;41;-0.28;0;-4.32, .Freeobj 1;149;-0.28;0;-4.32, .Dike 0;-1;5, .Form 0;L;10;10, .Form 1;R;10;10, .Rail 2;28;0.0,
+20750, .Adhesion 110, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;3.0;0;0, .Freeobj 0;278;-2.9;0.6;-4.32, .Freeobj 1;278;3.2;0.6;-4.32, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;41;-0.28;0;-4.32, .Freeobj 1;149;-0.28;0;-4.32, .Dike 0;-1;5, .Form 0;L;10;10, .Form 1;R;10;10, .Rail 2;28;0.0,
 20762, .Freeobj 0;181;-35;6, .Stop 0;35;88, .Freeobj 0;469;-5.52;0,
-20775, .Form 0;L;10;10, .Form 1;R;10;10, .Freeobj 0;232, .Rail 2;30;-0.1, ;Visibility Reduction Start
-20800, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;3.0;0;0, .Freeobj 0;278;-2.9;0.6;-4.32, .Freeobj 1;278;3.2;0.6;-4.32, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;41;-0.28;0;-4.32, .Freeobj 1;149;-0.28;0;-4.32, .Form 0;L;10;10, .Form 1;R;10;10, .Rail 2;32;-0.2, .Announce Bham_X-City_Sounds\Flange1.wav, ;.Fog -80;850;180;180;180, ;Visibility Reduction Start
-20825, ;.Fog -80;800;180;180;180, .Form 0;L;10;10, .Form 1;R;10;10, .Height 1,
+20775, .Adhesion 95, .Announce Bham_X-City_Sounds\323Wheelslip.wav, .Form 0;L;10;10, .Form 1;R;10;10, .Freeobj 0;232, .Rail 2;30;-0.1, ;Visibility Reduction Start
+20800, .Adhesion 115, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;3.0;0;0, .Freeobj 0;278;-2.9;0.6;-4.32, .Freeobj 1;278;3.2;0.6;-4.32, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;41;-0.28;0;-4.32, .Freeobj 1;149;-0.28;0;-4.32, .Form 0;L;10;10, .Form 1;R;10;10, .Rail 2;32;-0.2, .Announce Bham_X-City_Sounds\Flange1.wav, .Fog -80;850;180;180;180, ;Visibility Reduction Start
+20825, .Adhesion 95, .Announce Bham_X-City_Sounds\323Wheelslip.wav, .Fog -80;800;180;180;180, .Form 0;L;10;10, .Form 1;R;10;10, .Height 1,
 20837, .Freeobj 0;470;-5.52;0,
 20848, .Freeobj 1;67;0;0;180,
-20850, ;.Fog -80;750;180;180;180, .Freeobj 0;210;-12;-3;0, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;3.0;0;0, .Freeobj 0;278;-2.9;0.6;-2.88, .Freeobj 1;278;3.2;0.6;-2.88, .Freeobj 0;287;-2.9;0;-0, .Freeobj 1;282;3.2;0.6;-2.2, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;41;-0.28;0;-2.88, .Freeobj 1;149;-0.28;0;-2.88, .Freeobj 0;144;-0.28;0;1.3, .Freeobj 1;144;-0.28;0;1.3, .Curve 0;0, .Railtype 0;0, .Railtype 1;0, .Freeobj 0;90, .Freeobj 1;91, .Ground 26, .Height 0.3, .Dike 0;-1;0, .Dike 1;1;0, .Wallend 0,
+20850, .Beacon 21;0;0;10, .Adhesion 115, .Fog -80;750;180;180;180, .Freeobj 0;210;-12;-3;0, .FreeObj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;3.0;0;0, .Freeobj 0;278;-2.9;0.6;-2.88, .Freeobj 1;278;3.2;0.6;-2.88, .Freeobj 0;287;-2.9;0;-0, .Freeobj 1;282;3.2;0.6;-2.2, .Freeobj 0;22;-0.28, .Freeobj 1;22;-0.28, .Freeobj 0;41;-0.28;0;-2.88, .Freeobj 1;149;-0.28;0;-2.88, .Freeobj 0;144;-0.28;0;1.3, .Freeobj 1;144;-0.28;0;1.3, .Curve 0;0, .Railtype 0;0, .Railtype 1;0, .Freeobj 0;90, .Freeobj 1;91, .Ground 26, .Height 0.3, .Dike 0;-1;0, .Dike 1;1;0, .Wallend 0,
 20857, .Freeobj 1;454;0;0;180,
-20875, ;.Fog -80;750;175;175;175, .Ground 33, .Pitch 0, .Freeobj 0;12;0.28, .Freeobj 1;292;2.995;0;180, .Freeobj 1;20;0.28, .Freeobj 0;145;0.28;0;-1.19, .Freeobj 1;145;0.28;0;-1.19, .Curve -600;70, .Railtype 0;87, .Railtype 1;87,
+20875, .Fog -80;750;175;175;175, .Ground 33, .Pitch 0, .Freeobj 0;12;0.28, .Freeobj 1;292;2.995;0;180, .Freeobj 1;20;0.28, .Freeobj 0;145;0.28;0;-1.19, .Freeobj 1;145;0.28;0;-1.19, .Curve -600;70, .Railtype 0;87, .Railtype 1;87,
 20877, .Freeobj 0;383;0.03;0;0.8,
 20879, .Freeobj 1;383;0.04;0;0.8,
-20900, ;.Fog -80;750;170;170;170, .Freeobj 0;146;-0.25;0;1.19, .Freeobj 1;146;-0.25;0;1.19, .Freeobj 0;181;-15;6;-10,
-20925, .Beacon 24;0;0;0, ;.Fog -80;750;165;165;165, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;3.69, .Freeobj 1;299;3.2;0;4.35, .Freeobj 1;20;0.28, .Pitch -3.0, .Freeobj 0;232;0.4, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d330.gif;100,
-20950, .Accuracy 4, ;.Fog -80;750;160;160;160, .Rail 2;32;-0.2;45,
-20975, ;.Fog -80;750;155;155;155, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;3.59, .Freeobj 1;278;3.2;0;3.59, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;3.59, .Freeobj 1;37;0.28;0;3.59, .Announce Bham_X-City_Sounds\hs_flange.wav,
-21000, ;.Fog -80;750;150;150;150, .Freeobj 0;362;0;0;1, .Freeobj 0;181;-15;6;-10,
+20900, .Fog -80;750;170;170;170, .Freeobj 0;146;-0.25;0;1.19, .Freeobj 1;146;-0.25;0;1.19, .Freeobj 0;181;-15;6;-10,
+20925, .Beacon 24;0;0;0, .Fog -80;750;165;165;165, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;3.69, .Freeobj 1;299;3.2;0;4.35, .Freeobj 1;20;0.28, .Pitch -3.0, .Freeobj 0;232;0.4, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d330.gif;100,
+20950, .Accuracy 2, .Fog -80;750;160;160;160, .Rail 2;32;-0.2;45,
+20975, .Beacon 21;0;0;40, .Fog -80;750;155;155;155, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;3.59, .Freeobj 1;278;3.2;0;3.59, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;3.59, .Freeobj 1;37;0.28;0;3.59, .Announce Bham_X-City_Sounds\hs_flange.wav,
+21000, .Fog -80;750;150;150;150, .Freeobj 0;362;0;0;1, .Freeobj 0;181;-15;6;-10,
 21020, .Freeobj 2;148;-6;-0.7,
-21025, ;.Fog -80;750;145;145;145, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;3.59, .Freeobj 1;278;3.2;0;3.59, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;3.59, .Freeobj 1;37;0.28;0;3.59, .Rail 2;31;-0.2, ;MP 44.75
-21050, .Rail 2;31;-0.2, ;.Railstart 3;0;0;22, ;.Fog -80;750;140;140;140, ;Rainfall Start
+21025, .Fog -80;750;145;145;145, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;3.59, .Freeobj 1;278;3.2;0;3.59, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;3.59, .Freeobj 1;37;0.28;0;3.59, .Rail 2;31;-0.2, ;MP 44.75
+21050, .Beacon 21;0;0;90, .Rail 2;31;-0.2, .Railstart 3;0;0;22, .Fog -80;750;140;140;140, ;Rainfall Start
 21075, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;3.59, .Freeobj 1;278;3.2;0;3.59, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;3.59, .Freeobj 1;37;0.28;0;3.59, .Freeobj 0;145;0.28;0;-1.19, .Freeobj 1;145;0.28;0;-1.19, .Rail 2;28;-0.2,
 21100, .Freeobj 0;146;-0.25;0;1.19, .Freeobj 1;146;-0.25;0;1.19, .Pitch 0, .Rail 2;24;-0.2,
 21110, .Freeobj 0;389;44;1;85,
@@ -2669,7 +2668,7 @@ With Track
 21181, .Freeobj 0;320;-2.7, .Freeobj 1;320;2.6,
 21186, .Freeobj 0;168;0.28;0;180, .Freeobj 1;168;0.28,
 21190, .Freeobj 0;389;-20;5.5;180, .Freeobj 0;389;126;4.5;180,
-21200, .Accuracy 2, .Freeobj 0;97;0.28, .Freeobj 0;288;-2.7;0;-1.2, .Freeobj 1;288;2.6;0;-1.2, .Freeobj 0;475;0.28;0;180, .Freeobj 1;475;0.28;0;180, .Freeobj 0;52;0.28;0;-1.3, .Freeobj 1;52;0.28;0;-1.3, .Curve 0;0, .Railtype 0;0, .Railtype 1;0, .Ground 20, .Height 0,
+21200, .Accuracy 2, .Freeobj 0;97;0.28, .Freeobj 0;288;-2.7;0;-1.2, .Freeobj 1;288;2.6;0;-1.2, .Freeobj 0;475;0.28;0;180, .Freeobj 1;475;0.28;0;180, .Freeobj 0;52;0.28;0;-1.3, .Freeobj 1;52;0.28;0;-1.3, .Curve 0;0, .Railtype 0;0, .Railtype 1;0, .Ground 20, .Height 0, .Announce Bham_X-City_Sounds\Thunder2.wav,
 21215, .Freeobj 1;383;0;0,
 21225, .Freeobj 0;97;-0.28, .Freeobj 0;288;-3.22;0.6;1.2, .Freeobj 1;288;2.08;0.6;1.2, .Freeobj 0;94;-0.28, .Freeobj 1;94;-0.28, .Freeobj 0;42;-0.28;0;1.3, .Freeobj 1;42;-0.28;0;1.3, 
 21230, .Freeobj 2;148;-6.5;-0.7,
@@ -2721,7 +2720,7 @@ With Track
 22000, .Rail 2;26;-0.2,
 22025, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.3, .Freeobj 1;299;2.9;0;-0.3, .Freeobj 1;16;-0.28, .Freeobj 0;33;-0.28;0;-0.3, .Freeobj 1;37;-0.28;0;-0.3, .Rail 2;28;-0.2,
 22050, .Rail 2;30;-0.2,
-22075, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.05, .Freeobj 1;278;3.2;0;0.05, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;0.3, .Freeobj 1;37;0.28;0;0.3, .Rail 2;32;-0.2,
+22075, .Beacon 21;0;0;70, .Freeobj 0;12;0.28, .Freeobj 0;275;-2.9;0;0.05, .Freeobj 1;278;3.2;0;0.05, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;0.3, .Freeobj 1;37;0.28;0;0.3, .Rail 2;32;-0.2,
 22100, .Rail 2;34;-0.2,
 22125, .Freeobj 0;8;-0.28, .Freeobj 0;275;-3.2;0;-0.65, .Freeobj 1;278;2.9;0;-0.65, .Freeobj 1;16;-0.28, .Freeobj 0;33;-0.28;0;-0.95, .Freeobj 1;37;-0.28;0;-0.95, .Rail 2;36;-0.2,
 22150, .Curve 500;110, .Railtype 0;85, .Railtype 1;85, .Rail 2;40;-0.2, .Freeobj 0;383;0;0;180, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\30mph_aw.gif;175,
@@ -2760,24 +2759,24 @@ With Track
 22599, .Freeobj 0;320;-2.13;-0.3, .Freeobj 1;320;2.4;-0.3,
 
 ;Church Road Tunnel Start - 22600 - end 22700
-22600, .Curve 0;0, .Rail 2;15.5;-0.2, .Railtype 0;3, .Railtype 1;3, .Ground 63, .Height 1, .Dikeend 0, .Dikeend 1, .Wall 0;-1;4, .Wall 1;1;4, .Wall 2;1;4, .Freeobj 0;105, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\ChurchRoadTun.gif;100, ;.Railend 3;0;0,
+22600, .Beacon 21;0;0;0, .Curve 0;0, .Rail 2;15.5;-0.2, .Railtype 0;3, .Railtype 1;3, .Ground 63, .Height 1, .Dikeend 0, .Dikeend 1, .Wall 0;-1;4, .Wall 1;1;4, .Wall 2;1;4, .Freeobj 0;105, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\ChurchRoadTun.gif;100, .Railend 3;0;0,
 22660, .Freeobj 0;389;-20;15;0,
-22700, .Freeobj 0;51;0;0;0.65, .Freeobj 1;51;0;0;0.65, .Freeobj 0;288;-2.5;0;0, .Freeobj 1;288;3.2;0;0, .Railtype 0;0, .Railtype 1;0, .Dike 0;-1;0, .Dike 1;1;0, .Wallend 0, .Wallend 1, .Wallend 2, .Freeobj 0;102;-1, .Railend 2;15.5;-0.2, .Dikeend 2, .Rail 3;15;-0.2;14, .Ground 62, .Height 1, ;.Railstart 4;0;0;22,
+22700, .Beacon 21;0;0;50, .Freeobj 0;51;0;0;0.65, .Freeobj 1;51;0;0;0.65, .Freeobj 0;288;-2.5;0;0, .Freeobj 1;288;3.2;0;0, .Railtype 0;0, .Railtype 1;0, .Dike 0;-1;0, .Dike 1;1;0, .Wallend 0, .Wallend 1, .Wallend 2, .Freeobj 0;102;-1, .Railend 2;15.5;-0.2, .Dikeend 2, .Rail 3;15;-0.2;14, .Ground 62, .Height 1, .Railstart 4;0;0;22,
 22725, .Freeobj 0;12;0.28, .Freeobj 0;292;-2.735, .Freeobj 1;292;2.995;0;180, .Freeobj 0;288;-2.5;0.6;-0.65, .Freeobj 1;288;3.2;0.6;-0.65, .Freeobj 1;20;0.28, .Freeobj 0;52;0.28;0;-1.3, .Freeobj 1;52;0.28;0;-1.3, .Freeobj 0;106;-1, .Ground 20, .Height 0,
-22750, .Freeobj 0;8;-0.28, .Freeobj 1;350;2.74;0.0;0, .Freeobj 0;292;-2.995, .Freeobj 1;292;2.735;0;180, .Freeobj 1;16;-0.28, .Freeobj 0;106;-1;-1.5, .Freeobj 1;186;-0.28, ;.Fog -80;750;145;145;145, ;Visibility Increase Start
-22775, ;.Fog -80;750;150;150;150,  .Freeobj 0;106;-1;-3,
-22800, ;.Fog -80;750;155;155;155, .Freeobj 0;12;0.28, .Freeobj 0;292;-2.735, .Freeobj 1;292;3.6;0;180, .Freeobj 0;278;-2.5;0.6;0.35, .Freeobj 1;278;3.9;0.6;1.13, .Freeobj 0;33;0.28;0;0.65, .Freeobj 1;29;0.68, .Freeobj 1;37;0.28;0;0.65, .Freeobj 1;25;0.28;0;-2.35, .Freeobj 0;106;-1;-4.5,
-22825, ;.Fog -80;750;160;160;160, .Freeobj 0;106;-1;-6, .Height 0,
+22750, .Freeobj 0;8;-0.28, .Freeobj 1;350;2.74;0.0;0, .Freeobj 0;292;-2.995, .Freeobj 1;292;2.735;0;180, .Freeobj 1;16;-0.28, .Freeobj 0;106;-1;-1.5, .Freeobj 1;186;-0.28, .Fog -80;750;145;145;145, ;Visibility Increase Start
+22775, .Adhesion 15, .Fog -80;750;150;150;150,  .Freeobj 0;106;-1;-3,
+22800, .Adhesion 105, .Fog -80;750;155;155;155, .Freeobj 0;12;0.28, .Freeobj 0;292;-2.735, .Freeobj 1;292;3.6;0;180, .Freeobj 0;278;-2.5;0.6;0.35, .Freeobj 1;278;3.9;0.6;1.13, .Freeobj 0;33;0.28;0;0.65, .Freeobj 1;29;0.68, .Freeobj 1;37;0.28;0;0.65, .Freeobj 1;25;0.28;0;-2.35, .Freeobj 0;106;-1;-4.5,
+22825, .Fog -80;750;160;160;160, .Freeobj 0;106;-1;-6, .Height 0,
 22843, .Freeobj 1;453;4,
-22850, ;.Fog -80;750;165;165;165, .Freeobj 1;114;0;0;0, .Freeobj 0;292;-2.995, .Freeobj 1;292;2.9;0;180, .Freeobj 0;278;-2.8;0.6;-0.35, .Freeobj 1;278;3.0;0.6;-1.03, .Rail 2;3.32;0;6, .Railtype 1;6, .Freeobj 1;156, .Freeobj 0;8;-0.28, .Freeobj 1;270;0;0;180, .Freeobj 0;33;-0.28;0;-0.65, .Freeobj 1;37;-0.28;0;-0.65, .Freeobj 1;37;0.12;0;-0.65, .Height 1,
-22875, ;.Fog -80;750;170;170;170, .Rail 2;1.66;0;6, .Railtype 0;6, .Railtype 1;0,
-22900, ;.Fog -80;750;175;175;175, .Freeobj 0;114;0;0;180, .Freeobj 0;292;-2.65, .Freeobj 1;292;2.995;0;180, .Freeobj 0;278;-2.5;0.6;0.35, .Freeobj 1;278;3.2;0.6;0.25, .Railtype 0;0, .Freeobj 0;270;0;0;0, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;0.65, .Freeobj 0;104;-0.12;0;-4.1, .Freeobj 1;37;0.28;0;0.65, .Railend 2;0;0, .Freeobj 0;156;0;0;180, .Ground 29, .Height 1, .Freeobj 0;243,
+22850, .Fog -80;750;165;165;165, .Freeobj 1;114;0;0;0, .Freeobj 0;292;-2.995, .Freeobj 1;292;2.9;0;180, .Freeobj 0;278;-2.8;0.6;-0.35, .Freeobj 1;278;3.0;0.6;-1.03, .Rail 2;3.32;0;6, .Railtype 1;6, .Freeobj 1;156, .Freeobj 0;8;-0.28, .Freeobj 1;270;0;0;180, .Freeobj 0;33;-0.28;0;-0.65, .Freeobj 1;37;-0.28;0;-0.65, .Freeobj 1;37;0.12;0;-0.65, .Height 1,
+22875, .Accuracy 3, .Fog -80;750;170;170;170, .Rail 2;1.66;0;6, .Railtype 0;6, .Railtype 1;0,
+22900, .Accuracy 2, .Beacon 21;0;0;20, .Fog -80;750;175;175;175, .Freeobj 0;114;0;0;180, .Freeobj 0;292;-2.65, .Freeobj 1;292;2.995;0;180, .Freeobj 0;278;-2.5;0.6;0.35, .Freeobj 1;278;3.2;0.6;0.25, .Railtype 0;0, .Freeobj 0;270;0;0;0, .Freeobj 1;20;0.28, .Freeobj 0;33;0.28;0;0.65, .Freeobj 0;104;-0.12;0;-4.1, .Freeobj 1;37;0.28;0;0.65, .Railend 2;0;0, .Freeobj 0;156;0;0;180, .Ground 29, .Height 1, .Freeobj 0;243,
 22907, .Freeobj 0;187;-4;0;180,
-22925, ;.Fog -80;750;180;180;180, .Curve -600;70, .Railtype 0;18, .Railtype 1;18, .Rail 3;15;-0.2, .Accuracy 4, .Freeobj 0;243,
-22950, ;.Fog -80;800;180;180;180, .Freeobj 0;21;-0.12, .Freeobj 0;292;-2.8, .Freeobj 1;292;2.995;0;180, .Freeobj 0;278;-2.6;0.6;2.89, .Freeobj 1;278;3.2;0.6;2.99, .Freeobj 0;27;-0.12;0;2.99, .Freeobj 0;33;0.28;0;2.99, .Freeobj 1;20;0.28, .Freeobj 1;37;0.28;0;2.99, .Rail 3;16;-0.2, .Announce Bham_X-City_Sounds\L_Flange.wav, .Freeobj 0;243,
+22925, .Fog -80;750;180;180;180, .Curve -600;70, .Railtype 0;18, .Railtype 1;18, .Rail 3;15;-0.2, .Accuracy 3, .Freeobj 0;243,
+22950, .Fog -80;800;180;180;180, .Freeobj 0;21;-0.12, .Freeobj 0;292;-2.8, .Freeobj 1;292;2.995;0;180, .Freeobj 0;278;-2.6;0.6;2.89, .Freeobj 1;278;3.2;0.6;2.99, .Freeobj 0;27;-0.12;0;2.99, .Freeobj 0;33;0.28;0;2.99, .Freeobj 1;20;0.28, .Freeobj 1;37;0.28;0;2.99, .Rail 3;16;-0.2, .Announce Bham_X-City_Sounds\L_Flange.wav, .Freeobj 0;243,
 22951, .Freeobj 1;152;7.0;0;90,
 22953, .Freeobj 1;152;7.0;0;90, .Freeobj 0;181;-22;4,
-22975, .Rail 3;17;-0.2, .Freeobj 0;217;-1;-0.1, ;.Railend 4;0;0, ;.Fog -80;850;180;180;180, ;Rainfall End
+22975, .Beacon 21;0;0;10, .Rail 3;17;-0.2, .Freeobj 0;217;-1;-0.1, .Railend 4;0;0, .Fog -80;850;180;180;180, ;Rainfall End
 22995, .Freeobj 0;396;0;0,
 23000, .Announce Bham_X-City_Sounds\FW_CurveRumble_1.wav, .Freeobj 0;12;0.28, .Freeobj 0;350;-2.74;0;180, .Freeobj 0;292;-2.735, .Freeobj 1;292;2.995;0;180, .Freeobj 0;278;-2.5;0.6;3.72, .Freeobj 1;278;3.2;0.6;3.59, .Freeobj 0;186;0.28;0;180, .Freeobj 0;28;-2.8;0;0.55, .Freeobj 0;33;0.28;0;3.59, .Freeobj 1;37;0.28;0;3.59, .Freeobj 1;347;0.28, .Rail 3;18;-0.2, .Freeobj 0;243,
 23003, .Limit 48, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\30mph.gif;325,
@@ -2793,7 +2792,7 @@ With Track
 23158, .Freeobj 1;66;0.12,
 23159, .Freeobj 1;66;0.12;0;180,
 23160, .Freeobj 1;152;0.3;0;180,
-23175, .FreeObj 0;151;0.28, .Freeobj 1;350;2.66;0;0, .Freeobj 0;264;1.48;0;180, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;106;-1;-4.5, .Rail 3;21;-0.2, .Freeobj 1;450;-0.4;0.6, .Pitch -12.5, .Freeobj 0;232, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d80.gif;100,
+23175, .Beacon 21;0;0;20, .FreeObj 0;151;0.28, .Freeobj 1;350;2.66;0;0, .Freeobj 0;264;1.48;0;180, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;106;-1;-4.5, .Rail 3;21;-0.2, .Freeobj 1;450;-0.4;0.6, .Pitch -12.5, .Freeobj 0;232, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d80.gif;100,
 23200, .Curve 0;0, .Railtype 0;2, .Railtype 1;0, .Freeobj 0;106;-1;-6, .Rail 3;21;0.11,
 23225, .FreeObj 0;151;0.28, .Freeobj 0;293;-3.05;0;0.6, .Freeobj 1;293;2.3;0;0.0, .Freeobj 0;112;0.28;0;180, .Freeobj 0;3;-0.28;0;-0.94, .Freeobj 1;3;-0.28;0;-2.4, .Freeobj 1;1;0.28;0;180, .Freeobj 0;41;-0.28;0;-0.04, .Freeobj 1;149;-0.28;0;-0.04, .Freeobj 0;102;-1;-7.5, .Rail 3;21;0.42,
 23226, .Freeobj 1;154;0.03;1;180, .Freeobj 1;57;0.03;0.6;180,
@@ -2816,22 +2815,22 @@ With Track
 23390, .Freeobj 0;429;-2.99;0.15;0,
 
 ;Five Ways Station - 23475
-23400, .Form 0;L;0;0, .Form 1;R;0;0, .Dike 1;-1;5, .Dike 1;1;5, .Curve -1500;60, .Railtype 0;29, .Railtype 1;29, .Freeobj 0;92, .Freeobj 1;93, .Beacon 24;0;0;1946006, .Sta Five Ways;;10.0100;;-1;0;;;25;30;;9, .Rail 2;-3;0, .Freeobj 2;102;1;-4.5, .Rail 3;22;2.59,
+23400, .Accuracy 2, .Adhesion 30, .Form 0;L;0;0, .Form 1;R;0;0, .Dike 1;-1;5, .Dike 1;1;5, .Curve -1500;60, .Railtype 0;29, .Railtype 1;29, .Freeobj 0;92, .Freeobj 1;93, .Beacon 24;0;0;1946006, .Sta Five Ways;;10.0100;;-1;0;;;25;30;;9, .Rail 2;-3;0, .Freeobj 2;102;1;-4.5, .Rail 3;22;2.59,
 23425, .Freeobj 0;2;-0.28, .Freeobj 0;281;-2.7;0;0, .Freeobj 1;281;2.7;0;0, .Freeobj 0;297;-2.9;0.6;1.2, .Freeobj 1;294;2.9;0.6;1.2, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.84, .Freeobj 1;149;0.28;0;1.84, .Form 0;L;0;0, .Form 1;R;0;0, .Freeobj 2;102;1;-4.5, .Rail 3;22;2.9, .Freeobj 0;211;-4;7,
 23446, .Freeobj 0;67;0;0.114, .Freeobj 0;210;-5;8, .Beacon 44000;1;1;0, ;AWS Magnet
 23448,
 23450, .Form 0;L;0;0, .Form 1;R;0;0,  .Freeobj 2;102;1;-4.5, .Rail 3;23;3.21,
 23451, .Freeobj 1;148;4,
-23475, .Freeobj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.7;0;0, .Freeobj 0;278;-2.9;0.6;1.44, .Freeobj 1;278;2.9;0.6;1.44, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.44, .Freeobj 1;149;0.28;0;1.44, .Form 0;L;0;0, .Form 1;R;0;0, .Freeobj 2;102;1;-4.5, .Rail 3;24;3.52,
+23475, .Adhesion 105, .Freeobj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.7;0;0, .Freeobj 0;278;-2.9;0.6;1.44, .Freeobj 1;278;2.9;0.6;1.44, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.44, .Freeobj 1;149;0.28;0;1.44, .Form 0;L;0;0, .Form 1;R;0;0, .Freeobj 2;102;1;-4.5, .Rail 3;24;3.52,
 23478, .Freeobj 1;401;6;0,
 23500, .Form 0;L;1;0, .Form 1;R;1;0, .Rail 2;-6.0;0, .Freeobj 2;102;1;-4.5, .Rail 3;25;3.83, .Dikeend 0, .Dikeend 1,
 23501, .Freeobj 1;148;4,
-23525, .Freeobj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.7;0;0, .Freeobj 0;278;-2.9;0.6;1.44, .Freeobj 1;278;2.9;0.6;1.44, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.44, .Freeobj 1;149;0.28;0;1.44, .Form 0;L;1;0, .Form 1;R;1;0, .Freeobj 2;102;1;-4.5, .Rail 3;26;4.14, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_FiveWays.gif;250,
+23525, .Adhesion 105, .Freeobj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.7;0;0, .Freeobj 0;278;-2.9;0.6;1.44, .Freeobj 1;278;2.9;0.6;1.44, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.44, .Freeobj 1;149;0.28;0;1.44, .Form 0;L;1;0, .Form 1;R;1;0, .Freeobj 2;102;1;-4.5, .Rail 3;26;4.14, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\Station_FiveWays.gif;250,
 23526, .Freeobj 0;423;-4,
 23545, .Freeobj 1;423;4,
 23550, .Form 0;L;1;0, .Form 1;R;1;0, .Freeobj 2;102;1;-4.5, .Rail 3;27;4.45, .Height 1,
 23565, .Freeobj 0;148;-8;0;20,
-23575, .Freeobj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.7;0;0, .Freeobj 0;278;-2.9;0.6;1.44, .Freeobj 1;278;2.9;0.6;1.44, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.44, .Freeobj 1;149;0.28;0;1.44, .Form 0;L;15;0, .Form 1;R;15;0, .Railend 3;27;4.76, .Freeobj 0;210;-7;7, .Ground 63, .Height 0.4,
+23575, .Adhesion 105, .Freeobj 0;2;-0.28, .Freeobj 0;281;-3.1;0;0, .Freeobj 1;281;2.7;0;0, .Freeobj 0;278;-2.9;0.6;1.44, .Freeobj 1;278;2.9;0.6;1.44, .Freeobj 0;23;0.28, .Freeobj 1;23;0.28, .Freeobj 0;41;0.28;0;1.44, .Freeobj 1;149;0.28;0;1.44, .Form 0;L;15;0, .Form 1;R;15;0, .Railend 3;27;4.76, .Freeobj 0;210;-7;7, .Ground 63, .Height 0.4,
 23594, .Stop 0;60;6, .Freeobj 0;96;-5.02,
 23600, .Freeobj 0;90, .Freeobj 1;91, .Freeobj 2;102;-1;-4.5, .Rail 2;-6;0, .Rail 3;27;5.07;17, .Dike 0;-1;0, .Dike 1;1;0, .Freeobj 0;247,
 23610, .Freeobj 0;244;0;,
@@ -2841,13 +2840,13 @@ With Track
 23628, .SigF 4;1;-2.0;4.8, .Section 0;2;3;4, ;NS453, .Freeobj 0;68;0.2, .Freeobj 0;69;-2.575,
 23629, .Freeobj 0;387;-112;11;0, .Freeobj 0;387;-13;11;0,
 23646, .Freeobj 0;388;-13;11;0,
-23650, .Freeobj 0;102;-0.2;-4.5, .Freeobj 1;107;0.4;-4.5,
+23650, .Adhesion 115, .Freeobj 0;102;-0.2;-4.5, .Freeobj 1;107;0.4;-4.5,
 23675, .Beacon 24;0;0;0, .Railtype 3;6, .Freeobj 0;8;-0.28, .Freeobj 0;278;-2.8;-0.6;-1.3, .Freeobj 1;275;2.2;-0.6;-0.37, .Freeobj 0;276;-2.8;-0.6;0, .Freeobj 1;279;2.2;-0.6;0, .Freeobj 1;16;-0.28, .Freeobj 0;33;-0.28;0;-0.72, .Freeobj 1;37;-0.28;0;-0.72, .Freeobj 0;32;-0.28;0;0.65, .Freeobj 1;32;-0.28;0;0.65, .Curve 1000;50, .Freeobj 0;102;-0.2;-4.5, .Freeobj 1;107;0.4;-4.5, .Railtype 0;28, .Railtype 1;28,
 23699, .Freeobj 0;320;-2.8;0.3, .Freeobj 1;320;2.2;0.3,
 
 ;Bath Row Tun Start - 23700
 ;             End   - 23875
-23700, .Rail 3;15;5.38, .Freeobj 3;439;-3.32, .Railtype 0;71, .Railtype 1;71, .Ground 63, .Dikeend 0, .Dikeend 1, .Wall 0;-1;18, .Wall 1;1;1, .Freeobj 0;109, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\BathRowTun.gif;75,
+23700, .Beacon 21;0;0;0, .Rail 3;15;5.38, .Freeobj 3;439;-3.32, .Railtype 0;71, .Railtype 1;71, .Ground 63, .Dikeend 0, .Dikeend 1, .Wall 0;-1;18, .Wall 1;1;1, .Freeobj 0;109, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\BathRowTun.gif;75,
 23702, .Freeobj 0;215;11;9.7;-90,
 23725, .Railend 3, .Announce Bham_X-City_Sounds\BR_Flange_1.wav, .Freeobj 0;210;26;7,
 23775, .Curve 2500;50, .Railtype 0;72, .Railtype 1;72,
@@ -2877,18 +2876,19 @@ With Track
 ;Canal Tunnel Start - 24100
 ;             End   - 24300
 24100, .Railtype 0;73, .Railtype 1;73, .Dikeend 0, .Dikeend 1, .Wall 0;-1;1, .Wall 1;1;18, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\CanalTun.gif;75,
+24102, .Freeobj 0;215;11;9.7;-90,
 24125, .Back 1,
-24150, .Railtype 0;74,
+24150, .Railtype 0;74, .Accuracy 3,
 24151, .Freeobj 0;66,
 24166, .Freeobj 0;66, .Beacon 44002;0;1;48,
-24175, .Beacon 21;0;0;1,
+24175, .Beacon 21;0;0;5,
 24196, .Freeobj 0;67;0;0.09, .Beacon 44000;1;1;0, ;AWS Magnet
 24198,
-24200, .Railtype 0;73, ;.Sta  ;;10.0200;;-1;$rnd(0;1);;;1;0;;11,
+24200, .Railtype 0;73, .Accuracy 2, ;.Sta  ;;10.0200;;-1;$rnd(0;1);;;1;0;;11,
 24225, .Curve 0;0, .Railtype 0;3, .Railtype 1;3, .Wall 0;-1;18, .Wall 1;1;1,
 24250, .Wall 0;-1;1, .Wall 1;1;18,
 24275, .Beacon 21;0;0;0, .Wall 0;-1;18, .Wall 1;1;1,
-24300, .Freeobj 0;427;0;0;0, ;.Stop 0, .Railtype 0;2, .Railtype 1;0, .Freeobj 0;279;1.71;0.6;0, .Freeobj 0;279;1.71;0.85;0, .Dike 0;-1;0, .Dike 1;1;0, .Wallend 0, .Wallend 1, .Freeobj 0;32;0;0;0.65, .Freeobj 1;32;0;0;0.65, .Freeobj 0;102;-0.2;-3, .Freeobj 1;108;0.4;-3,
+24300, .Accuracy 3, .Freeobj 0;427;0;0;0, ;.Stop 0, .Railtype 0;2, .Railtype 1;0, .Freeobj 0;279;1.71;0.6;0, .Freeobj 0;279;1.71;0.85;0, .Dike 0;-1;0, .Dike 1;1;0, .Wallend 0, .Wallend 1, .Freeobj 0;32;0;0;0.65, .Freeobj 1;32;0;0;0.65, .Freeobj 0;102;-0.2;-3, .Freeobj 1;108;0.4;-3,
 24325, .Freeobj 0;111;0.3;-0.1, .Freeobj 0;314;1.46;-0.1, .Freeobj 0;279;1.66;0.5;0, .Freeobj 0;279;1.66;0.75;0, .Freeobj 0;94;0.28;-0.1;180, .Freeobj 1;94;0.28;-0.1;180, .Freeobj 0;48;0.28;-0.1;-1.3, .Freeobj 1;48;0.27;-0.1;-1.3, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\20mph.gif;75, .Freeobj 0;102;-0.2;-3, .Freeobj 1;108;0.4;-3,
 24339, .Freeobj 1;152;7.1;0;90, .Freeobj 0;215;0.8;9.5,
 24344, .Freeobj 1;396;0;0;180, .Freeobj 1;152;7.1;0;90,
@@ -2910,7 +2910,7 @@ With Track
 24430, .Freeobj 0;163;-11;2;-80,
 24471, .Freeobj 0;209;0;18;10, .Freeobj 1;187;3.9;0.2,
 24475, .Freeobj 0;427;0;0;0, .Freeobj 1;456;0;0;-3.8, .Rail 2;3.32;0;6, .Railtype 1;6, .Freeobj 1;157;0;0;180, .Wall 0;-1;18, .Wall 1;1;16, .Pitch -7.6, .Announce Bham_X-City_Sounds\Flange1.wav, ;DISABLED.Marker Bham_X-City_South\Day\Common_Files\Generic\Signs\Markers\1d132.gif;100,
-24500, .Beacon 21;0;0;1, .Rail 2;1.66;0;6, .Curve 300;50, .Railtype 0;6, .Railtype 1;40, .Announce Bham_X-City_Sounds\Flange2.wav, .Back 3,
+24500, .Accuracy 4, .Beacon 21;0;0;5, .Rail 2;1.66;0;6, .Curve 300;50, .Railtype 0;6, .Railtype 1;40, .Announce Bham_X-City_Sounds\Flange2.wav, .Back 3,
 24525, .Freeobj 0;256;0;0;175.25, .Railend 2;0;0, .Freeobj 0;157, .Announce Bham_X-City_Sounds\Flange3.wav, .Railtype 0;40,
 24550, .Freeobj 0;47;0;-300, .Freeobj 1;47;0;-300, .Wall 0;-1;3, .Wall 1;1;3, .Curve 300;50, .Railtype 0;40, .Railtype 1;40, .Announce Bham_X-City_Sounds\Flange1.wav, .Freeobj 0;160, .Freeobj 1;160,
 24575, .Beacon 21;0;0;0, .Freeobj 0;461;0;0;-1.62, .Freeobj 0;47;0;-300, .Freeobj 1;47;0;-300, .Rail 2;0;0;6, .Freeobj 0;157, .Wallend 0, .Wall 2;-1;3, .Announce Bham_X-City_Sounds\HollidaySt_Flange1.wav, .Freeobj 0;160, .Freeobj 1;160, .Freeobj 2;160, .Railtype 0;6, .Height 0.4,
@@ -2960,7 +2960,7 @@ With Track
 24785, .Freeobj 11;360;0.1;0;0, .Freeobj 11;255;0;0;0, .Freeobj 12;255;0;0;0,
 24797, .Freeobj 0;66;0.08;0;0,
 24798, .Freeobj 0;66;0.08;0;180, .Freeobj 0;388;-40;8;37, .Freeobj 0;363;0.2;0;180, .Freeobj 0;363;-15.2;0;180,
-24800, .Freeobj 10;86, .Freeobj 3;248;0;0;1.05, .Freeobj 3;157;0;0;1, .Turn -0.055, .Rail 3;-3.06;0;31, .Rail 4;-26;0, .Form 4;10;0;5, .Rail 1;9.9;0, .Rail 2;-7.0;0, .Form 0;1;0;7, .Rail 5;-14.9;0;1, .Rail 14;-16.6;0, .Form 2;5;0;7, .Rail 6;16.3;0, .Rail 7;20;0, .Rail 8;24.0;0, .Rail 13;26;0, .Form 6;7;0;5, .Freeobj 7;83, .Freeobj 4;86, .Rail 9;-38.5;0, .Rail 10;-35;0, .Rail 11;-53.5;0, .Rail 12;-50;0, .Form 12;9;0;5, .Form 11;L;0;5, .Railtype 0;31, ;<<<800WJL, .Railtype 1;31, ;<<<800WJL, .Railtype 6;31, ;<<<800WJL, .Railtype 7;50, ;<<<300WJL, .Railtype 14;25, .Dikeend 8, .Dike 13;1;11, .Freeobj 0;253;-18;0.6, .Freeobj 0;253;7.2;0.6, .Freeobj 0;255;0;0;180, .Freeobj 3;255;0;0;180, .Freeobj 2;255;0;0;180, .Freeobj 14;255, .Freeobj 5;255;0;0;180, .Freeobj 1;255;0;0;180, .Freeobj 6;255;0;0;180, .Freeobj 7;255;0;0;180, .Freeobj 0;231, .Freeobj 1;231, .Freeobj 2;231, .Freeobj 3;231, .Freeobj 14;231, .Freeobj 5;231, .Freeobj 6;231, .Freeobj 11;86, 
+24800, .Freeobj 10;86, .Freeobj 3;248;0;0;1.05, .Freeobj 3;157;0;0;1, .Turn -0.055, .Rail 3;-3.06;0;31, .Rail 4;-26;0, .Form 4;10;0;5, .Rail 1;9.9;0, .Rail 2;-7.0;0, .Form 0;1;0;7, .Rail 5;-14.9;0;1, .Rail 14;-16.6;0, .Form 2;5;0;7, .Rail 6;16.3;0, .Rail 7;20;0, .Rail 8;24.0;0, .Rail 13;26;0, .Form 6;7;0;5, .Freeobj 7;83, .Freeobj 4;86, .Rail 9;-38.5;0, .Rail 10;-35;0, .Rail 11;-53.5;0, .Rail 12;-50;0, .Form 12;9;0;5, .Form 11;L;0;5, .Railtype 0;31, ;<<<800WJL, .Railtype 1;31, ;<<<800WJL, .Railtype 6;31, ;<<<800WJL, .Railtype 7;50, ;<<<300WJL, .Railtype 14;25, .Dikeend 8, .Dike 13;1;11, .Freeobj 0;253;-18;0.6, .Freeobj 0;253;7.2;0.6, .Freeobj 0;255;0;0;180, .Freeobj 3;255;0;0;180, .Freeobj 2;255;0;0;180, .Freeobj 14;255, .Freeobj 5;255;0;0;180, .Freeobj 1;255;0;0;180, .Freeobj 6;255;0;0;180, .Freeobj 7;255;0;0;180, .Freeobj 0;231, .Freeobj 1;231, .Freeobj 2;231, .Freeobj 3;231, .Freeobj 14;231, .Freeobj 5;231, .Freeobj 6;231, .Freeobj 11;86,
 24805, .Freeobj 0;187;-3.6;0;180, .Freeobj 7;15;-5.0;0.2;180,
 24822, .Freeobj 0;13;0;-0.7,
 24825, .Freeobj 10;86, .Pitch 0, .Turn -0.055, .Rail 3;-3.86;0, .Rail 4;-29;0, .Form 4;10;0;5, .Rail 1;13;0, .Rail 2;-8.2;0, .Form 0;1;0;5, .Rail 5;-18.6;0, .Rail 14;-22.0;0;1, .Form 5;2;0;5, .Rail 6;20.3;0, .Rail 7;29;0, .Rail 8;33.0;0, .Rail 13;38;0, .Form 6;7;0;5, .Form 8;13;0;5, .Freeobj 7;89, .Freeobj 1;75, .Freeobj 4;86, .Rail 9;-42.5;0, .Rail 10;-39;0, .Rail 11;-57.5;0, .Rail 12;-54;0, .Form 12;9;0;7, .Form 11;L;0;5, .Railtype 0;50, .Freeobj 0;219;0;0;0.65, .Freeobj 2;219;0;0;0.65, .Freeobj 3;219;0;0;0.65, .Freeobj 11;86, .Freeobj 0;168, .Freeobj 1;168;0;0;180, .Freeobj 2;168;0;0;180, .Freeobj 3;168;0;0;180, .Form 13;R;0;8,
@@ -2977,7 +2977,7 @@ With Track
 24900, .Dikeend 9, .Freeobj 6;77, .Rail 4;-30;0, .Rail 5;-22.0;0, .Rail 7;37;0, .Rail 8;41;0, .Dikeend 13, .Railend 13;54;0, .Form 4;L;0;6, .Form 0;1;0;6, .Form 5;2;0;6, .Form 6;7;0;6, .Freeobj 4;86, .Freeobj 0;325;0.28;0;-1.3, .Freeobj 2;325;0.28;0;-1.3, .Freeobj 3;325;0.28;0;-1.3, .Freeobj 0;324;0.28;0;180, .Freeobj 2;324;0.28;0;180, .Freeobj 3;324;0.28;0;180, .Freeobj 0;159,
 24905, .Freeobj 2;148;-4, .Freeobj 2;74;-6;0;180, .Freeobj 9;74;-6;0;180, .Freeobj 0;148;4,
 24915, .Freeobj 0;423;4, .Freeobj 0;36;5, .Freeobj 2;36;-4.5, .Freeobj 1;36;-5, .Freeobj 5;36;4.5,
-24925, .Freeobj 6;78, .Form 4;L;0;6, .Form 0;1;0;6, .Form 5;2;0;6, .Form 6;7;0;6, .Freeobj 4;86, .Freeobj 0;325;-0.28;0;1.3, .Freeobj 2;325;-0.28;0;1.3, .Freeobj 3;325;-0.28;0;1.3, .Freeobj 0;324;-0.28, .Freeobj 2;324;-0.28, .Freeobj 3;324;-0.28, .Freeobj 0;159, 
+24925, .Freeobj 6;78, .Form 4;L;0;6, .Form 0;1;0;6, .Form 5;2;0;6, .Form 6;7;0;6, .Freeobj 4;86, .Freeobj 0;325;-0.28;0;1.3, .Freeobj 2;325;-0.28;0;1.3, .Freeobj 3;325;-0.28;0;1.3, .Freeobj 0;324;-0.28, .Freeobj 2;324;-0.28, .Freeobj 3;324;-0.28, .Freeobj 0;159,
 24950, .Freeobj 2;148;-4, .Freeobj 6;79, .Form 4;L;0;6, .Form 0;1;0;6, .Form 5;2;0;6, .Form 6;7;0;6, .Freeobj 4;86, .Freeobj 0;325;0.28;0;-1.3, .Freeobj 2;325;0.28;0;-1.3, .Freeobj 3;325;0.28;0;-1.3, .Freeobj 0;324;0.28;0;180, .Freeobj 2;324;0.28;0;180, .Freeobj 3;324;0.28;0;180, .Freeobj 0;159,
 24951, .Freeobj 2;150;-1;0;180, .Freeobj 0;423;4,
 24961, .Freeobj 2;148;-3, .Freeobj 0;113,
