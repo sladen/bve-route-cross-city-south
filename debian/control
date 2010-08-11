@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
 XSBC-Original-Maintainer: Paul Sladen <ubuntu@paul.sladen.org>
 Build-Depends: debhelper (>= 5)
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Vcs-Browser: http://github.com/sladen/bve-route-cross-city-south/tree/debian
 Vcs-Git: http://github.com/sladen/bve-route-cross-city-south.git
 Homepage: http://www.railsimroutes.co.uk/x-city_south/
@@ -19,7 +19,7 @@ Description: Birmingham Cross-City South (for OpenBVE rail simulator)
  Very accurate train simulator route stretching from Redditch to
  Birmingham New Street station in the United Kingdom.  The line is
  electrified, starting off single-track in the countryside before
- reaching the inner metropolitan area.  15 miles / 25 km.
+ reaching the inner metropolitan area.  Length: 15 miles (25 km).
  .
  The route contains multiple timetables and varied activities for
  different seasons and times of day... including blanket snow!
@@ -31,5 +31,3 @@ Description: Birmingham Cross-City South (for OpenBVE rail simulator)
  This version of the Birmingham Cross-City South route has been
  specially prepared for inclusion with openBVE, and is released into
  the public domain.
- .
- http://www.railsimroutes.co.uk/x-city_south/
