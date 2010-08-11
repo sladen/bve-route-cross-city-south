@@ -57,7 +57,7 @@ install: build
 
 	# Replaces spaces and parentheses with '_' underscores
 	# (nb. sed doesn't have a -0 line separator)
-	find $(ROUTETARGET) -name '*[ )(]*' -print | sed -nre 'p;s/[)( ]+/_/g;s/_\././g;p' | xargs -d'\n' -n2 mv
+	#find $(ROUTETARGET) -name '*[ )(]*' -print | sed -nre 'p;s/[)( ]+/_/g;s/_\././g;p' | xargs -d'\n' -n2 mv
 
 	# Symlink duplicate files
 	/bin/sh $(SYMLINK_DUPS) $(BVETARGET)/$(MODELDIR) $(SOUNDTARGET)
