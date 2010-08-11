@@ -1,0 +1,12 @@
+openbve (1.31.08-0ubuntu1) maverick; urgency=low
+
+  Now only the high-quality views of the sceanarios are shipped.  The
+  choice of low-, medium- and high-quality graphics
+  versions has been dropped.  This means that the route files can now
+  be found one directory upwards compared to the previous locations.
+
+  The keyboard instructions shown in the overlay timetables are
+  corrected and match those used by Openbve.
+
+ -- Paul Sladen <ubuntu@paul.sladen.org>  Wed, 11 Aug 2010 23:31:00 +0100
+
